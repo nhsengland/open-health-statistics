@@ -46,6 +46,6 @@
 <script src="jquery.js"></script>
 <script> 
 $(function(){
-    $("#includedContent").load("b.html"); 
+    $("#includedContent").load("table.html"); 
 });
 </script>
