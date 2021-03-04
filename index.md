@@ -26,7 +26,7 @@
 
 <div id="myData"></div>
 <script>
-    fetch('https://api.github.com/orgs/nhsx/repos.json')
+    fetch('github_api/nhsx_repos.json')
         .then(function (response) {
             return response.json();
         })
@@ -40,7 +40,7 @@
         var mainContainer = document.getElementById("myData");
         for (var i = 0; i < data.length; i++) {
             var div = document.createElement("div");
-            div.innerHTML = 'Name: ' + data[i].name + ' ' + data[i].html_url;
+            div.innerHTML = 'Name: ' + data[i].name;
             mainContainer.appendChild(div);
         }
     }
