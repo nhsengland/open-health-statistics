@@ -4,6 +4,10 @@
 
 ---
 
+<div id="includedContent"></div>
+
+---
+
 ## [NHSX](https://github.com/nhsx)
 
 #### Logo
@@ -38,3 +42,10 @@
 ---
 
 <center>fin</center>
+
+<script src="jquery.js"></script>
+<script> 
+$(function(){
+    $("#includedContent").load("b.html"); 
+});
+</script>
