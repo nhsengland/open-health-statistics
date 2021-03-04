@@ -18,17 +18,17 @@
         .then(function (response) {
             return response.json();
         })
-        .then(function (data) {
-            appendData(data);
+        .then(function (datax) {
+            appendData(datax);
         })
         .catch(function (err) {
             console.log('error: ' + err);
         });
-    function appendData(data) {
+    function appendData(datax) {
         var mainContainer = document.getElementById("NHSX");
-        for (var i = 0; i < data.length; i++) {
+        for (var i = 0; i < datax.length; i++) {
             var div = document.createElement("div");
-            div.innerHTML = data[i].name;
+            div.innerHTML = datax[i].name;
             mainContainer.appendChild(div);
         }
     }
@@ -51,17 +51,17 @@
         .then(function (response) {
             return response.json();
         })
-        .then(function (data) {
-            appendData(data);
+        .then(function (datad) {
+            appendData(datad);
         })
         .catch(function (err) {
             console.log('error: ' + err);
         });
-    function appendData(data) {
+    function appendData(datad) {
         var mainContainer = document.getElementById("NHSD");
-        for (var i = 0; i < data.length; i++) {
+        for (var i = 0; i < datad.length; i++) {
             var div = document.createElement("div");
-            div.innerHTML = data[i].name;
+            div.innerHTML = datad[i].name;
             mainContainer.appendChild(div);
         }
     }
