@@ -1,14 +1,5 @@
 <style>
-table.dataframe, .dataframe th, .dataframe td {
-  border: none;
-  border-bottom: 1px solid #C8C8C8;
-  border-collapse: collapse;
-  text-align:left;
-  padding: 10px;
-  margin-bottom: 40px;
-  font-size: 0.9em;
-}
-.dataframe summary {
+table.dataframe summary {
   border: none;
   border-bottom: 1px solid #C8C8C8;
   border-collapse: collapse;
@@ -28,13 +19,13 @@ table.dataframe, .dataframe th, .dataframe td {
 <table border="1" class="dataframe summary">
   <thead>
     <tr style="text-align: right;">
-      <th>org</th>
+      <th>org name</th>
       <th>repo count</th>
       <th>size</th>
       <th>stargazers</th>
       <th>watchers</th>
       <th>forks</th>
-      <th>open_issues</th>
+      <th>open issues</th>
       <th>top license</th>
       <th>top language</th>
     </tr>
@@ -111,6 +102,7 @@ table.dataframe, .dataframe th, .dataframe td {
 
 ---
 
+<!--
 ## [NHSX](https://github.com/nhsx)
 
 #### Logo
@@ -139,7 +131,7 @@ table.dataframe, .dataframe th, .dataframe td {
             mainContainer.appendChild(div);
         }
     }
-</script>
+</script>-->
 <br/>
 
 ---
