@@ -6,7 +6,7 @@ table.dataframe, .dataframe th, .dataframe td {
   text-align:left;
   padding: 10px;
   margin-bottom: 40px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .dataframe summary {
   border: none;
@@ -21,22 +21,22 @@ table.dataframe, .dataframe th, .dataframe td {
 
 # Open Healthcare Statistics
 
-<p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"></path></svg> Latest Data: 2021-03-04 10:53:21</p>
+<p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"></path></svg> Latest Data: 2021-03-04 23:03:21</p>
 
 ---
 
 <table border="1" class="dataframe summary">
   <thead>
     <tr style="text-align: right;">
-      <th>org name</th>
-      <th>repo count</th>
-      <th>size</th>
-      <th>stargazers</th>
-      <th>watchers</th>
-      <th>forks</th>
-      <th>open issues</th>
-      <th>top license</th>
-      <th>top language</th>
+      <th>Org</th>
+      <th>Open Repos</th>
+      <th>Total Size</th>
+      <th>Stargazers</th>
+      <th>Watchers</th>
+      <th>Forks</th>
+      <th>Open Issues</th>
+      <th>Top License</th>
+      <th>Top Language</th>
     </tr>
   </thead>
   <tbody>
@@ -53,30 +53,30 @@ table.dataframe, .dataframe th, .dataframe td {
     </tr>
     <tr>
       <th>NHSDigital</th>
-      <td>30</td>
-      <td>100935</td>
-      <td>49</td>
-      <td>49</td>
-      <td>40</td>
-      <td>200</td>
+      <td>79</td>
+      <td>474111</td>
+      <td>87</td>
+      <td>87</td>
+      <td>69</td>
+      <td>326</td>
       <td>MIT License</td>
       <td>Python</td>
     </tr>
     <tr>
       <th>nhsconnect</th>
-      <td>30</td>
-      <td>646417</td>
-      <td>96</td>
-      <td>96</td>
-      <td>69</td>
-      <td>162</td>
+      <td>177</td>
+      <td>3173655</td>
+      <td>239</td>
+      <td>239</td>
+      <td>197</td>
+      <td>385</td>
       <td>Apache License 2.0</td>
       <td>CSS</td>
     </tr>
     <tr>
       <th>nhsengland</th>
       <td>23</td>
-      <td>36117</td>
+      <td>36119</td>
       <td>13</td>
       <td>13</td>
       <td>38</td>
@@ -85,26 +85,15 @@ table.dataframe, .dataframe th, .dataframe td {
       <td>Python</td>
     </tr>
     <tr>
-      <th>nhsuk</th>
-      <td>30</td>
-      <td>417065</td>
-      <td>55</td>
-      <td>55</td>
-      <td>43</td>
-      <td>58</td>
-      <td>MIT License</td>
-      <td>HTML</td>
-    </tr>
-    <tr>
       <th>nhsx</th>
-      <td>30</td>
-      <td>540686</td>
-      <td>2380</td>
-      <td>2380</td>
-      <td>531</td>
+      <td>42</td>
+      <td>541270</td>
+      <td>2384</td>
+      <td>2384</td>
+      <td>537</td>
       <td>82</td>
       <td>MIT License</td>
-      <td>Python</td>
+      <td>Kotlin</td>
     </tr>
   </tbody>
 </table>
