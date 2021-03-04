@@ -1,5 +1,5 @@
 <style>
-table.dataframe summary {
+.dataframe summary {
   border: none;
   border-bottom: 1px solid #C8C8C8;
   border-collapse: collapse;
@@ -132,8 +132,3 @@ table.dataframe summary {
         }
     }
 </script>-->
-<br/>
-
----
-
-<center>fin</center>
