@@ -1,4 +1,13 @@
 <style>
+table.dataframe, .dataframe th, .dataframe td {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 0.5em;
+}
 .dataframe summary {
   border: none;
   border-bottom: 1px solid #C8C8C8;
