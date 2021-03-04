@@ -4,7 +4,7 @@
 
 ---
 
-## [NHSX](https://github.com/nhsx/open-health-statistics)
+## [NHSX](https://github.com/nhsx)
 
 #### Logo
 
