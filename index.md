@@ -4,25 +4,14 @@
 
 ---
 
-## Sub Heading
+## Heathcare Organisations
 
-### Open Repos
+### NHSX
 
+Logo: <img src="https://avatars.githubusercontent.com/u/47388472?v=4" width="50"/>
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/nhsx/open-health-statistics)
 
-**Bold:** test
-
-<center><img src="https://avatars.githubusercontent.com/u/47388472?v=4" width="50"/></center>
-
----
-
-### Section
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/nhsx/open-health-statistics)
-
-**Bold:** test
-
-<center><img src="https://avatars.githubusercontent.com/u/47388472?v=4" width="50"/></center>
+#### Open Repos
 
 <div id="myData"></div>
 <script>
@@ -40,7 +29,7 @@
         var mainContainer = document.getElementById("myData");
         for (var i = 0; i < data.length; i++) {
             var div = document.createElement("div");
-            div.innerHTML = 'Name: ' + data[i].name;
+            div.innerHTML = data[i].name;
             mainContainer.appendChild(div);
         }
     }
@@ -48,4 +37,4 @@
 
 ---
 
-<center>footer</center>
+<center>fin</center>
