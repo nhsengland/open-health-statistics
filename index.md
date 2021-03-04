@@ -34,6 +34,40 @@
     }
 </script>
 <br/>
+
+---
+
+## [NHS Digital](https://github.com/NHSDigital)
+
+#### Logo
+
+<img src="https://avatars.githubusercontent.com/u/6683590?v=4" width="50"/>
+
+### Open Repos
+
+<div id="myData"></div>
+<script>
+    fetch('github_api/nhsdigital_repos.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            appendData(data);
+        })
+        .catch(function (err) {
+            console.log('error: ' + err);
+        });
+    function appendData(data) {
+        var mainContainer = document.getElementById("myData");
+        for (var i = 0; i < data.length; i++) {
+            var div = document.createElement("div");
+            div.innerHTML = data[i].name;
+            mainContainer.appendChild(div);
+        }
+    }
+</script>
+<br/>
+
 ---
 
 <center>fin</center>
