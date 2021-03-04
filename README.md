@@ -1,2 +1,2 @@
-# open-health-repositories
+# open-health-statistics
  Statistics on open source healthcare repositories
