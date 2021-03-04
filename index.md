@@ -7,26 +7,15 @@
 <table border="1" class="dataframe summary">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
-      <th>id</th>
+      <th>org</th>
+      <th>repo count</th>
       <th>size</th>
-      <th>stargazers_count</th>
-      <th>watchers_count</th>
-      <th>forks_count</th>
-      <th>open_issues_count</th>
-      <th>license_name</th>
-      <th>language</th>
-    </tr>
-    <tr>
-      <th>owner_login</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>stargazers</th>
+      <th>watchers</th>
+      <th>forks</th>
+      <th>open_issues</th>
+      <th>top license</th>
+      <th>top language</th>
     </tr>
   </thead>
   <tbody>
