@@ -18,52 +18,18 @@
         .then(function (response) {
             return response.json();
         })
-        .then(function (datax) {
-            appendData(datax);
+        .then(function (data) {
+            appendData(data);
         })
         .catch(function (err) {
             console.log('error: ' + err);
         });
-    function appendData(datax) {
+    function appendData(data) {
         var mainContainer = document.getElementById("NHSX");
-        for (var i = 0; i < datax.length; i++) {
+        for (var i = 0; i < data.length; i++) {
             var div = document.createElement("div");
-            div.innerHTML = datax[i].name;
+            div.innerHTML = data[i].name;
             mainContainer.appendChild(div);
-        }
-    }
-</script>
-<br/>
-
----
-
-## [NHS Digital](https://github.com/NHSDigital)
-
-#### Logo
-
-<img src="https://avatars.githubusercontent.com/u/6683590?v=4" width="50"/>
-
-### Open Repos
-
-<div1 id="NHSD"></div1>
-
-<script>
-    fetch('github_api/nhsdigital_repos.json')
-        .then(function (responser) {
-            return responser.json();
-        })
-        .then(function (datad) {
-            appendData(datad);
-        })
-        .catch(function (err) {
-            console.log('error: ' + err);
-        });
-    function appendData(datad) {
-        var mainContainer1 = document.getElementById("NHSD");
-        for (var i = 0; i < datad.length; i++) {
-            var div1 = document.createElement("div1");
-            div1.innerHTML = datad[i].name;
-            mainContainer1.appendChild(div1);
         }
     }
 </script>
