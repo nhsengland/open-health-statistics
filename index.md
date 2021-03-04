@@ -10,7 +10,7 @@
 
 **Bold:** test
 
-<center><img src="https://avatars.githubusercontent.com/u/47388472?v=4", width="50"/></center>
+<center><img src="https://avatars.githubusercontent.com/u/47388472?v=4" width="50"/></center>
 
 ---
 
@@ -20,9 +20,8 @@
 
 **Bold:** test
 
-<center><img src="https://avatars.githubusercontent.com/u/47388472?v=4", width="50"/></center>
+<center><img src="https://avatars.githubusercontent.com/u/47388472?v=4" width="50"/></center>
 
 ---
 
-<center><div class="github-card" data-github="craig-shenton" data-width="400" data-height="" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script></center>
+<center>footer</center>
