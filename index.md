@@ -12,7 +12,7 @@
 
 ### Open Repos
 
-<div id="myData"></div>
+<div id="NHSX"></div>
 <script>
     fetch('github_api/nhsx_repos.json')
         .then(function (response) {
@@ -25,7 +25,7 @@
             console.log('error: ' + err);
         });
     function appendData(data) {
-        var mainContainer = document.getElementById("myData");
+        var mainContainer = document.getElementById("NHSX");
         for (var i = 0; i < data.length; i++) {
             var div = document.createElement("div");
             div.innerHTML = data[i].name;
@@ -45,7 +45,7 @@
 
 ### Open Repos
 
-<div id="myData"></div>
+<div id="NHSD"></div>
 <script>
     fetch('github_api/nhsdigital_repos.json')
         .then(function (response) {
@@ -58,7 +58,7 @@
             console.log('error: ' + err);
         });
     function appendData(data) {
-        var mainContainer = document.getElementById("myData");
+        var mainContainer = document.getElementById("NHSD");
         for (var i = 0; i < data.length; i++) {
             var div = document.createElement("div");
             div.innerHTML = data[i].name;
