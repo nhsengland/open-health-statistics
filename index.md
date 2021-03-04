@@ -4,14 +4,13 @@
 
 ---
 
-## Heathcare Organisations
+## [NHSX](https://github.com/nhsx/open-health-statistics)
 
-### NHSX
+#### Logo
 
-Logo: <img src="https://avatars.githubusercontent.com/u/47388472?v=4" width="50"/>
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/nhsx/open-health-statistics)
+<img src="https://avatars.githubusercontent.com/u/47388472?v=4" width="50"/>
 
-#### Open Repos
+### Open Repos
 
 <div id="myData"></div>
 <script>
@@ -34,7 +33,7 @@ Logo: <img src="https://avatars.githubusercontent.com/u/47388472?v=4" width="50"
         }
     }
 </script>
-
+<br/>
 ---
 
 <center>fin</center>
