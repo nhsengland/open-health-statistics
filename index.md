@@ -58,11 +58,11 @@
             console.log('error: ' + err);
         });
     function appendData(datad) {
-        var mainContainer = document.getElementById("NHSD");
+        var mainContainer1 = document.getElementById("NHSD");
         for (var i = 0; i < datad.length; i++) {
-            var div = document.createElement("div");
-            div.innerHTML = datad[i].name;
-            mainContainer.appendChild(div);
+            var div1 = document.createElement("div");
+            div1.innerHTML = datad[i].name;
+            mainContainer1.appendChild(div1);
         }
     }
 </script>
