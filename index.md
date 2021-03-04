@@ -45,7 +45,8 @@
 
 ### Open Repos
 
-<div id="NHSD"></div>
+<div1 id="NHSD"></div1>
+
 <script>
     fetch('github_api/nhsdigital_repos.json')
         .then(function (responser) {
@@ -60,7 +61,7 @@
     function appendData(datad) {
         var mainContainer1 = document.getElementById("NHSD");
         for (var i = 0; i < datad.length; i++) {
-            var div1 = document.createElement("div");
+            var div1 = document.createElement("div1");
             div1.innerHTML = datad[i].name;
             mainContainer1.appendChild(div1);
         }
