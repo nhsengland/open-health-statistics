@@ -48,8 +48,8 @@
 <div id="NHSD"></div>
 <script>
     fetch('github_api/nhsdigital_repos.json')
-        .then(function (response) {
-            return response.json();
+        .then(function (responser) {
+            return responser.json();
         })
         .then(function (datad) {
             appendData(datad);
