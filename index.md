@@ -6,7 +6,7 @@ table.dataframe, .dataframe th, .dataframe td {
   text-align:left;
   padding: 10px;
   margin-bottom: 40px;
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 .dataframe summary {
   border: none;
