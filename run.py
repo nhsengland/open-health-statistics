@@ -6,6 +6,8 @@ from pandas import json_normalize
 from datetime import datetime
 from datetime import date
 import time
+import plotly
+import plotly.express as px
 
 orgs = ["nhsx", "111Online", "NHSDigital", "nhsconnect", "nhsengland"]
 
@@ -67,3 +69,42 @@ html_str = (
 )
 with open("_includes/update.html", "w") as file:
     file.write(html_str)
+
+fig = px.bar(
+    df,
+    x=res["Date"],
+    y=res["Repos Created"],
+    labels={"y": "Repos Created", "x": "Date"},
+    color=res["Org"],
+    barmode="stack",
+    color_discrete_sequence=px.colors.qualitative.T10,
+    width=800,
+    height=400,
+)
+
+fig.update_xaxes(
+    # rangeslider_visible=True,
+    rangeselector=dict(
+        buttons=list(
+            [
+                dict(count=1, label="1m", step="month", stepmode="backward"),
+                dict(count=6, label="6m", step="month", stepmode="backward"),
+                dict(count=1, label="1y", step="year", stepmode="backward"),
+                dict(step="all"),
+            ]
+        )
+    )
+)
+
+fig.update_layout(
+    {
+        "plot_bgcolor": "rgba(0, 0, 0, 0)",
+        "paper_bgcolor": "rgba(0, 0, 0, 0)",
+    },
+    legend=dict(orientation="v", yanchor="top", y=0.99, xanchor="left", x=0.01),
+)
+
+plot_div = plotly.offline.plot(fig, include_plotlyjs=False, output_type="div")
+# Write HTML String to file.html
+with open("_includes/chart.html", "w") as file:
+    file.write(plot_div)
