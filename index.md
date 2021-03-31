@@ -1,3 +1,4 @@
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
 table.dataframe, .dataframe th, .dataframe td {
   border: none;
@@ -26,3 +27,7 @@ table.dataframe, .dataframe th, .dataframe td {
 ---
 
 {% include table.html %}
+
+---
+
+{% include chart.html %}
