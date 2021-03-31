@@ -26,8 +26,10 @@ table.dataframe, .dataframe th, .dataframe td {
 
 ---
 
-{% include table.html %}
+{% include chart.html %}
 
 ---
 
-{% include chart.html %}
+{% include table.html %}
+
+---
