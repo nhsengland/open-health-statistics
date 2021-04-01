@@ -20,7 +20,7 @@ table.dataframe, .dataframe th, .dataframe td {
 }
 </style>
 
-# Open Healthcare Statistics
+# [Alpha] Open Healthcare Statistics
 
 {% include update.html %}
 
