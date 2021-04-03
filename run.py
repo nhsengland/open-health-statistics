@@ -14,6 +14,7 @@ orgs = ["nhsx", "111Online", "NHSDigital", "nhsconnect", "nhsengland"]
 
 # GitHub API unauthenticated requests rate limit = 10 requests per minute.
 
+df = pd.DataFrame()
 for org in orgs:
     data = [1]
     page = 1
