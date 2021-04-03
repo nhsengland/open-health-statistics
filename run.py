@@ -72,6 +72,19 @@ html_str = (
 with open("_includes/update.html", "w") as file:
     file.write(html_str)
 
+df["YearMonth"] = pd.to_datetime(df["created_at"]).apply(
+    lambda x: "{year}-{month}".format(year=x.year, month=x.month)
+)
+
+res = df.groupby(["YearMonth", "owner_login"]).agg(
+    {
+        # find the number of open repos
+        "name": "count",
+    }
+)
+res = res.reset_index()
+res.columns = ["Date", "Org", "Repos Created"]
+
 fig = px.bar(
     df,
     x=res["Date"],
@@ -80,7 +93,7 @@ fig = px.bar(
     color=res["Org"],
     barmode="stack",
     color_discrete_sequence=px.colors.qualitative.T10,
-    width=800,
+    width=600,
     height=400,
 )
 
@@ -105,6 +118,7 @@ fig.update_layout(
     },
     legend=dict(orientation="v", yanchor="top", y=0.99, xanchor="left", x=0.01),
 )
+fig.show()
 
 plot_div = plotly.offline.plot(fig, include_plotlyjs=False, output_type="div")
 # Write HTML String to file.html
