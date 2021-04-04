@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *" #runs at 00:00 UTC everyday
 
 jobs:
-  build:
+  manual_deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,3 +22,22 @@ jobs:
       - name: execute py script # run the run.py to get the latest data
         run: |
           python run.py
+              dir
+      - name: Commit files
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
+          git add --all
+          if [-z "$(git status --porcelain)"]; then
+            echo "::set-output name=push::false"
+          else
+            git commit -m "Add changes" -a
+            echo "::set-output name=push::true"
+          fi
+        shell: bash
+      - name: Push changes
+        if: steps.commit.outputs.push == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
