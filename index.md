@@ -26,7 +26,7 @@ table.dataframe, .dataframe th, .dataframe td {
 
 ---
 
-Collecting statistics on open source NHS github repositories using end-to-end open source analytics: python, plotly, github.io, and gitub actions. To get your organisation added to the collection, email: [craig.shenton@nhsx.nhs.uk](mailto:craig.shenton@nhsx.nhs.uk)
+Collecting statistics on open source NHS github repositories using end-to-end open source analytics: python, plotly, github.io, and github actions. To get your organisation added to the collection, email: [craig.shenton@nhsx.nhs.uk](mailto:craig.shenton@nhsx.nhs.uk)
 
 ---
 
