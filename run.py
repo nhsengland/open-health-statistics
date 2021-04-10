@@ -10,9 +10,19 @@ import time
 import plotly
 import plotly.express as px
 
-orgs = ["nhsx", "111Online", "NHSDigital", "nhsconnect", "nhsengland"]
+orgs = [
+    "nhsx",
+    "111Online",
+    "NHSDigital",
+    "nhsconnect",
+    "nhsengland",
+    "nhs-pycom",
+    "nhs-r-community",
+    "nhsuk",
+    "publichealthengland",
+]
 
-# GitHub API unauthenticated requests rate limit = 10 requests per minute.
+## GitHub API unauthenticated requests rate limit = 10 requests per minute.
 
 df = pd.DataFrame()
 for org in orgs:
@@ -34,11 +44,73 @@ for org in orgs:
         time.sleep(10)  # Sleep to avoid rate limit
 df.columns = df.columns.str.replace(".", "_")
 
+## Gitlab
+
+url = (
+    "https://gitlab.com/api/v4/groups/2955125/projects?include_subgroups=true"  # NHSBSA
+)
+
+df_gitlab = pd.DataFrame()
+response = urllib.request.urlopen(url)
+data = json.loads(response.read())
+flat_data = json_normalize(data)
+df_gitlab = df_gitlab.append(flat_data)
+df_gitlab[
+    ["owner_login", "group_path", "subgroup_path", "subsubgroup_path"]
+] = df_gitlab["path_with_namespace"].str.split("/", expand=True)
+
+df_gitlab_group = df_gitlab.groupby(["owner_login"]).agg(
+    {
+        # find the number of open repos
+        "name": "count",
+        "star_count": "sum",
+        "forks_count": "sum",
+        "open_issues_count": "sum",
+        # "license_name": lambda x: x.value_counts().index[0],
+        # "language": lambda x: x.value_counts().index[0],
+    }
+)
+df_gitlab_group = df_gitlab_group.reset_index()
+df_gitlab_group["license_name"] = "null"
+df_gitlab_group["language"] = "null"
+df_gitlab_group = df_gitlab_group[
+    [
+        "owner_login",
+        "name",
+        "star_count",
+        "forks_count",
+        "open_issues_count",
+        "license_name",
+        "language",
+    ]
+]
+df_gitlab_group.columns = [
+    "Org",
+    "Open Repos",
+    "Stargazers",
+    "Forks",
+    "Open Issues",
+    "Top License",
+    "Top Language",
+]
+
+df_gitlab["created_at"] = pd.to_datetime(df_gitlab["created_at"])
+df_gitlab.set_index("created_at")
+res_gitlab = df_gitlab.groupby(
+    [pd.Grouper(key="created_at", freq="M"), "owner_login"]
+).agg(
+    {
+        # find the number of open repos
+        "name": "count",
+    }
+)  # .groupby('owner_login').cumsum()
+res_gitlab = res_gitlab.reset_index()
+res_gitlab.columns = ["Date", "Org", "Repos Created"]
+
 df_group = df.groupby(["owner_login"]).agg(
     {
         # find the number of open repos
         "name": "count",
-        "size": "sum",
         "stargazers_count": "sum",
         "forks_count": "sum",
         "open_issues_count": "sum",
@@ -50,7 +122,6 @@ df_group = df_group.reset_index()
 df_group.columns = [
     "Org",
     "Open Repos",
-    "Total Size",
     "Stargazers",
     "Forks",
     "Open Issues",
@@ -58,7 +129,8 @@ df_group.columns = [
     "Top Language",
 ]
 
-df_html = df_group.head(10).to_html(classes="summary")
+df_all = pd.concat([df_group, df_gitlab_group], ignore_index=True, sort=False)
+df_html = df_all.to_html(classes="summary")
 # Write HTML String to file.html
 with open("_includes/table.html", "w") as file:
     file.write(df_html)
@@ -72,29 +144,26 @@ html_str = (
 with open("_includes/update.html", "w") as file:
     file.write(html_str)
 
-df["YearMonth"] = pd.to_datetime(df["created_at"]).apply(
-    lambda x: "{year}-{month}".format(year=x.year, month=x.month)
-)
-
-res = df.groupby(["YearMonth", "owner_login"]).agg(
+df["created_at"] = pd.to_datetime(df["created_at"])
+df.set_index("created_at")
+res = df.groupby([pd.Grouper(key="created_at", freq="M"), "owner_login"]).agg(
     {
         # find the number of open repos
         "name": "count",
     }
-)
+)  # .groupby('owner_login').cumsum()
 res = res.reset_index()
 res.columns = ["Date", "Org", "Repos Created"]
+res_all = pd.concat([res, res_gitlab], ignore_index=True, sort=False)
 
 fig = px.bar(
-    df,
-    x=res["Date"],
-    y=res["Repos Created"],
-    labels={"y": "Repos Created", "x": "Date"},
-    color=res["Org"],
+    res_all,
+    x="Date",
+    y="Repos Created",
+    # labels={"y": "Repos Created", "x": "Date"},
+    color="Org",
     barmode="stack",
     color_discrete_sequence=px.colors.qualitative.T10,
-    width=600,
-    height=400,
 )
 
 fig.update_xaxes(
@@ -116,9 +185,11 @@ fig.update_layout(
         "plot_bgcolor": "rgba(0, 0, 0, 0)",
         "paper_bgcolor": "rgba(0, 0, 0, 0)",
     },
-    legend=dict(orientation="v", yanchor="top", y=0.99, xanchor="left", x=0.01),
+    legend=dict(orientation="h", yanchor="bottom", y=-0.5, xanchor="left", x=0),
+    autosize=False,
+    width=500,
+    height=400,
 )
-fig.show()
 
 plot_div = plotly.offline.plot(fig, include_plotlyjs=False, output_type="div")
 # Write HTML String to file.html
