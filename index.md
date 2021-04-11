@@ -32,7 +32,7 @@ Collecting statistics on open source NHS github repositories using end-to-end op
 
 {% include table.html %}
 
-## Links to open source NHS repositories:
+## Links to open source NHS & Healthcare repositories:
 
 - [nhsbsa](https://gitlab.com/nhsbsa): NHS Business Services Authority
 - [111Online](https://github.com/111Online): NHS Digital 111 Online Program
@@ -46,5 +46,7 @@ Collecting statistics on open source NHS github repositories using end-to-end op
 - [nhsx](https://github.com/nhsx): NHSX
 
 To get your organisation added to the collection, email: [craig.shenton@nhsx.nhs.uk](mailto:craig.shenton@nhsx.nhs.uk).
+
+## Time-series growth in open health repositories
 
 {% include chart.html %}
