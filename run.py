@@ -1,14 +1,13 @@
-import os
 import urllib
 import urllib.request
 import json
 import pandas as pd
 from pandas import json_normalize
 from datetime import datetime
-from datetime import date
 import time
 import plotly
 import plotly.express as px
+import plotly.graph_objects as go
 
 orgs = [
     "nhsx",
@@ -94,19 +93,6 @@ df_gitlab_group.columns = [
     "Top Language",
 ]
 
-df_gitlab["created_at"] = pd.to_datetime(df_gitlab["created_at"])
-df_gitlab.set_index("created_at")
-res_gitlab = df_gitlab.groupby(
-    [pd.Grouper(key="created_at", freq="M"), "owner_login"]
-).agg(
-    {
-        # find the number of open repos
-        "name": "count",
-    }
-)  # .groupby('owner_login').cumsum()
-res_gitlab = res_gitlab.reset_index()
-res_gitlab.columns = ["Date", "Org", "Repos Created"]
-
 df_group = df.groupby(["owner_login"]).agg(
     {
         # find the number of open repos
@@ -130,7 +116,7 @@ df_group.columns = [
 ]
 
 df_all = pd.concat([df_group, df_gitlab_group], ignore_index=True, sort=False)
-df_html = df_all.to_html(classes="summary")
+df_html = df_all.to_html(classes="summary", index=False)
 # Write HTML String to file.html
 with open("_includes/table.html", "w") as file:
     file.write(df_html)
@@ -144,34 +130,62 @@ html_str = (
 with open("_includes/update.html", "w") as file:
     file.write(html_str)
 
+# --------------------------------------------------------------------
+# Time Series
+## Gitlab
+df_gitlab["created_at"] = pd.to_datetime(df_gitlab["created_at"])
+df_gitlab.set_index("created_at")
+res_gitlab = (
+    df_gitlab.groupby([pd.Grouper(key="created_at", freq="M")])
+    .agg(
+        {
+            # find the number of open repos
+            "name": "count",
+        }
+    )
+    .cumsum()
+)
+res_gitlab = res_gitlab.reset_index()
+res_gitlab.columns = ["Date", "Total Open Repositories"]
+
+## Github
 df["created_at"] = pd.to_datetime(df["created_at"])
 df.set_index("created_at")
-res = df.groupby([pd.Grouper(key="created_at", freq="M"), "owner_login"]).agg(
-    {
-        # find the number of open repos
-        "name": "count",
-    }
-)  # .groupby('owner_login').cumsum()
+res = (
+    df.groupby([pd.Grouper(key="created_at", freq="M")])
+    .agg(
+        {
+            # find the number of open repos
+            "name": "count",
+        }
+    )
+    .cumsum()
+)
 res = res.reset_index()
-res.columns = ["Date", "Org", "Repos Created"]
+res.columns = ["Date", "Total Open Repositories"]
+
+## Gitlab+Github
 res_all = pd.concat([res, res_gitlab], ignore_index=True, sort=False)
 
-fig = px.bar(
-    res_all,
-    x="Date",
-    y="Repos Created",
-    # labels={"y": "Repos Created", "x": "Date"},
-    color="Org",
-    barmode="stack",
-    color_discrete_sequence=px.colors.qualitative.T10,
+# Time Series Chart
+colors = color_discrete_sequence = px.colors.qualitative.T10
+fig = go.Figure()
+fig.add_traces(
+    go.Scatter(
+        x=res_all["Date"],
+        y=res_all["Total Open Repositories"],
+        mode="lines",
+        line=dict(color=colors[0]),
+        showlegend=False,
+    )
 )
 
+config = {"displayModeBar": False, "displaylogo": False}
+
 fig.update_xaxes(
-    # rangeslider_visible=True,
     rangeselector=dict(
         buttons=list(
             [
-                dict(count=1, label="1m", step="month", stepmode="backward"),
                 dict(count=6, label="6m", step="month", stepmode="backward"),
                 dict(count=1, label="1y", step="year", stepmode="backward"),
                 dict(step="all"),
@@ -185,13 +199,14 @@ fig.update_layout(
         "plot_bgcolor": "rgba(0, 0, 0, 0)",
         "paper_bgcolor": "rgba(0, 0, 0, 0)",
     },
-    legend=dict(orientation="h", yanchor="bottom", y=-0.5, xanchor="left", x=0),
-    autosize=False,
-    width=500,
-    height=400,
+    autosize=True,
+    # width=500,
+    # height=400,
 )
 
-plot_div = plotly.offline.plot(fig, include_plotlyjs=False, output_type="div")
+plot_div = plotly.offline.plot(
+    fig, include_plotlyjs=False, output_type="div", config=config
+)
 # Write HTML String to file.html
 with open("_includes/chart.html", "w") as file:
     file.write(plot_div)
