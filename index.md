@@ -30,12 +30,6 @@ Collecting statistics on open source NHS github repositories using end-to-end op
 
 \* _Now with GitLab support_
 
----
-
-{% include chart.html %}
-
----
-
 {% include table.html %}
 
 ## Links to open source NHS repositories:
@@ -52,3 +46,5 @@ Collecting statistics on open source NHS github repositories using end-to-end op
 - [nhsx](https://github.com/nhsx): NHSX
 
 To get your organisation added to the collection, email: [craig.shenton@nhsx.nhs.uk](mailto:craig.shenton@nhsx.nhs.uk).
+
+{% include chart.html %}
