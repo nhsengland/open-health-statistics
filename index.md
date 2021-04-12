@@ -46,7 +46,3 @@ Collecting statistics on open source NHS github repositories using end-to-end op
 - [nhsx](https://github.com/nhsx): NHSX
 
 To get your organisation added to the collection, email: [craig.shenton@nhsx.nhs.uk](mailto:craig.shenton@nhsx.nhs.uk).
-
-## Time-series growth in open health repositories
-
-{% include chart.html %}
