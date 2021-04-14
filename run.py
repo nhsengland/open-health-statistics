@@ -25,7 +25,8 @@ github_orgs = [
     "publichealthengland",
 ]
 
-# Get the GitHub data from the API
+# Get the GitHub data from the API (note we can only make 60 calls per hour so
+# if we have over 60 orgs would have to try a different strategy)
 df_github = pd.DataFrame()
 for org in github_orgs:
     data = [1]
@@ -43,7 +44,6 @@ for org in github_orgs:
         flat_data = pd.json_normalize(data)
         df_github = df_github.append(flat_data)
         page = page + 1
-        time.sleep(10)  # Avoid unauthenticated requests limit (10 per min)
 
 # Add a column of 1s to sum for open_repos (this enables us to use sum() on all
 # columns later)
@@ -53,6 +53,7 @@ df_github['open_repos'] = 1
 df_github = (
     df_github[[
         'owner.login', 
+        'owner.html_url',
         'created_at', 
         'open_repos',
         'stargazers_count',
@@ -63,6 +64,7 @@ df_github = (
     ]]
     .rename(columns={
         'owner.login': 'org',
+        'owner.html_url': 'link',
         'created_at': 'date',
         'stargazers_count': 'stargazers',
         'forks_count': 'forks',
@@ -102,6 +104,9 @@ for group in gitlab_groups:
 df_gitlab['org'] = df_gitlab['namespace.full_path'].apply(
     lambda x: x.split('/')[0]
 )
+
+# Add the link
+df_gitlab['link'] = 'https://gitlab.com/' + df_gitlab['org']
 
 # Add a column of 1s to sum for open_repos (this enables us to use sum() on all
 # columns later)
@@ -150,6 +155,7 @@ df_gitlab['language'] = top_languages
 df_gitlab = (
     df_gitlab[[
         'org', 
+        'link',
         'created_at', 
         'open_repos',
         'star_count',
@@ -169,7 +175,7 @@ df_gitlab = (
 # Combine GitHub and GitLab tables
 df_combined = pd.concat([df_github, df_gitlab]).reset_index(drop=True)
 
-# Create aggregates
+# Data processing
 
 # Now we have a standardised table we can begin to split and aggregate... start
 # by changing date to a date type (day only)
@@ -177,10 +183,10 @@ df_combined['date'] = pd.to_datetime(df_combined['date']).apply(
     lambda x: x.strftime('%Y-%m-%d')
 )
 
-# Cumulative sum by org and date
+# Cumulative sum by org, link and date
 df_combined_cumsum = (
     df_combined
-    .groupby(['org', 'date'])
+    .groupby(['org', 'link', 'date'])
     .sum()
     .groupby(level=[0])
     .cumsum()
@@ -247,9 +253,12 @@ df_combined_cumsum = pd.merge(
     df_combined_cumsum, df_combined_cumsum_additional
 )
 
+# Output data
+
 # Make the columns nice
 df_combined_cumsum = df_combined_cumsum.rename(columns={
     'org': 'Org',
+    'link': 'Link',
     'date': 'Date',
     'open_repos': 'Open Repos',
     'stargazers': 'Stargazers',
@@ -258,7 +267,6 @@ df_combined_cumsum = df_combined_cumsum.rename(columns={
     'license': 'Top License',
     'language': 'Top Language'
 })
-
     
 # Format the output table (this is the latest row for each org)
 df_combined_cumsum_latest = (
@@ -298,16 +306,28 @@ for org in list(df_combined_cumsum_latest['Org']):
     )
 
 # Add the table
+bold_header = ['<b>' + c + '<b>' for c in df_combined_cumsum_latest.columns if c != 'Link']
+hyperlinked_first_col = ("<a href='" \
+    + df_combined_cumsum_latest['Link']
+    + "'>"
+    + df_combined_cumsum_latest['Org']
+    + "</a>"
+).tolist()
+remaining_cols = [
+    df_combined_cumsum_latest[c].tolist() 
+    for c in df_combined_cumsum_latest.columns[2:]
+]
+
 fig.add_trace(
     go.Table(
         header=dict(
-            values=df_combined_cumsum_latest.columns,
+            values=bold_header,
+            fill_color='white', # If 'rgba(0, 0, 0, 0)' then information not hidden when scrolling
             align="left"
         ),
         cells=dict(
-            values=[df_combined_cumsum_latest[c].tolist() 
-                    for c in df_combined_cumsum_latest.columns
-            ],
+            values=[hyperlinked_first_col] + remaining_cols,
+            fill_color='white',
             align = "left")
     ),
     row=2, col=1
@@ -317,7 +337,7 @@ fig.add_trace(
 fig.update_layout(
     {
         'plot_bgcolor': 'rgba(0, 0, 0, 0)',
-        'paper_bgcolor': 'rgba(0, 0, 0, 0)',
+        'paper_bgcolor': 'rgba(0, 0, 0, 0)'
     },
     autosize=True,
     hovermode='x'
@@ -347,8 +367,6 @@ plotly_obj = plotly.offline.plot(
 )
 with open('_includes/plotly_obj.html', 'w') as file:
     file.write(plotly_obj)
-
-# Collect update data
 
 # Grab timestamp
 data_updated = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
