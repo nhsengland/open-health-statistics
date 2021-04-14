@@ -43,7 +43,7 @@ for org in github_orgs:
         flat_data = pd.json_normalize(data)
         df_github = df_github.append(flat_data)
         page = page + 1
-        time.sleep(10)  # Avoid unauthenticated requests limit (10 per minute)
+        time.sleep(10)  # Avoid unauthenticated requests limit (10 per min)
 
 # Add a column of 1s to sum for open_repos (this enables us to use sum() on all
 # columns later)
@@ -96,6 +96,7 @@ for group in gitlab_groups:
         flat_data = pd.json_normalize(data)
         df_gitlab = df_gitlab.append(flat_data)
         page = page + 1
+        time.sleep(0.2)  # Avoid unauthenticated requests limit (10 per sec)
 
 # Subset the path to get the group name
 df_gitlab['org'] = df_gitlab['namespace.full_path'].apply(
