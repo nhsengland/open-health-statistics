@@ -31,7 +31,3 @@ Collecting statistics on open source NHS GitHub and GitLab repositories using en
 {% include plotly_obj.html %}
 
 To get your organisation added to the collection, email: [craig.shenton@nhsx.nhs.uk](mailto:craig.shenton@nhsx.nhs.uk).
-
-## Time-series growth in open health repositories
-
-{% include chart.html %}
