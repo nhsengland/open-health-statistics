@@ -1,12 +1,11 @@
 import urllib
-import urllib.request
 import json
 import pandas as pd
-from pandas import json_normalize
 from datetime import datetime
 import time
 import plotly
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
 
 # Data collection
@@ -26,7 +25,8 @@ github_orgs = [
     "publichealthengland",
 ]
 
-# Get the GitHub data from the API
+# Get the GitHub data from the API (note we can only make 60 calls per hour so
+# if we have over 60 orgs would have to try a different strategy)
 df_github = pd.DataFrame()
 for org in github_orgs:
     data = [1]
@@ -41,10 +41,37 @@ for org in github_orgs:
         )
         response = urllib.request.urlopen(url)
         data = json.loads(response.read())
-        flat_data = json_normalize(data)
+        flat_data = pd.json_normalize(data)
         df_github = df_github.append(flat_data)
         page = page + 1
-        time.sleep(10)  # Avoid unauthenticated requests limit (10 per minute)
+
+# Add a column of 1s to sum for open_repos (this enables us to use sum() on all
+# columns later)
+df_github['open_repos'] = 1
+
+# Filter and rename columns
+df_github = (
+    df_github[[
+        'owner.login', 
+        'owner.html_url',
+        'created_at', 
+        'open_repos',
+        'stargazers_count',
+        'forks_count',
+        'open_issues_count',
+        'license.name',
+        'language'
+    ]]
+    .rename(columns={
+        'owner.login': 'org',
+        'owner.html_url': 'link',
+        'created_at': 'date',
+        'stargazers_count': 'stargazers',
+        'forks_count': 'forks',
+        'open_issues_count': 'open_issues',
+        'license.name': 'license'
+    })
+)
 
 # GitLab
 
@@ -68,9 +95,22 @@ for group in gitlab_groups:
         )
         response = urllib.request.urlopen(url)
         data = json.loads(response.read())
-        flat_data = json_normalize(data)
+        flat_data = pd.json_normalize(data)
         df_gitlab = df_gitlab.append(flat_data)
         page = page + 1
+        time.sleep(0.2)  # Avoid unauthenticated requests limit (10 per sec)
+
+# Subset the path to get the group name
+df_gitlab['org'] = df_gitlab['namespace.full_path'].apply(
+    lambda x: x.split('/')[0]
+)
+
+# Add the link
+df_gitlab['link'] = 'https://gitlab.com/' + df_gitlab['org']
+
+# Add a column of 1s to sum for open_repos (this enables us to use sum() on all
+# columns later)
+df_gitlab['open_repos'] = 1
 
 # Unfortunately it is missing license + language data so we have an additional
 # step to get this...
@@ -106,132 +146,198 @@ for project in gitlab_projects:
     # Append the data 
     licenses.append(license_)
     top_languages.append(top_language)
-    
+
 # Add the extra columns to the GitLab df
 df_gitlab['license'] = licenses
-df_gitlab['top_language'] = top_languages
+df_gitlab['language'] = top_languages
 
-# Subset the path to get the group name
-df_gitlab['org'] = df_gitlab['namespace.full_path'].apply(
-    lambda x: x.split('/')[0]
+# Filter and rename columns
+df_gitlab = (
+    df_gitlab[[
+        'org', 
+        'link',
+        'created_at', 
+        'open_repos',
+        'star_count',
+        'forks_count',
+        'open_issues_count',
+        'license',
+        'language'
+    ]]
+    .rename(columns={
+        'created_at': 'date',
+        'star_count': 'stargazers',
+        'forks_count': 'forks',
+        'open_issues_count': 'open_issues'
+    })
 )
 
-# Create table
+# Combine GitHub and GitLab tables
+df_combined = pd.concat([df_github, df_gitlab]).reset_index(drop=True)
 
-# GitHub aggregate
-df_github_aggregate = (
-    df_github
-    .groupby(["owner.login"])
-    .agg(
-        open_repos = ("name", "count"),
-        stargazers = ("stargazers_count", "sum"),
-        forks = ("forks_count", "sum"),
-        open_issues = ("open_issues_count", "sum"),
-        top_license = ("license.name", lambda x: x.value_counts().index[0]),
-        top_language = ("language", lambda x: x.value_counts().index[0]),
-    )
-    .rename_axis("org")
-    .reset_index()
+# Data processing
+
+# Now we have a standardised table we can begin to split and aggregate... start
+# by changing date to a date type (day only)
+df_combined['date'] = pd.to_datetime(df_combined['date']).apply(
+    lambda x: x.strftime('%Y-%m-%d')
 )
 
-# GitLab aggregate
-df_gitlab_aggregate = (
-    df_gitlab
-    .groupby(["org"])
-    .agg(
-        open_repos = ("name", "count"),
-        stargazers = ("star_count", "sum"),
-        forks = ("forks_count", "sum"),
-        open_issues = ("open_issues_count", "sum"),
-        top_license = ("license", lambda x: x.value_counts().index[0]),
-        top_language = ("top_language", lambda x: x.value_counts().index[0]),
-    )
-    .reset_index()
-)
-
-# Combine GitHub and GitLab aggregate tables and sort by open repos
-df_aggregate = (
-    pd.concat([df_github_aggregate, df_gitlab_aggregate])
-    .sort_values(by='open_repos', ascending=False)
-    .reset_index(drop=True)
-)
-
-# Make the column names nice
-df_aggregate.columns = [   
-    "Org",
-    "Open Repos",
-    "Stargazers",
-    "Forks",
-    "Open Issues",
-    "Top License",
-    "Top Language"
-]
-
-# Write to file (.html)
-df_html = df_aggregate.to_html(classes="summary", index=False)
-with open("_includes/table.html", "w") as file:
-    file.write(df_html)
-
-# Create plot
-
-# Github time series
-df_github["date"] = pd.to_datetime(df_github["created_at"])
-df_github_ts = (    
-    df_github
-    .groupby(['owner.login', pd.Grouper(key="date", freq="M")])
-    .agg(total_open_repos = ("name", "count"))
-    .groupby(level=[0])
-    .cumsum()
-    .rename_axis(index={"owner.login": "org"})
-    .reset_index()
-)
-
-# GitLab time series
-df_gitlab["date"] = pd.to_datetime(df_gitlab["created_at"])
-df_gitlab_ts = (    
-    df_gitlab
-    .groupby(['org', pd.Grouper(key="date", freq="M")])
-    .agg(total_open_repos = ("name", "count"))
+# Cumulative sum by org, link and date
+df_combined_cumsum = (
+    df_combined
+    .groupby(['org', 'link', 'date'])
+    .sum()
     .groupby(level=[0])
     .cumsum()
     .reset_index()
 )
 
-# Combine GitHub and GitLab time series 
-df_ts = pd.concat([df_github_ts, df_gitlab_ts]).reset_index(drop=True)
+# Now we need to get the top license + language at each date for each 
+# organisation. This is not so straight forward.
 
-# Make the column names nice
-df_ts.columns = [   
-    "Org",
-    "Date",
-    "Total Open Repositories"
-]
+# Loop over each org and grab the top license + language at each date
+df_combined_cumsum_additional = pd.DataFrame()
+for org, df in df_combined.groupby('org'):
+    
+    # Define the cols
+    cols = ['license', 'language']
+    
+    # Convert the date and cols to categoricals (within their org). This 
+    # means when we group by them it will find all combinations (so we get a 
+    # result for a license even if it didn't increment at that date)
+    cat_cols = ['date'] + cols
+    df[cat_cols] = df[cat_cols].apply(lambda x: x.astype('category'))
+    
+    # Loop over each col
+    additional_df_list = []
+    for col in cols:
+        
+        # Get cumulative counts of each value for each org
+        df_cumsum = (
+            df
+            .groupby(['date', col])
+            .size()
+            .groupby(level=[1])
+            .cumsum()
+            .to_frame('count')
+            .reset_index()
+        )
+        
+        # Now get the highest count each day
+        df_cumsum_max = df_cumsum.groupby('date').max().reset_index()
+    
+        # Now inner join and ensure we only have one row per day
+        df_top = (
+            pd.merge(df_cumsum, df_cumsum_max)
+            .drop_duplicates(['date', 'count'])
+            .drop(columns='count')
+        )
+        
+        # Append it to the new list of dfs
+        additional_df_list.append(df_top)
+        
+    # Combine the list of dfs into a df
+    df_additional = pd.merge(*additional_df_list)
+        
+    # Add the org and append to df_combined_cumsum_additional
+    df_additional['org'] = org
+    df_combined_cumsum_additional = (
+        df_combined_cumsum_additional
+        .append(df_additional)
+    )
+    
+# Now merge the additional df back onto to the main df so we now have the top 
+# license + language for each org at each day there was a change
+df_combined_cumsum = pd.merge(
+    df_combined_cumsum, df_combined_cumsum_additional
+)
 
-# Sort to the same order as the aggregate table
-df_ts["Org"] = df_ts["Org"].astype("category")
-df_ts["Org"].cat.set_categories(list(df_aggregate["Org"]), inplace=True)
+# Output data
+
+# Make the columns nice
+df_combined_cumsum = df_combined_cumsum.rename(columns={
+    'org': 'Org',
+    'link': 'Link',
+    'date': 'Date',
+    'open_repos': 'Open Repos',
+    'stargazers': 'Stargazers',
+    'forks': 'Forks',
+    'open_issues': 'Open Issues',
+    'license': 'Top License',
+    'language': 'Top Language'
+})
+    
+# Format the output table (this is the latest row for each org)
+df_combined_cumsum_latest = (
+    df_combined_cumsum
+    .sort_values('Date')
+    .groupby('Org')
+    .tail(1)
+    .drop(columns='Date')
+    .sort_values('Open Repos', ascending=False)
+)
 
 # Initialise plot
-fig = go.Figure()
+fig = make_subplots(
+    rows=2, cols=1,
+    vertical_spacing=0.1,
+    specs=[[{"type": "scatter"}],
+           [{"type": "table"}]]
+)
 
-# Loop over each org and add line to chart
-for org, df_ts_ in df_ts.groupby('Org'):
-    fig.add_traces(
+# Loop over each org and add line to plot
+for org in list(df_combined_cumsum_latest['Org']):
+    
+    # Filter the df
+    df_ = df_combined_cumsum[df_combined_cumsum['Org'] == org]
+    
+    # Add the trace plot
+    fig.add_trace(
         go.Scatter(
-            x=df_ts_["Date"],
-            y=df_ts_["Total Open Repositories"],
-            mode="lines",
+            x=df_['Date'],
+            y=df_['Open Repos'],
+            mode='lines',
             name=org,
             line={'shape': 'hvh'},
             # TODO: # Add discrete colour sequence if needed
-        )
+        ),
+        row=1, col=1
     )
-    
+
+# Add the table
+bold_header = ['<b>' + c + '<b>' for c in df_combined_cumsum_latest.columns if c != 'Link']
+hyperlinked_first_col = ("<a href='" \
+    + df_combined_cumsum_latest['Link']
+    + "'>"
+    + df_combined_cumsum_latest['Org']
+    + "</a>"
+).tolist()
+remaining_cols = [
+    df_combined_cumsum_latest[c].tolist() 
+    for c in df_combined_cumsum_latest.columns[2:]
+]
+
+fig.add_trace(
+    go.Table(
+        header=dict(
+            values=bold_header,
+            fill_color='white', # If 'rgba(0, 0, 0, 0)' then information not hidden when scrolling
+            align="left"
+        ),
+        cells=dict(
+            values=[hyperlinked_first_col] + remaining_cols,
+            fill_color='white',
+            align = "left")
+    ),
+    row=2, col=1
+)
+
 # Asthetics of the plot
 fig.update_layout(
     {
-        "plot_bgcolor": "rgba(0, 0, 0, 0)",
-        "paper_bgcolor": "rgba(0, 0, 0, 0)",
+        'plot_bgcolor': 'rgba(0, 0, 0, 0)',
+        'paper_bgcolor': 'rgba(0, 0, 0, 0)'
     },
     autosize=True,
     hovermode='x'
@@ -243,29 +349,27 @@ fig.update_xaxes(
     rangeselector=dict(
         buttons=list(
             [
-                dict(count=6, label="6m", step="month", stepmode="backward"),
-                dict(count=1, label="1y", step="year", stepmode="backward"),
-                dict(step="all"),
+                dict(count=6, label='6m', step='month', stepmode='backward'),
+                dict(count=1, label='1y', step='year', stepmode='backward'),
+                dict(step='all'),
             ]
         )
     )
 )
 
 # Add title to y axis
-fig.update_yaxes(title_text='Total Open Repositories')
+fig.update_yaxes(title_text='Open Repos')
     
 # Write out to file (.html)
-config = {"displayModeBar": False, "displaylogo": False}
-plot_div = plotly.offline.plot(
-    fig, include_plotlyjs=False, output_type="div", config=config
+config = {'displayModeBar': False, 'displaylogo': False}
+plotly_obj = plotly.offline.plot(
+    fig, include_plotlyjs=False, output_type='div', config=config
 )
-with open("_includes/chart.html", "w") as file:
-    file.write(plot_div)
-
-# Collect update data
+with open('_includes/plotly_obj.html', 'w') as file:
+    file.write(plotly_obj)
 
 # Grab timestamp
-data_updated = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+data_updated = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
 
 # Write out to file (.html)
 html_str = (
