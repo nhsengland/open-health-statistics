@@ -4,7 +4,7 @@
 
 {% include update.html %}
 
----
+<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
 
 Collecting statistics on open source NHS GitHub and GitLab repositories using end-to-end open source analytics: python, [plotly](https://plotly.com/python/), [github.io](https://pages.github.com/), and [github actions](https://github.com/features/actions).
 
