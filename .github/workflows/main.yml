@@ -1,4 +1,4 @@
-name: py
+name: GitHub Action Workflow
 
 on:
   schedule:
