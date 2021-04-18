@@ -1,4 +1,3 @@
-import urllib
 import urllib.request  # https://stackoverflow.com/a/41217363
 import json
 import pandas as pd
