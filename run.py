@@ -325,7 +325,8 @@ fig.add_trace(
 # Asthetics of the plot
 fig.update_layout(
     {"plot_bgcolor": "rgba(0, 0, 0, 0)", "paper_bgcolor": "rgba(0, 0, 0, 0)"},
-    autosize=False,
+    autosize=True,
+    margin=dict(l=50, r=50, b=50, t=50, pad=4, autoexpand=True),
     height=1000,
     hovermode="x",
 )
