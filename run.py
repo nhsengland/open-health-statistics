@@ -23,6 +23,7 @@ github_orgs = [
     "nhs-r-community",
     "nhsuk",
     "publichealthengland",
+    "CDU-data-science-team"
 ]
 
 # Get the GitHub data from the API (note we can only make 60 calls per hour so
