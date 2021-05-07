@@ -24,7 +24,11 @@ github_orgs = [
     "nhsuk",
     "publichealthengland",
     "CDU-data-science-team",
-    "the-strategy-unit"
+    "the-strategy-unit",
+    "ebmdatalab",
+    "opensafely",
+    "HFAnalyticsLab",
+    "nhs-bnssg-analytics"
 ]
 
 # Get the GitHub data from the API (note we can only make 60 calls per hour so
