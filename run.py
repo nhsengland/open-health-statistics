@@ -129,6 +129,13 @@ aggregate_latest_df = (
     .drop(columns="Date")
 )
 
+# Add todays date to a version of the latest output table
+aggregate_latest_df_ = aggregate_latest_df.copy()
+aggregate_latest_df_["Date"] = datetime.now().strftime("%Y-%m-%d")
+
+# Add the latest output table as a final row on aggregate_df with todays date
+aggregate_df = pd.concat([aggregate_df, aggregate_latest_df_])
+
 # Use the ordering of the output table to ensure lines get added to the plot
 # in the correct order
 aggregate_df["Org"] = pd.Categorical(
