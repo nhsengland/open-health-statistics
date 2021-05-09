@@ -1,0 +1,21 @@
+github_org_dict: {
+    "NHSX": "nhsx",
+    "NHS 111 Online - NHS Digital": "111Online",
+    "NHS Digital": "nhsdigital",
+    "NHS Connect": "nhsconnect",
+    "NHS England": "nhsengland",
+    "NHS-pycom": "nhs-pycom",
+    "NHS-R Community": "nhs-r-community",
+    "NHS.UK": "nhsuk",
+    "Public Health England": "publichealthengland",
+    "Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team": "CDU-data-science-team",
+    "NHS Midlands and Lancashire CSU - The Strategy Unit": "the-strategy-unit",
+    "University of Oxford - Evidence-Based Medicine Data Lab": "ebmdatalab",
+    "OpenSAFELY": "opensafely",
+    "The Health Foundation Analytics Lab": "HFAnalyticsLab",
+    "NHS BNSSG Analytics": "nhs-bnssg-analytics"
+}
+
+gitlab_group_dict: {
+    "NHS Business Services Authority": "2955125"
+}

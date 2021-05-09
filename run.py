@@ -1,183 +1,46 @@
-import urllib.request  # https://stackoverflow.com/a/41217363
-import json
+import yaml
 import pandas as pd
+
 from datetime import datetime
-import time
 import plotly
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 
+import github as github
+import gitlab as gitlab
+
+
+# Load in the config parameters
+with open("config.yaml", "r") as f:
+    config = yaml.load(f, Loader=yaml.FullLoader)
+
 # Data collection
 
-# GitHub
+# Pull the raw data from the APIs
+raw_github_df = github.pull_raw_df(config["github_org_dict"])
+raw_gitlab_df = gitlab.pull_raw_df(config["gitlab_group_dict"])
 
-# GitHub orgs
-github_orgs = [
-    "nhsx",
-    "111Online",
-    "NHSDigital",
-    "nhsconnect",
-    "nhsengland",
-    "nhs-pycom",
-    "nhs-r-community",
-    "nhsuk",
-    "publichealthengland",
-    "CDU-data-science-team",
-    "the-strategy-unit"
-]
+# Tidy the raw data
+tidy_github_df = github.tidy_raw_df(raw_github_df)
+tidy_gitlab_df = gitlab.tidy_raw_df(raw_gitlab_df)
 
-# Get the GitHub data from the API (note we can only make 60 calls per hour so
-# if we have over 60 orgs would have to try a different strategy)
-df_github = pd.DataFrame()
-for org in github_orgs:
-    data = [1]
-    page = 1
-    while bool(data) is True:
-        url = (
-            "https://api.github.com/orgs/"
-            + str(org)
-            + "/repos?page="
-            + str(page)
-            + "&per_page=100"
-        )
-        response = urllib.request.urlopen(url)
-        data = json.loads(response.read())
-        flat_data = pd.json_normalize(data)
-        df_github = df_github.append(flat_data)
-        page = page + 1
-
-# Add a column of 1s to sum for open_repos (this enables us to use sum() on all
-# columns later)
-df_github["open_repos"] = 1
-
-# Filter and rename columns
-df_github = df_github[
-    [
-        "owner.login",
-        "owner.html_url",
-        "created_at",
-        "open_repos",
-        "stargazers_count",
-        "forks_count",
-        "open_issues_count",
-        "license.name",
-        "language",
-    ]
-].rename(
-    columns={
-        "owner.login": "org",
-        "owner.html_url": "link",
-        "created_at": "date",
-        "stargazers_count": "stargazers",
-        "forks_count": "forks",
-        "open_issues_count": "open_issues",
-        "license.name": "license",
-    }
-)
-
-# GitLab
-
-# GitLab group ids
-gitlab_groups = [2955125]  # NHSBSA
-
-# Get the GitLab data from the API
-df_gitlab = pd.DataFrame()
-for group in gitlab_groups:
-    data = [1]
-    page = 1
-    while bool(data) is True:
-        url = (
-            "https://gitlab.com/api/v4/groups/"
-            + str(group)
-            + "/projects?include_subgroups=true&page="
-            + str(page)
-            + "&per_page=100"
-        )
-        response = urllib.request.urlopen(url)
-        data = json.loads(response.read())
-        flat_data = pd.json_normalize(data)
-        df_gitlab = df_gitlab.append(flat_data)
-        page = page + 1
-        time.sleep(0.2)  # Avoid unauthenticated requests limit (10 per sec)
-
-# Subset the path to get the group name
-df_gitlab["org"] = df_gitlab["namespace.full_path"].apply(lambda x: x.split("/")[0])
-
-# Add the link
-df_gitlab["link"] = "https://gitlab.com/" + df_gitlab["org"]
-
-# Add a column of 1s to sum for open_repos (this enables us to use sum() on all
-# columns later)
-df_gitlab["open_repos"] = 1
-
-# Unfortunately it is missing license + language data so we have an additional
-# step to get this...
-
-# GitLab project ids
-gitlab_projects = list(df_gitlab["id"])
-
-# Get the GitLab license + language data for each project
-top_languages = []
-licenses = []
-for project in gitlab_projects:
-
-    # Then get the license for each project
-    url = "https://gitlab.com/api/v4/projects/" + str(project) + "?license=true"
-    response = urllib.request.urlopen(url)
-    license_dict = json.loads(response.read())["license"]
-    license_ = license_dict.get("name") if license_dict else None
-
-    # Then get the top language for each project
-    url = "https://gitlab.com/api/v4/projects/" + str(project) + "/languages"
-    response = urllib.request.urlopen(url)
-    languages = json.loads(response.read())
-    top_language = max(languages, key=languages.get) if languages else None
-
-    # Append the data
-    licenses.append(license_)
-    top_languages.append(top_language)
-
-# Add the extra columns to the GitLab df
-df_gitlab["license"] = licenses
-df_gitlab["language"] = top_languages
-
-# Filter and rename columns
-df_gitlab = df_gitlab[
-    [
-        "org",
-        "link",
-        "created_at",
-        "open_repos",
-        "star_count",
-        "forks_count",
-        "open_issues_count",
-        "license",
-        "language",
-    ]
-].rename(
-    columns={
-        "created_at": "date",
-        "star_count": "stargazers",
-        "forks_count": "forks",
-        "open_issues_count": "open_issues",
-    }
-)
-
-# Combine GitHub and GitLab tables
-df_combined = pd.concat([df_github, df_gitlab]).reset_index(drop=True)
+# Combine tidy dataframes
+df = pd.concat([tidy_github_df, tidy_gitlab_df]).reset_index(drop=True)
 
 # Data processing
 
+# Make the org column a hyperlink to the link column
+df["org"] = "<a href='" + df["link"] + "'>" + df["org"] + "</a>"
+
 # Now we have a standardised table we can begin to split and aggregate... start
 # by changing date to a date type (day only)
-df_combined["date"] = pd.to_datetime(df_combined["date"]).apply(
-    lambda x: x.strftime("%Y-%m-%d")
-)
+df["date"] = pd.to_datetime(df["date"]).apply(lambda x: x.strftime("%Y-%m-%d"))
 
-# Cumulative sum by org, link and date
-df_combined_cumsum = (
-    df_combined.groupby(["org", "link", "date"])
+# Cumulative sum by org, link and date of the numerical columns
+aggregate_df = (
+    df
+    .groupby(["org", "date"])
     .sum()
     .groupby(level=[0])
     .cumsum()
@@ -185,83 +48,94 @@ df_combined_cumsum = (
 )
 
 # Now we need to get the top license + language at each date for each
-# organisation. This is not so straight forward.
-
-# Loop over each org and grab the top license + language at each date
-df_combined_cumsum_additional = pd.DataFrame()
-for org, df in df_combined.groupby("org"):
-
-    # Define the cols
-    cols = ["license", "language"]
-
-    # Convert the date and cols to categoricals (within their org). This
-    # means when we group by them it will find all combinations (so we get a
-    # result for a license even if it didn't increment at that date)
-    cat_cols = ["date"] + cols
-    df[cat_cols] = df[cat_cols].apply(lambda x: x.astype("category"))
-
-    # Loop over each col
-    additional_df_list = []
-    for col in cols:
-
-        # Get cumulative counts of each value for each org
-        df_cumsum = (
-            df.groupby(["date", col])
-            .size()
-            .groupby(level=[1])
-            .cumsum()
-            .to_frame("count")
-            .reset_index()
+# organisation. This is not so straight forward but wrapped in a function as 
+# is the same for both columns
+def create_top_column_df(df, column):
+    return (
+        df
+        # Get the count of new columns values at each date
+        .groupby(["org", "date", column])
+        .size()
+        # Convert to a cumulative count of the column values
+        .groupby(level=[0, 2])
+        .cumsum()
+        .reset_index(level=column)
+        # Get a column per value
+        .pivot(columns=column)
+        .droplevel(0, axis=1)
+        # Forward fill so that each column has the previous value until it 
+        # increases again
+        .groupby(["org"])
+        .ffill()
+        # Convert to long and remove NaNs
+        .reset_index()
+        .melt(
+            id_vars=["org", "date"],
+            var_name=column,
+            value_name="count"
         )
-
-        # Now get the highest count each day
-        df_cumsum_max = df_cumsum.groupby("date").max().reset_index()
-
-        # Now inner join and ensure we only have one row per day
-        df_top = (
-            pd.merge(df_cumsum, df_cumsum_max)
-            .drop_duplicates(["date", "count"])
-            .drop(columns="count")
+        .dropna()
+        # Keep the column value with the largest count each day
+        .sort_values(by=["org", "date", "count"])
+        .drop_duplicates(
+            subset=["org", "date"],
+            keep="last"
         )
+        # Get rid of the count column
+        .drop(columns=["count"])
+    )
+top_license_df = create_top_column_df(df, "license")
+top_language_df = create_top_column_df(df, "language")
 
-        # Append it to the new list of dfs
-        additional_df_list.append(df_top)
-
-    # Combine the list of dfs into a df
-    df_additional = pd.merge(*additional_df_list)
-
-    # Add the org and append to df_combined_cumsum_additional
-    df_additional["org"] = org
-    df_combined_cumsum_additional = df_combined_cumsum_additional.append(df_additional)
-
-# Now merge the additional df back onto to the main df so we now have the top
-# license + language for each org at each day there was a change
-df_combined_cumsum = pd.merge(df_combined_cumsum, df_combined_cumsum_additional)
+# Now merge these back onto the aggregate_df
+aggregate_df = (
+    aggregate_df
+    # Left join as we will not have a top license + language on a given date if
+    # the column was a NaN or None
+    .merge(top_license_df, how="left")
+    .merge(top_language_df, how="left")
+    # Forward fill so that NaN is the previous value - standdard .ffill() 
+    # doesn't work so has to be wrapped in a lambda
+    # https://stackoverflow.com/questions/63272417/pandas-groupby-drops-group-columns-after-fillna-in-1-1-0
+    .groupby(["org"])
+    .apply(lambda df: df.ffill())
+)
 
 # Output data
 
 # Make the columns nice
-df_combined_cumsum = df_combined_cumsum.rename(
-    columns={
-        "org": "Org",
-        "link": "Link",
-        "date": "Date",
-        "open_repos": "Open Repos",
-        "stargazers": "Stargazers",
-        "forks": "Forks",
-        "open_issues": "Open Issues",
-        "license": "Top License",
-        "language": "Top Language",
-    }
+aggregate_df = (
+    aggregate_df
+    .rename(
+        columns={
+            "org": "Org",
+            "link": "Link",
+            "date": "Date",
+            "open_repos": "Open Repos",
+            "stargazers": "Stargazers",
+            "forks": "Forks",
+            "open_issues": "Open Issues",
+            "license": "Top License",
+            "language": "Top Language"
+        }
+    )
 )
 
-# Format the output table (this is the latest row for each org)
-df_combined_cumsum_latest = (
-    df_combined_cumsum.sort_values("Date")
+# Format the latest output table
+aggregate_latest_df = (
+    aggregate_df
     .groupby("Org")
     .tail(1)
-    .drop(columns="Date")
     .sort_values("Open Repos", ascending=False)
+    .drop(columns="Date")
+)
+
+# Use the ordering of the output table to ensure lines get added to the plot
+# in the correct order
+aggregate_df["Org"] = pd.Categorical(
+    values=aggregate_df["Org"],
+    categories=aggregate_latest_df["Org"],
+    ordered=True
 )
 
 # Initialise plot
@@ -273,49 +147,32 @@ fig = make_subplots(
 )
 
 # Loop over each org and add line to plot
-for org in list(df_combined_cumsum_latest["Org"]):
-
-    # Filter the df
-    df_ = df_combined_cumsum[df_combined_cumsum["Org"] == org]
+for org_name, org_df in aggregate_df.groupby("Org"):
 
     # Add the trace plot
     fig.add_trace(
         go.Scatter(
-            x=df_["Date"],
-            y=df_["Open Repos"],
+            x=org_df["Date"],
+            y=org_df["Open Repos"],
             mode="lines",
-            name=org,
+            name=org_name,
             line={"shape": "hvh"},
             # TODO: # Add discrete colour sequence if needed
         ),
         row=1,
-        col=1,
+        col=1
     )
 
-# Add the table
-bold_header = [
-    "<b>" + c + "<b>" for c in df_combined_cumsum_latest.columns if c != "Link"
-]
-hyperlinked_first_col = (
-    "<a href='"
-    + df_combined_cumsum_latest["Link"]
-    + "'>"
-    + df_combined_cumsum_latest["Org"]
-    + "</a>"
-).tolist()
-remaining_cols = [
-    df_combined_cumsum_latest[c].tolist() for c in df_combined_cumsum_latest.columns[2:]
-]
-
+# Add the table (bold header)
 fig.add_trace(
     go.Table(
         header=dict(
-            values=bold_header,
+            values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
             fill_color="white",  # If 'rgba(0, 0, 0, 0)' then information not hidden when scrolling
             align="left",
         ),
         cells=dict(
-            values=[hyperlinked_first_col] + remaining_cols,
+            values=aggregate_latest_df.T.values.tolist(),
             fill_color="white",
             align="left",
         ),
@@ -369,3 +226,4 @@ html_str = (
 )
 with open("_includes/update.html", "w") as file:
     file.write(html_str)
+    
