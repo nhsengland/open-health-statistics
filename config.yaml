@@ -1,10 +1,11 @@
-github_org_dict: {
+github_org_dict:
+  {
     "NHSX": "nhsx",
     "NHS 111 Online - NHS Digital": "111Online",
     "NHS Digital": "nhsdigital",
     "NHS Connect": "nhsconnect",
     "NHS England": "nhsengland",
-    "NHS-pycom": "nhs-pycom",
+    "Python Community for Healthcare": "nhs-pycom",
     "NHS-R Community": "nhs-r-community",
     "NHS.UK": "nhsuk",
     "Public Health England": "publichealthengland",
@@ -13,9 +14,7 @@ github_org_dict: {
     "University of Oxford - Evidence-Based Medicine Data Lab": "ebmdatalab",
     "OpenSAFELY": "opensafely",
     "The Health Foundation Analytics Lab": "HFAnalyticsLab",
-    "NHS BNSSG Analytics": "nhs-bnssg-analytics"
-}
+    "NHS BNSSG Analytics": "nhs-bnssg-analytics",
+  }
 
-gitlab_group_dict: {
-    "NHS Business Services Authority": "2955125"
-}
+gitlab_group_dict: { "NHS Business Services Authority": "2955125" }
