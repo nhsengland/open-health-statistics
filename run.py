@@ -5,10 +5,8 @@ import plotly
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-
 import github as github
 import gitlab as gitlab
-
 
 # Load in the config parameters
 with open("config.yaml", "r") as f:
