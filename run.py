@@ -36,16 +36,11 @@ df["date"] = pd.to_datetime(df["date"]).apply(lambda x: x.strftime("%Y-%m-%d"))
 
 # Cumulative sum by org, link and date of the numerical columns
 aggregate_df = (
-    df
-    .groupby(["org", "date"])
-    .sum()
-    .groupby(level=[0])
-    .cumsum()
-    .reset_index()
+    df.groupby(["org", "date"]).sum().groupby(level=[0]).cumsum().reset_index()
 )
 
 # Now we need to get the top license + language at each date for each
-# organisation. This is not so straight forward but wrapped in a function as 
+# organisation. This is not so straight forward but wrapped in a function as
 # is the same for both columns
 def create_top_column_df(df, column):
     return (
@@ -60,27 +55,22 @@ def create_top_column_df(df, column):
         # Get a column per value
         .pivot(columns=column)
         .droplevel(0, axis=1)
-        # Forward fill so that each column has the previous value until it 
+        # Forward fill so that each column has the previous value until it
         # increases again
         .groupby(["org"])
         .ffill()
         # Convert to long and remove NaNs
         .reset_index()
-        .melt(
-            id_vars=["org", "date"],
-            var_name=column,
-            value_name="count"
-        )
+        .melt(id_vars=["org", "date"], var_name=column, value_name="count")
         .dropna()
         # Keep the column value with the largest count each day
         .sort_values(by=["org", "date", "count"])
-        .drop_duplicates(
-            subset=["org", "date"],
-            keep="last"
-        )
+        .drop_duplicates(subset=["org", "date"], keep="last")
         # Get rid of the count column
         .drop(columns=["count"])
     )
+
+
 top_license_df = create_top_column_df(df, "license")
 top_language_df = create_top_column_df(df, "language")
 
@@ -91,7 +81,7 @@ aggregate_df = (
     # the column was a NaN or None
     .merge(top_license_df, how="left")
     .merge(top_language_df, how="left")
-    # Forward fill so that NaN is the previous value - standdard .ffill() 
+    # Forward fill so that NaN is the previous value - standdard .ffill()
     # doesn't work so has to be wrapped in a lambda
     # https://stackoverflow.com/questions/63272417/pandas-groupby-drops-group-columns-after-fillna-in-1-1-0
     .groupby(["org"])
@@ -101,27 +91,23 @@ aggregate_df = (
 # Output data
 
 # Make the columns nice
-aggregate_df = (
-    aggregate_df
-    .rename(
-        columns={
-            "org": "Org",
-            "link": "Link",
-            "date": "Date",
-            "open_repos": "Open Repos",
-            "stargazers": "Stargazers",
-            "forks": "Forks",
-            "open_issues": "Open Issues",
-            "license": "Top License",
-            "language": "Top Language"
-        }
-    )
+aggregate_df = aggregate_df.rename(
+    columns={
+        "org": "Org",
+        "link": "Link",
+        "date": "Date",
+        "open_repos": "Open Repos",
+        "stargazers": "Stargazers",
+        "forks": "Forks",
+        "open_issues": "Open Issues",
+        "license": "Top License",
+        "language": "Top Language",
+    }
 )
 
 # Format the latest output table
 aggregate_latest_df = (
-    aggregate_df
-    .groupby("Org")
+    aggregate_df.groupby("Org")
     .tail(1)
     .sort_values("Open Repos", ascending=False)
     .drop(columns="Date")
@@ -137,9 +123,7 @@ aggregate_df = pd.concat([aggregate_df, aggregate_latest_df_])
 # Use the ordering of the output table to ensure lines get added to the plot
 # in the correct order
 aggregate_df["Org"] = pd.Categorical(
-    values=aggregate_df["Org"],
-    categories=aggregate_latest_df["Org"],
-    ordered=True
+    values=aggregate_df["Org"], categories=aggregate_latest_df["Org"], ordered=True
 )
 
 # Initialise plot
@@ -164,7 +148,7 @@ for org_name, org_df in aggregate_df.groupby("Org"):
             # TODO: # Add discrete colour sequence if needed
         ),
         row=1,
-        col=1
+        col=1,
     )
 
 # Add the table (bold header)
@@ -192,6 +176,7 @@ fig.update_layout(
     margin=dict(l=50, r=50, b=50, t=50, pad=4, autoexpand=True),
     height=1000,
     hovermode="x",
+    showlegend=False,
 )
 
 # Add title and dynamic range selector to x axis
@@ -230,4 +215,3 @@ html_str = (
 )
 with open("_includes/update.html", "w") as file:
     file.write(html_str)
-    
