@@ -181,7 +181,7 @@ fig.update_layout(
 
 # Add title and dynamic range selector to x axis
 fig.update_xaxes(
-    title_text="Date",
+    title_text="<b>" + "Date" + "<b>",
     rangeselector=dict(
         buttons=list(
             [
@@ -194,7 +194,7 @@ fig.update_xaxes(
 )
 
 # Add title to y axis
-fig.update_yaxes(title_text="Open Repos")
+fig.update_yaxes(title_text="<b>" + "Open Repos" + "<b>")
 
 # Write out to file (.html)
 config = {"displayModeBar": False, "displaylogo": False}
