@@ -156,12 +156,12 @@ fig.add_trace(
     go.Table(
         header=dict(
             values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
-            fill_color="white",  # If 'rgba(0, 0, 0, 0)' then information not hidden when scrolling
+            fill_color="rgba(240, 244, 245, 1)",
             align="left",
         ),
         cells=dict(
             values=aggregate_latest_df.T.values.tolist(),
-            fill_color="white",
+            fill_color="rgba(240, 244, 245, 1)",
             align="left",
         ),
     ),
@@ -171,7 +171,7 @@ fig.add_trace(
 
 # Asthetics of the plot
 fig.update_layout(
-    {"plot_bgcolor": "rgba(0, 0, 0, 0)", "paper_bgcolor": "rgba(0, 0, 0, 0)"},
+    {"plot_bgcolor": "rgba(240, 244, 245, 1)", "paper_bgcolor": "rgba(240, 244, 245, 1)"},
     autosize=True,
     margin=dict(l=50, r=50, b=50, t=50, pad=4, autoexpand=True),
     height=1000,
