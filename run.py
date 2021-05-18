@@ -3,7 +3,6 @@ import pandas as pd
 from datetime import datetime
 import plotly
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
 import github as github
 import gitlab as gitlab
@@ -126,8 +125,41 @@ aggregate_latest_df = (
     aggregate_df.groupby("Org")
     .tail(1)
     .sort_values("Open Repos", ascending=False)
-    .drop(columns="Date")
+    .drop(columns=["Org Short", "Date"])
 )
+
+# Create output table
+fig = go.Figure()
+fig.add_trace(
+    go.Table(
+        header=dict(
+            values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
+            fill_color="rgba(240, 244, 245, 1)",
+            align="left"
+        ),
+        cells=dict(
+            values=aggregate_latest_df.T.values.tolist(),
+            fill_color="rgba(240, 244, 245, 1)",
+            align="left"
+        )
+    )
+)
+
+# Asthetics of the table
+fig.update_layout(
+    {"plot_bgcolor": "rgba(240, 244, 245, 1)", "paper_bgcolor": "rgba(240, 244, 245, 1)"},
+    autosize=True,
+    height=500,
+)
+
+
+# Write out to file (.html)
+config = {"displayModeBar": False, "displaylogo": False}
+plotly_table = plotly.offline.plot(
+    fig, include_plotlyjs=False, output_type="div", config=config
+)
+with open("_includes/plotly_table.html", "w") as file:
+    file.write(plotly_table)
 
 # Add todays date to a version of the latest output table
 aggregate_latest_df_ = aggregate_latest_df.copy()
@@ -145,12 +177,7 @@ aggregate_df["Org"] = pd.Categorical(
 )
 
 # Initialise plot
-fig = make_subplots(
-    rows=2,
-    cols=1,
-    vertical_spacing=0.1,
-    specs=[[{"type": "scatter"}], [{"type": "table"}]],
-)
+fig = go.Figure()
 
 # Loop over each org and add line to plot
 for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
@@ -163,37 +190,16 @@ for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
             mode="lines",
             name=org_short,
             line={"shape": "hvh"},
-            # TODO: # Add discrete colour sequence if needed
-        ),
-        row=1,
-        col=1,
+        )
     )
-
-# Add the table (bold header)
-fig.add_trace(
-    go.Table(
-        header=dict(
-            values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
-            fill_color="rgba(240, 244, 245, 1)",
-            align="left",
-        ),
-        cells=dict(
-            values=aggregate_latest_df.T.values.tolist(),
-            fill_color="rgba(240, 244, 245, 1)",
-            align="left",
-        ),
-    ),
-    row=2,
-    col=1,
-)
 
 # Asthetics of the plot
 fig.update_layout(
     {"plot_bgcolor": "rgba(240, 244, 245, 1)", "paper_bgcolor": "rgba(240, 244, 245, 1)"},
     autosize=True,
     margin=dict(l=50, r=50, b=50, t=50, pad=4, autoexpand=True),
-    height=1000,
-    hovermode="x",
+    height=500,
+    hovermode="x"
 )
 
 # Add title and dynamic range selector to x axis
@@ -204,10 +210,10 @@ fig.update_xaxes(
             [
                 dict(count=6, label="6m", step="month", stepmode="backward"),
                 dict(count=1, label="1y", step="year", stepmode="backward"),
-                dict(step="all"),
+                dict(step="all")
             ]
         )
-    ),
+    )
 )
 
 # Add title to y axis
@@ -215,11 +221,11 @@ fig.update_yaxes(title_text="<b>" + "Open Repos" + "<b>")
 
 # Write out to file (.html)
 config = {"displayModeBar": False, "displaylogo": False}
-plotly_obj = plotly.offline.plot(
+plotly_chart = plotly.offline.plot(
     fig, include_plotlyjs=False, output_type="div", config=config
 )
-with open("_includes/plotly_obj.html", "w") as file:
-    file.write(plotly_obj)
+with open("_includes/plotly_chart.html", "w") as file:
+    file.write(plotly_chart)
 
 # Grab timestamp
 data_updated = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
