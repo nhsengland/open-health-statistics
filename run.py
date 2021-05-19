@@ -3,7 +3,6 @@ import pandas as pd
 from datetime import datetime
 import plotly
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
 import github as github
 import gitlab as gitlab
@@ -27,7 +26,14 @@ df = pd.concat([tidy_github_df, tidy_gitlab_df]).reset_index(drop=True)
 
 # Data processing
 
-# Make the org column a hyperlink to the link column
+# Make an org_short hyperlink column and make the org column a hyperlink
+df["org_short"] = (
+    "<a href='" 
+    + df["link"] 
+    + "'>" 
+    + df["org"].apply(lambda x: x[:13] + "..." if len(x) > 16 else x)
+    + "</a>"
+)
 df["org"] = "<a href='" + df["link"] + "'>" + df["org"] + "</a>"
 
 # Now we have a standardised table we can begin to split and aggregate... start
@@ -36,7 +42,12 @@ df["date"] = pd.to_datetime(df["date"]).apply(lambda x: x.strftime("%Y-%m-%d"))
 
 # Cumulative sum by org, link and date of the numerical columns
 aggregate_df = (
-    df.groupby(["org", "date"]).sum().groupby(level=[0]).cumsum().reset_index()
+    df
+    .groupby(["org", "org_short", "date"])
+    .sum()
+    .groupby(level=[0])
+    .cumsum()
+    .reset_index()
 )
 
 # Now we need to get the top license + language at each date for each
@@ -46,7 +57,7 @@ def create_top_column_df(df, column):
     return (
         df
         # Get the count of new columns values at each date
-        .groupby(["org", "date", column])
+        .groupby(["org", "org_short", "date", column])
         .size()
         # Convert to a cumulative count of the column values
         .groupby(level=[0, 2])
@@ -57,15 +68,19 @@ def create_top_column_df(df, column):
         .droplevel(0, axis=1)
         # Forward fill so that each column has the previous value until it
         # increases again
-        .groupby(["org"])
+        .groupby(["org", "org_short"])
         .ffill()
         # Convert to long and remove NaNs
         .reset_index()
-        .melt(id_vars=["org", "date"], var_name=column, value_name="count")
+        .melt(
+            id_vars=["org", "org_short", "date"], 
+            var_name=column, 
+            value_name="count"
+        )
         .dropna()
         # Keep the column value with the largest count each day
-        .sort_values(by=["org", "date", "count"])
-        .drop_duplicates(subset=["org", "date"], keep="last")
+        .sort_values(by=["org", "org_short", "date", "count"])
+        .drop_duplicates(subset=["org", "org_short", "date"], keep="last")
         # Get rid of the count column
         .drop(columns=["count"])
     )
@@ -94,7 +109,7 @@ aggregate_df = (
 aggregate_df = aggregate_df.rename(
     columns={
         "org": "Org",
-        "link": "Link",
+        "org_short": "Org Short",
         "date": "Date",
         "open_repos": "Open Repos",
         "stargazers": "Stargazers",
@@ -110,8 +125,41 @@ aggregate_latest_df = (
     aggregate_df.groupby("Org")
     .tail(1)
     .sort_values("Open Repos", ascending=False)
-    .drop(columns="Date")
+    .drop(columns=["Org Short", "Date"])
 )
+
+# Create output table
+fig = go.Figure()
+fig.add_trace(
+    go.Table(
+        header=dict(
+            values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
+            fill_color="rgba(240, 244, 245, 1)",
+            align="left"
+        ),
+        cells=dict(
+            values=aggregate_latest_df.T.values.tolist(),
+            fill_color="rgba(240, 244, 245, 1)",
+            align="left"
+        )
+    )
+)
+
+# Asthetics of the table
+fig.update_layout(
+    {"plot_bgcolor": "rgba(240, 244, 245, 1)", "paper_bgcolor": "rgba(240, 244, 245, 1)"},
+    autosize=True,
+    height=500,
+)
+
+
+# Write out to file (.html)
+config = {"displayModeBar": False, "displaylogo": False}
+plotly_table = plotly.offline.plot(
+    fig, include_plotlyjs=False, output_type="div", config=config
+)
+with open("_includes/plotly_table.html", "w") as file:
+    file.write(plotly_table)
 
 # Add todays date to a version of the latest output table
 aggregate_latest_df_ = aggregate_latest_df.copy()
@@ -123,86 +171,61 @@ aggregate_df = pd.concat([aggregate_df, aggregate_latest_df_])
 # Use the ordering of the output table to ensure lines get added to the plot
 # in the correct order
 aggregate_df["Org"] = pd.Categorical(
-    values=aggregate_df["Org"], categories=aggregate_latest_df["Org"], ordered=True
+    values=aggregate_df["Org"], 
+    categories=aggregate_latest_df["Org"], 
+    ordered=True
 )
 
 # Initialise plot
-fig = make_subplots(
-    rows=2,
-    cols=1,
-    vertical_spacing=0.1,
-    specs=[[{"type": "scatter"}], [{"type": "table"}]],
-)
+fig = go.Figure()
 
 # Loop over each org and add line to plot
-for org_name, org_df in aggregate_df.groupby("Org"):
-
+for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
+    
     # Add the trace plot
     fig.add_trace(
         go.Scatter(
             x=org_df["Date"],
             y=org_df["Open Repos"],
             mode="lines",
-            name=org_name,
+            name=org_short,
             line={"shape": "hvh"},
-            # TODO: # Add discrete colour sequence if needed
-        ),
-        row=1,
-        col=1,
+        )
     )
-
-# Add the table (bold header)
-fig.add_trace(
-    go.Table(
-        header=dict(
-            values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
-            fill_color="white",  # If 'rgba(0, 0, 0, 0)' then information not hidden when scrolling
-            align="left",
-        ),
-        cells=dict(
-            values=aggregate_latest_df.T.values.tolist(),
-            fill_color="white",
-            align="left",
-        ),
-    ),
-    row=2,
-    col=1,
-)
 
 # Asthetics of the plot
 fig.update_layout(
-    {"plot_bgcolor": "rgba(0, 0, 0, 0)", "paper_bgcolor": "rgba(0, 0, 0, 0)"},
+    {"plot_bgcolor": "rgba(240, 244, 245, 1)", "paper_bgcolor": "rgba(240, 244, 245, 1)"},
     autosize=True,
     margin=dict(l=50, r=50, b=50, t=50, pad=4, autoexpand=True),
-    height=1000,
-    hovermode="x",
-    showlegend=False,
+    height=500,
+    hovermode="x"
 )
 
 # Add title and dynamic range selector to x axis
 fig.update_xaxes(
-    title_text="Date",
+    title_text="<b>" + "Date" + "<b>",
     rangeselector=dict(
         buttons=list(
             [
                 dict(count=6, label="6m", step="month", stepmode="backward"),
                 dict(count=1, label="1y", step="year", stepmode="backward"),
-                dict(step="all"),
+                dict(step="all")
             ]
         )
-    ),
+    )
 )
 
 # Add title to y axis
-fig.update_yaxes(title_text="Open Repos")
+fig.update_yaxes(title_text="<b>" + "Open Repos" + "<b>")
 
 # Write out to file (.html)
 config = {"displayModeBar": False, "displaylogo": False}
-plotly_obj = plotly.offline.plot(
+plotly_chart = plotly.offline.plot(
     fig, include_plotlyjs=False, output_type="div", config=config
 )
-with open("_includes/plotly_obj.html", "w") as file:
-    file.write(plotly_obj)
+with open("_includes/plotly_chart.html", "w") as file:
+    file.write(plotly_chart)
 
 # Grab timestamp
 data_updated = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
