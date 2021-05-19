@@ -57,7 +57,7 @@ def create_top_column_df(df, column):
     return (
         df
         # Get the count of new columns values at each date
-        .groupby(["org", "org_short", "date", column])
+        .groupby(["org", "date", column])
         .size()
         # Convert to a cumulative count of the column values
         .groupby(level=[0, 2])
@@ -68,19 +68,19 @@ def create_top_column_df(df, column):
         .droplevel(0, axis=1)
         # Forward fill so that each column has the previous value until it
         # increases again
-        .groupby(["org", "org_short"])
+        .groupby(["org"])
         .ffill()
         # Convert to long and remove NaNs
         .reset_index()
         .melt(
-            id_vars=["org", "org_short", "date"], 
+            id_vars=["org", "date"], 
             var_name=column, 
             value_name="count"
         )
         .dropna()
         # Keep the column value with the largest count each day
-        .sort_values(by=["org", "org_short", "date", "count"])
-        .drop_duplicates(subset=["org", "org_short", "date"], keep="last")
+        .sort_values(by=["org", "date", "count"])
+        .drop_duplicates(subset=["org", "date"], keep="last")
         # Get rid of the count column
         .drop(columns=["count"])
     )
