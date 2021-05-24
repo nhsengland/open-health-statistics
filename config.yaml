@@ -12,7 +12,8 @@ github_org_dict:
     "Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team": "CDU-data-science-team",
     "NHS Midlands and Lancashire CSU - The Strategy Unit": "the-strategy-unit",
     "University of Oxford - Evidence-Based Medicine Data Lab": "ebmdatalab",
-    "OpenSAFELY": "opensafely",
+    "OpenSAFELY Studies": "opensafely",
+    "OpenSAFELY Core": "opensafely-core",
     "The Health Foundation Analytics Lab": "HFAnalyticsLab",
     "NHS BNSSG Analytics": "nhs-bnssg-analytics",
   }
