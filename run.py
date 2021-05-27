@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import datetime
 import plotly
 import plotly.graph_objects as go
+import plotly.express as px
 
 import github as github
 import gitlab as gitlab
@@ -190,6 +191,7 @@ for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
             mode="lines",
             name=org_short,
             line={"shape": "hvh"},
+            colors = px.colors.qualitative.Dark24
         )
     )
 
