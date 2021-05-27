@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import datetime
 import plotly
 import plotly.graph_objects as go
+import plotly.express as px
 
 import github as github
 import gitlab as gitlab
@@ -28,9 +29,9 @@ df = pd.concat([tidy_github_df, tidy_gitlab_df]).reset_index(drop=True)
 
 # Make an org_short hyperlink column and make the org column a hyperlink
 df["org_short"] = (
-    "<a href='" 
-    + df["link"] 
-    + "'>" 
+    "<a href='"
+    + df["link"]
+    + "'>"
     + df["org"].apply(lambda x: x[:13] + "..." if len(x) > 16 else x)
     + "</a>"
 )
@@ -42,8 +43,7 @@ df["date"] = pd.to_datetime(df["date"]).apply(lambda x: x.strftime("%Y-%m-%d"))
 
 # Cumulative sum by org, link and date of the numerical columns
 aggregate_df = (
-    df
-    .groupby(["org", "org_short", "date"])
+    df.groupby(["org", "org_short", "date"])
     .sum()
     .groupby(level=[0])
     .cumsum()
@@ -72,11 +72,7 @@ def create_top_column_df(df, column):
         .ffill()
         # Convert to long and remove NaNs
         .reset_index()
-        .melt(
-            id_vars=["org", "date"], 
-            var_name=column, 
-            value_name="count"
-        )
+        .melt(id_vars=["org", "date"], var_name=column, value_name="count")
         .dropna()
         # Keep the column value with the largest count each day
         .sort_values(by=["org", "date", "count"])
@@ -135,19 +131,22 @@ fig.add_trace(
         header=dict(
             values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
             fill_color="rgba(240, 244, 245, 1)",
-            align="left"
+            align="left",
         ),
         cells=dict(
             values=aggregate_latest_df.T.values.tolist(),
             fill_color="rgba(240, 244, 245, 1)",
-            align="left"
-        )
+            align="left",
+        ),
     )
 )
 
 # Asthetics of the table
 fig.update_layout(
-    {"plot_bgcolor": "rgba(240, 244, 245, 1)", "paper_bgcolor": "rgba(240, 244, 245, 1)"},
+    {
+        "plot_bgcolor": "rgba(240, 244, 245, 1)",
+        "paper_bgcolor": "rgba(240, 244, 245, 1)",
+    },
     autosize=True,
     height=500,
 )
@@ -171,9 +170,7 @@ aggregate_df = pd.concat([aggregate_df, aggregate_latest_df_])
 # Use the ordering of the output table to ensure lines get added to the plot
 # in the correct order
 aggregate_df["Org"] = pd.Categorical(
-    values=aggregate_df["Org"], 
-    categories=aggregate_latest_df["Org"], 
-    ordered=True
+    values=aggregate_df["Org"], categories=aggregate_latest_df["Org"], ordered=True
 )
 
 # Initialise plot
@@ -181,7 +178,7 @@ fig = go.Figure()
 
 # Loop over each org and add line to plot
 for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
-    
+
     # Add the trace plot
     fig.add_trace(
         go.Scatter(
@@ -193,13 +190,24 @@ for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
         )
     )
 
+# Make our own colour scale from plotly.express
+colour_scale = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
+
+# Loop through chart after adding traces to change colours
+num_orgs = len(aggregate_df["Org"].unique())
+for i in list(range(0, num_orgs)):
+    fig["data"][i]["line"]["color"] = colour_scale[i]
+
 # Asthetics of the plot
 fig.update_layout(
-    {"plot_bgcolor": "rgba(240, 244, 245, 1)", "paper_bgcolor": "rgba(240, 244, 245, 1)"},
+    {
+        "plot_bgcolor": "rgba(240, 244, 245, 1)",
+        "paper_bgcolor": "rgba(240, 244, 245, 1)",
+    },
     autosize=True,
     margin=dict(l=50, r=50, b=50, t=50, pad=4, autoexpand=True),
     height=500,
-    hovermode="x"
+    hovermode="x",
 )
 
 # Add title and dynamic range selector to x axis
@@ -210,10 +218,10 @@ fig.update_xaxes(
             [
                 dict(count=6, label="6m", step="month", stepmode="backward"),
                 dict(count=1, label="1y", step="year", stepmode="backward"),
-                dict(step="all")
+                dict(step="all"),
             ]
         )
-    )
+    ),
 )
 
 # Add title to y axis
