@@ -1,16 +1,3 @@
-<nav class="nhsuk-breadcrumb app-breadcrumb" aria-label="Breadcrumb">
-    <div class="nhsuk-width-container">
-    <ol class="nhsuk-breadcrumb__list">
-        <li class="nhsuk-breadcrumb__item">
-        <a class="nhsuk-breadcrumb__link" href="/">Home</a>
-        </li>
-    </ol>
-    <p class="nhsuk-breadcrumb__back">
-        <a class="nhsuk-breadcrumb__backlink" href="/">Back to Home</a>
-    </p>
-    </div>
-</nav>
-
 # Open Health Statistics - How it's made
 
 test
@@ -28,17 +15,13 @@ test
 
 Plotly is a [free and open source](https://plotly.com/python/is-plotly-free/) graphing library that that supports over 40 interactive, publication-quality graphs. It is available in Python, R, and JavaScript although the rendering process uses the Plotly.js JavaScript library under the hood. We use Plotly to save the graph to standalone HTML files.
 
-```Python
+```
 # example plotly chart syntax
 import plotly.graph_objects as go
 cols=['A', 'B', 'C','D', 'E', 'F']
 
 fig = go.Figure([go.Bar(x=cols, y=[6, 14, 33, 23, 9, 2])])
 fig.show()
-```
-
-```Markdown
-{% include plotly_example.html %}
 ```
 
 ```Python
