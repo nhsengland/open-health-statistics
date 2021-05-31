@@ -31,9 +31,9 @@ Plotly is a [free and open source](https://plotly.com/python/is-plotly-free/) gr
 ```Python
 # example plotly chart syntax
 import plotly.graph_objects as go
-animals=['giraffes', 'orangutans', 'monkeys']
+cols=['A', 'B', 'C','D', 'E', 'F']
 
-fig = go.Figure([go.Bar(x=animals, y=[20, 14, 23])])
+fig = go.Figure([go.Bar(x=cols, y=[6, 14, 33, 23, 9, 2])])
 fig.show()
 ```
 
