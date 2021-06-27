@@ -2,9 +2,9 @@
 
 # Open Source Healthcare Statistics
 
-### Statistics on open source NHS and health related code repositories.
+### Statistics on open source NHS and healthcare related code repositories.
 
-<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
+<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-0">
 
 Open source is the practice of publishing the source code of a piece of software so that anyone can read, modify, re-use that software for thier own purposes.
 
@@ -12,7 +12,9 @@ As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/ser
 
 To this end, the [Department of Health & Social Care has recently made a commitment](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft) to make all new NHS code open source and published under appropriate licences (such as [MIT](https://opensource.org/licenses/MIT) and [OGLv3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)).
 
-## Statistics
+<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-0">
+
+## Open Repository Statistics
 
 {% include update.html %}
 {% include NHSUK_table.html %}
@@ -33,7 +35,7 @@ This tool is built using end-to-end open source analytical tools including: [The
       <path d="M0 0h24v24H0z" fill="none"></path>
       <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
     </svg>
-    <span class="nhsuk-action-link__text">Want to build your own open analytics? Find out how it's made!</span>
+    <span class="nhsuk-action-link__text">Want to build your own open analytics pipeline? Find out how it's made here.</span>
   </a>
 </div>
 
