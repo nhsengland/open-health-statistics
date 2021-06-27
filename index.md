@@ -2,7 +2,7 @@
 
 # Open Source Healthcare Statistics
 
-## Collecting statistics on open source NHS and health related code repositories.
+### Statistics on open source NHS and health related code repositories.
 
 <hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
 
@@ -21,11 +21,11 @@ To this end, the [Department of Health & Social Care has recently made a commitm
 
 {% include plotly_chart.html %}
 
-<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
+<hr class="nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-6">
 
 ## About this page
 
-This tool is built using end-to-end open source analytics: [NHS Digital Service Manual](https://service-manual.nhs.uk/), [python](https://nhs-pycom.net/), [plotly](https://plotly.com/python/), [github.io](https://pages.github.com/), and [github actions](https://github.com/features/actions).
+This tool is built using end-to-end open source analytical tools including: [The NHS Digital Service Manual](https://service-manual.nhs.uk/), [python](https://nhs-pycom.net/), [plotly](https://plotly.com/python/), [github.io](https://pages.github.com/), and [github actions](https://github.com/features/actions).
 
 <div class="nhsuk-action-link">
   <a class="nhsuk-action-link__link" href="/open-health-statistics/blog">
