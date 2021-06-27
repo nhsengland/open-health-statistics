@@ -1,6 +1,6 @@
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-# Open Healthcare Statistics
+# Open Source Healthcare Statistics
 
 {% include update.html %}
 
@@ -10,8 +10,23 @@ Collecting statistics on open source NHS and health related GitHub and GitLab re
 
 Open source is the practice of publishing the source code of a piece of software so that anyone can read, modify, re-use that software for thier own purposes. As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open), public services are built with public money--so unless there's a good reason not to, all code should be made publicly available for other people to reuse and build upon. To this end, the [Department of Health & Social Care has recently made a commitment](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft) to make all new NHS code open source and published under appropriate licences (such as [MIT](https://opensource.org/licenses/MIT) and [OGLv3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)).
 
-{% include plotly_chart.html %}
+<div class="nhsuk-action-link">
+  <a class="nhsuk-action-link__link" href="open-health-statistics/blog">
+    <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M0 0h24v24H0z" fill="none"></path>
+      <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+    </svg>
+    <span class="nhsuk-action-link__text">Find out how it's made!</span>
+  </a>
+</div>
+
+## Latest Statistics
+
 {% include NHSUK_table.html %}
+
+## Latest Charts
+
+{% include plotly_chart.html %}
 
 <hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
 
