@@ -107,7 +107,7 @@ aggregate_df = aggregate_df.rename(
         "org": "Organisation",
         "org_short": "Org Short",
         "date": "Date",
-        "open_repos": "Open Repos",
+        "open_repos": "Open Repositories",
         "stargazers": "Stargazers",
         "forks": "Forks",
         "open_issues": "Open Issues",
@@ -118,16 +118,18 @@ aggregate_df = aggregate_df.rename(
 
 # Format the latest output table
 aggregate_latest_df = (
-    aggregate_df.groupby("Org")
+    aggregate_df.groupby("Organisation")
     .tail(1)
-    .sort_values("Open Repos", ascending=False)
+    .sort_values("Open Repositories", ascending=False)
     .drop(columns=["Org Short", "Date"])
 )
 
 # Create output table (NHS.UK version)
 aggregate_latest_df[
-    ["Open Repos", "Stargazers", "Forks", "Open Issues"]
-] = aggregate_latest_df[["Open Repos", "Stargazers", "Forks", "Open Issues"]].astype(
+    ["Open Repositories", "Stargazers", "Forks", "Open Issues"]
+] = aggregate_latest_df[
+    ["Open Repositories", "Stargazers", "Forks", "Open Issues"]
+].astype(
     int
 )
 aggregate_latest_html = aggregate_latest_df.to_html(
@@ -157,13 +159,13 @@ aggregate_df["Org"] = pd.Categorical(
 fig = go.Figure()
 
 # Loop over each org and add line to plot
-for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
+for (_, org_short), org_df in aggregate_df.groupby(["Organisation", "Org Short"]):
 
     # Add the trace plot
     fig.add_trace(
         go.Scatter(
             x=org_df["Date"],
-            y=org_df["Open Repos"],
+            y=org_df["Open Repositories"],
             mode="lines",
             name=org_short,
             line={"shape": "hvh"},
@@ -174,7 +176,7 @@ for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
 colour_scale = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
 
 # Loop through chart after adding traces to change colours
-num_orgs = len(aggregate_df["Org"].unique())
+num_orgs = len(aggregate_df["Organisation"].unique())
 for i in list(range(0, num_orgs)):
     fig["data"][i]["line"]["color"] = colour_scale[i]
 
@@ -205,7 +207,7 @@ fig.update_xaxes(
 )
 
 # Add title to y axis
-fig.update_yaxes(title_text="<b>" + "Open Repos" + "<b>")
+fig.update_yaxes(title_text="<b>" + "Open Repositories" + "<b>")
 
 # Write out to file (.html)
 config = {"displayModeBar": False, "displaylogo": False}
