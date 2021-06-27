@@ -104,10 +104,10 @@ aggregate_df = (
 # Make the columns nice
 aggregate_df = aggregate_df.rename(
     columns={
-        "org": "Org",
+        "org": "Organisation",
         "org_short": "Org Short",
         "date": "Date",
-        "open_repos": "Open Repos",
+        "open_repos": "Open Repositories",
         "stargazers": "Stargazers",
         "forks": "Forks",
         "open_issues": "Open Issues",
@@ -118,47 +118,29 @@ aggregate_df = aggregate_df.rename(
 
 # Format the latest output table
 aggregate_latest_df = (
-    aggregate_df.groupby("Org")
+    aggregate_df.groupby("Organisation")
     .tail(1)
-    .sort_values("Open Repos", ascending=False)
+    .sort_values("Open Repositories", ascending=False)
     .drop(columns=["Org Short", "Date"])
 )
 
-# Create output table
-fig = go.Figure()
-fig.add_trace(
-    go.Table(
-        header=dict(
-            values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
-            fill_color="rgba(240, 244, 245, 1)",
-            align="left",
-        ),
-        cells=dict(
-            values=aggregate_latest_df.T.values.tolist(),
-            fill_color="rgba(240, 244, 245, 1)",
-            align="left",
-        ),
-    )
+# Create output table (NHS.UK version)
+aggregate_latest_df[
+    ["Open Repositories", "Stargazers", "Forks", "Open Issues"]
+] = aggregate_latest_df[
+    ["Open Repositories", "Stargazers", "Forks", "Open Issues"]
+].astype(
+    int
 )
-
-# Asthetics of the table
-fig.update_layout(
-    {
-        "plot_bgcolor": "rgba(240, 244, 245, 1)",
-        "paper_bgcolor": "rgba(240, 244, 245, 1)",
-    },
-    autosize=True,
-    height=500,
+aggregate_latest_html = aggregate_latest_df.to_html(
+    index=False, render_links=True, escape=False
 )
-
-
-# Write out to file (.html)
-config = {"displayModeBar": False, "displaylogo": False}
-plotly_table = plotly.offline.plot(
-    fig, include_plotlyjs=False, output_type="div", config=config
+aggregate_latest_html = aggregate_latest_html.replace(
+    "dataframe", "nhsuk-table__panel-with-heading-tab"
 )
-with open("_includes/plotly_table.html", "w") as file:
-    file.write(plotly_table)
+aggregate_latest_html = aggregate_latest_html.replace('border="1"', "")
+with open("_includes/NHSUK_table.html", "w") as file:
+    file.write(aggregate_latest_html)
 
 # Add todays date to a version of the latest output table
 aggregate_latest_df_ = aggregate_latest_df.copy()
@@ -177,13 +159,13 @@ aggregate_df["Org"] = pd.Categorical(
 fig = go.Figure()
 
 # Loop over each org and add line to plot
-for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
+for (_, org_short), org_df in aggregate_df.groupby(["Organisation", "Org Short"]):
 
     # Add the trace plot
     fig.add_trace(
         go.Scatter(
             x=org_df["Date"],
-            y=org_df["Open Repos"],
+            y=org_df["Open Repositories"],
             mode="lines",
             name=org_short,
             line={"shape": "hvh"},
@@ -194,7 +176,7 @@ for (_, org_short), org_df in aggregate_df.groupby(["Org", "Org Short"]):
 colour_scale = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
 
 # Loop through chart after adding traces to change colours
-num_orgs = len(aggregate_df["Org"].unique())
+num_orgs = len(aggregate_df["Organisation"].unique())
 for i in list(range(0, num_orgs)):
     fig["data"][i]["line"]["color"] = colour_scale[i]
 
@@ -225,7 +207,7 @@ fig.update_xaxes(
 )
 
 # Add title to y axis
-fig.update_yaxes(title_text="<b>" + "Open Repos" + "<b>")
+fig.update_yaxes(title_text="<b>" + "Open Repositories" + "<b>")
 
 # Write out to file (.html)
 config = {"displayModeBar": False, "displaylogo": False}
