@@ -104,7 +104,7 @@ aggregate_df = (
 # Make the columns nice
 aggregate_df = aggregate_df.rename(
     columns={
-        "org": "Org",
+        "org": "Organisation",
         "org_short": "Org Short",
         "date": "Date",
         "open_repos": "Open Repos",
@@ -124,41 +124,21 @@ aggregate_latest_df = (
     .drop(columns=["Org Short", "Date"])
 )
 
-# Create output table
-fig = go.Figure()
-fig.add_trace(
-    go.Table(
-        header=dict(
-            values=["<b>" + c + "<b>" for c in aggregate_latest_df.columns],
-            fill_color="rgba(240, 244, 245, 1)",
-            align="left",
-        ),
-        cells=dict(
-            values=aggregate_latest_df.T.values.tolist(),
-            fill_color="rgba(240, 244, 245, 1)",
-            align="left",
-        ),
-    )
+# Create output table (NHS.UK version)
+aggregate_latest_df[
+    ["Open Repos", "Stargazers", "Forks", "Open Issues"]
+] = aggregate_latest_df[["Open Repos", "Stargazers", "Forks", "Open Issues"]].astype(
+    int
 )
-
-# Asthetics of the table
-fig.update_layout(
-    {
-        "plot_bgcolor": "rgba(240, 244, 245, 1)",
-        "paper_bgcolor": "rgba(240, 244, 245, 1)",
-    },
-    autosize=True,
-    height=500,
+aggregate_latest_html = aggregate_latest_df.to_html(
+    index=False, render_links=True, escape=False
 )
-
-
-# Write out to file (.html)
-config = {"displayModeBar": False, "displaylogo": False}
-plotly_table = plotly.offline.plot(
-    fig, include_plotlyjs=False, output_type="div", config=config
+aggregate_latest_html = aggregate_latest_html.replace(
+    "dataframe", "nhsuk-table__panel-with-heading-tab"
 )
-with open("_includes/plotly_table.html", "w") as file:
-    file.write(plotly_table)
+aggregate_latest_html = aggregate_latest_html.replace('border="1"', "")
+with open("_includes/NHSUK_table.html", "w") as file:
+    file.write(aggregate_latest_html)
 
 # Add todays date to a version of the latest output table
 aggregate_latest_df_ = aggregate_latest_df.copy()
