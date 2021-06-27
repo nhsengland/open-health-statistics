@@ -4,11 +4,9 @@
 
 ### Statistics on open source NHS and healthcare related code repositories
 
-Open source is the practice of publishing the source code of a piece of software so that anyone can read, modify, re-use that software for thier own purposes.
+Open source is the practice of publishing the source code of a software project so that anyone can read, modify, re-use, and improve that software.
 
-As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open), public services are built with public money--so unless there's a good reason not to, all code should be made publicly available for other people to reuse and build upon.
-
-To this end, the [Department of Health & Social Care has recently made a commitment](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft) to make all new NHS code open source and published under appropriate licences (such as [MIT](https://opensource.org/licenses/MIT) and [OGLv3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)).
+As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open), public services are built with public money--so unless there's a good reason not to (for security reasons for example), all code produced by the NHS should be made publicly available. To this end, the [Department of Health & Social Care has recently made a commitment](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft) to make all new NHS code open source and published under appropriate licences (such as [MIT](https://opensource.org/licenses/MIT) and [OGLv3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)).
 
 <hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
 
