@@ -2,9 +2,9 @@
 
 # Open Source Healthcare Statistics
 
-### Statistics on open source NHS and healthcare related code repositories.
+<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
 
-<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-0">
+### Statistics on open source NHS and healthcare related code repositories
 
 Open source is the practice of publishing the source code of a piece of software so that anyone can read, modify, re-use that software for thier own purposes.
 
@@ -12,7 +12,7 @@ As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/ser
 
 To this end, the [Department of Health & Social Care has recently made a commitment](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft) to make all new NHS code open source and published under appropriate licences (such as [MIT](https://opensource.org/licenses/MIT) and [OGLv3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)).
 
-<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-0">
+<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
 
 ## Open Repository Statistics
 
