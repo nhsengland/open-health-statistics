@@ -2,7 +2,7 @@
 
 # Open Source Healthcare Statistics
 
-### Statistics on open source NHS and healthcare related code repositories
+### Collecting statistics on open source NHS and healthcare related code repositories
 
 Open source is the practice of publishing the source code of a software project so that anyone can read, modify, re-use, and improve that software.
 
@@ -10,10 +10,20 @@ As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/ser
 
 <hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
 
-## Open Repository Statistics
+## Open Health Repository Statistics
 
 {% include update.html %}
 {% include NHSUK_table.html %}
+
+<div class="nhsuk-action-link">
+  <a class="nhsuk-action-link__link" href="assets/data/openhealthstats.csv">
+    <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M0 0h24v24H0z" fill="none"></path>
+      <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+    </svg>
+    <span class="nhsuk-action-link__text">Download this data</span>
+  </a>
+</div>
 
 ## Charts
 

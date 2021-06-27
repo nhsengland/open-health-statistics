@@ -116,6 +116,9 @@ aggregate_df = aggregate_df.rename(
     }
 )
 
+# save file to .csv
+aggregate_df.to_csv("assets/data/openhealthstats.csv", index=False)
+
 # Format the latest output table
 aggregate_latest_df = (
     aggregate_df.groupby("Organisation")
