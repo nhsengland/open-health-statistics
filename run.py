@@ -154,8 +154,10 @@ aggregate_df = pd.concat([aggregate_df, aggregate_latest_df_])
 
 # Use the ordering of the output table to ensure lines get added to the plot
 # in the correct order
-aggregate_df["Org"] = pd.Categorical(
-    values=aggregate_df["Org"], categories=aggregate_latest_df["Org"], ordered=True
+aggregate_df["Organisation"] = pd.Categorical(
+    values=aggregate_df["Organisation"],
+    categories=aggregate_latest_df["Organisation"],
+    ordered=True,
 )
 
 # Initialise plot
