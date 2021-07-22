@@ -33,7 +33,7 @@ As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/ser
 
 ## About this page
 
-This tool is built using end-to-end open source analytical tools including: [The NHS Digital Service Manual](https://service-manual.nhs.uk/), [python](https://nhs-pycom.net/), [plotly](https://plotly.com/python/), [github.io](https://pages.github.com/), and [github actions](https://github.com/features/actions).
+This page is built using end-to-end open source analytical tools including: [The NHS Digital Service Manual](https://service-manual.nhs.uk/), [python](https://nhs-pycom.net/), [plotly](https://plotly.com/python/), [folium](http://python-visualization.github.io/folium/), (https://pages.github.com/), and [github actions](https://github.com/features/actions).
 
 <div class="nhsuk-action-link">
   <a class="nhsuk-action-link__link" href="/open-health-statistics/blog">
@@ -45,4 +45,4 @@ This tool is built using end-to-end open source analytical tools including: [The
   </a>
 </div>
 
-To get your organisation added to the collection, email: <a href="mailto:craig.shenton@nhsx.nhs.uk">craig.shenton@nhsx.nhs.uk</a>
+If you have any suggestions or questions, email: <a href="mailto:mattia.ficarelli@nhsx.nhs.uk">mattia.ficarelli@nhsx.nhs.uk</a>
