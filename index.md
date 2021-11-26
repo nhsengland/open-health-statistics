@@ -45,4 +45,4 @@ This tool is built using end-to-end open source analytical tools including: [The
   </a>
 </div>
 
-To get your organisation added to the collection, email: <a href="mailto:craig.shenton@nhsx.nhs.uk">craig.shenton@nhsx.nhs.uk</a>
+To get your organisation added to the collection, email: <a href="mailto:data@nhsx.nhs.uk">data@nhsx.nhs.uk</a>
