@@ -740,8 +740,8 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-11-18,60,342.0,187.0,131.0,MIT License,Python
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-11-24,62,342.0,190.0,132.0,MIT License,Python
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-11-29,63,342.0,191.0,132.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-12-01,64,342.0,193.0,141.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-12-10,65,343.0,194.0,141.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-12-01,64,342.0,193.0,139.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-12-10,65,343.0,194.0,139.0,MIT License,Python
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-03-24,1,0.0,0.0,32.0,,Python
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-04-10,2,27.0,6.0,35.0,MIT License,Stata
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-04-28,3,27.0,7.0,36.0,MIT License,Stata
@@ -860,37 +860,37 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2019-12-02,27,74.0,78.0,104.0,MIT License,Ruby
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-01-27,28,74.0,78.0,117.0,MIT License,Ruby
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-02-26,29,74.0,78.0,118.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-03-19,30,260.0,113.0,140.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-19,31,260.0,113.0,146.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-27,34,260.0,116.0,150.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-28,35,260.0,116.0,150.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-29,36,260.0,117.0,151.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-05,38,263.0,119.0,154.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-08,39,263.0,119.0,154.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-25,40,266.0,119.0,154.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-01,41,268.0,128.0,154.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-09,42,271.0,134.0,155.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-17,43,271.0,134.0,155.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-28,44,333.0,149.0,177.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-02,45,354.0,152.0,178.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-03,46,369.0,159.0,185.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-07,47,380.0,164.0,192.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-08,48,383.0,165.0,192.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-27,49,395.0,168.0,192.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-09-14,50,411.0,172.0,200.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-09-30,52,411.0,174.0,200.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-10-14,53,412.0,174.0,200.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-11-05,54,412.0,174.0,200.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-11-21,55,412.0,174.0,206.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-12-03,56,412.0,175.0,213.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-01-15,57,412.0,176.0,217.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-02-19,58,412.0,176.0,217.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-03-15,59,415.0,176.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-03-17,61,415.0,176.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-01,62,415.0,176.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-23,63,420.0,176.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-09-27,64,420.0,176.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-10-25,65,424.0,176.0,222.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-03-19,30,261.0,113.0,140.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-19,31,261.0,113.0,146.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-27,34,261.0,116.0,150.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-28,35,261.0,116.0,150.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-29,36,261.0,117.0,151.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-05,38,264.0,119.0,154.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-08,39,264.0,119.0,154.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-25,40,267.0,119.0,154.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-01,41,269.0,128.0,154.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-09,42,272.0,134.0,155.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-17,43,272.0,134.0,155.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-28,44,334.0,149.0,177.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-02,45,355.0,152.0,178.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-03,46,370.0,159.0,185.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-07,47,381.0,164.0,192.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-08,48,384.0,165.0,192.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-27,49,396.0,168.0,192.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-09-14,50,412.0,172.0,200.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-09-30,52,412.0,174.0,200.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-10-14,53,413.0,174.0,200.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-11-05,54,413.0,174.0,200.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-11-21,55,413.0,174.0,206.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-12-03,56,413.0,175.0,213.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-01-15,57,413.0,176.0,217.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-02-19,58,413.0,176.0,217.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-03-15,59,416.0,176.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-03-17,61,416.0,176.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-01,62,416.0,176.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-23,63,421.0,176.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-09-27,64,421.0,176.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-10-25,65,425.0,176.0,222.0,MIT License,Ruby
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-08-16,1,0.0,0.0,0.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-11-20,3,0.0,0.0,0.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-11-23,4,0.0,0.0,0.0,Apache License 2.0,Java
