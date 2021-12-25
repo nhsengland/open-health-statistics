@@ -166,6 +166,7 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-08,110,177.0,193.0,570.0,MIT License,Python
 <a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-16,111,178.0,193.0,570.0,MIT License,Python
 <a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-17,112,178.0,193.0,570.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-24,113,178.0,193.0,570.0,MIT License,Python
 <a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2019-11-18,1,2.0,0.0,3.0,MIT License,R
 <a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2020-04-24,2,4.0,0.0,3.0,MIT License,R
 <a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2020-05-14,3,6.0,0.0,4.0,MIT License,R
@@ -745,101 +746,101 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-11-29,63,343.0,192.0,133.0,MIT License,Python
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-12-01,64,343.0,195.0,133.0,MIT License,Python
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2021-12-10,65,345.0,196.0,133.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-03-24,1,0.0,0.0,32.0,,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-04-10,2,27.0,6.0,35.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-04-28,3,27.0,7.0,36.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-04-30,4,30.0,9.0,130.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-05-27,5,41.0,14.0,137.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-01,6,41.0,14.0,139.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-02,7,41.0,15.0,140.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-09,8,56.0,17.0,180.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-22,9,59.0,17.0,182.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-26,10,59.0,17.0,182.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-30,11,59.0,17.0,182.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-09,12,59.0,17.0,185.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-15,13,59.0,17.0,186.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-04,14,60.0,17.0,187.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-20,15,61.0,17.0,187.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-25,16,61.0,17.0,187.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-27,17,62.0,17.0,188.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-09-11,18,62.0,17.0,190.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-14,19,65.0,24.0,191.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-31,20,65.0,24.0,193.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-03,21,65.0,24.0,193.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-23,22,65.0,24.0,193.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-26,23,65.0,25.0,194.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-01,24,65.0,25.0,194.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-03,25,65.0,25.0,194.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-08,26,65.0,25.0,194.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-17,27,66.0,25.0,194.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-22,28,68.0,25.0,195.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-04,29,68.0,25.0,195.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-06,31,68.0,25.0,204.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-07,32,68.0,25.0,208.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-15,34,68.0,26.0,208.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-18,36,68.0,26.0,212.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-19,38,68.0,26.0,213.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-22,39,77.0,29.0,213.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-25,40,80.0,29.0,214.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-01,41,80.0,29.0,214.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-04,42,80.0,29.0,214.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-05,43,80.0,29.0,214.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-22,44,80.0,29.0,215.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-26,45,80.0,30.0,215.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-06,46,80.0,30.0,215.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-19,47,80.0,30.0,215.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-05,49,80.0,30.0,215.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-07,50,81.0,30.0,215.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-14,51,82.0,30.0,215.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-27,52,82.0,30.0,215.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-02,53,83.0,30.0,215.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-07,54,83.0,30.0,216.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-09,55,83.0,31.0,216.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-28,56,83.0,31.0,216.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-22,57,83.0,32.0,236.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-25,58,83.0,32.0,236.0,MIT License,HTML
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-08,59,83.0,35.0,236.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-15,60,84.0,35.0,237.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-03-24,1,1.0,0.0,32.0,,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-04-10,2,28.0,6.0,35.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-04-28,3,28.0,7.0,36.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-04-30,4,31.0,9.0,130.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-05-27,5,42.0,14.0,137.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-01,6,42.0,14.0,139.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-02,7,42.0,15.0,140.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-09,8,57.0,17.0,180.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-22,9,60.0,17.0,182.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-26,10,60.0,17.0,182.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-30,11,60.0,17.0,182.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-09,12,60.0,17.0,185.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-15,13,60.0,17.0,186.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-04,14,61.0,17.0,187.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-20,15,62.0,17.0,187.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-25,16,62.0,17.0,187.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-27,17,63.0,17.0,188.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-09-11,18,63.0,17.0,190.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-14,19,66.0,24.0,191.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-31,20,66.0,24.0,193.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-03,21,66.0,24.0,193.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-23,22,66.0,24.0,193.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-26,23,66.0,25.0,194.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-01,24,66.0,25.0,194.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-03,25,66.0,25.0,194.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-08,26,66.0,25.0,194.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-17,27,67.0,25.0,194.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-22,28,69.0,25.0,195.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-04,29,69.0,25.0,195.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-06,31,69.0,25.0,204.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-07,32,69.0,25.0,208.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-15,34,69.0,26.0,208.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-18,36,69.0,26.0,212.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-19,38,69.0,26.0,213.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-22,39,78.0,29.0,213.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-25,40,81.0,29.0,214.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-01,41,81.0,29.0,214.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-04,42,81.0,29.0,214.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-05,43,81.0,29.0,214.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-22,44,81.0,29.0,215.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-26,45,81.0,30.0,215.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-06,46,81.0,30.0,215.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-19,47,81.0,30.0,215.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-05,49,81.0,30.0,215.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-07,50,82.0,30.0,215.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-14,51,83.0,30.0,215.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-27,52,83.0,30.0,215.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-02,53,84.0,30.0,215.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-07,54,84.0,30.0,216.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-09,55,84.0,31.0,216.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-28,56,84.0,31.0,216.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-22,57,84.0,32.0,236.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-25,58,84.0,32.0,236.0,MIT License,HTML
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-08,59,84.0,35.0,236.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-15,60,85.0,35.0,237.0,MIT License,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-03-27,1,23.0,8.0,117.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-03-31,2,54.0,18.0,238.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-05-25,3,59.0,19.0,241.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-06-07,5,67.0,27.0,382.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-07-30,6,67.0,27.0,382.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-08-17,7,67.0,27.0,387.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-08-20,8,67.0,27.0,398.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-02,9,67.0,27.0,398.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-04,10,67.0,27.0,398.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-15,11,67.0,27.0,399.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-01,12,67.0,27.0,400.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-14,13,67.0,27.0,403.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-22,14,67.0,27.0,405.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-02,15,69.0,27.0,415.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-10,16,69.0,27.0,415.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-19,17,69.0,27.0,426.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-23,18,70.0,27.0,439.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-12-15,19,70.0,27.0,439.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-01-19,20,70.0,27.0,439.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-01-20,21,70.0,28.0,440.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-02-02,22,70.0,28.0,441.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-02-11,23,70.0,29.0,445.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-05,24,70.0,29.0,446.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-12,25,70.0,29.0,446.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-29,26,70.0,29.0,486.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-14,27,70.0,29.0,486.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-21,28,70.0,29.0,486.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-27,29,70.0,30.0,487.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-17,30,70.0,30.0,487.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-21,31,70.0,30.0,495.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-24,32,70.0,31.0,533.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-08,33,70.0,31.0,549.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-16,34,70.0,31.0,555.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-19,35,70.0,31.0,564.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-28,36,70.0,31.0,564.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-08-20,37,70.0,31.0,574.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-11-11,38,70.0,31.0,578.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-11-18,39,70.0,31.0,578.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-11-29,40,70.0,31.0,581.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-12-20,41,70.0,31.0,581.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-06-07,5,67.0,27.0,385.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-07-30,6,67.0,27.0,385.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-08-17,7,67.0,27.0,390.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-08-20,8,67.0,27.0,401.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-02,9,67.0,27.0,401.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-04,10,67.0,27.0,401.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-15,11,67.0,27.0,402.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-01,12,67.0,27.0,403.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-14,13,67.0,27.0,406.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-22,14,67.0,27.0,408.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-02,15,69.0,27.0,418.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-10,16,69.0,27.0,418.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-19,17,69.0,27.0,429.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-23,18,70.0,27.0,442.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-12-15,19,70.0,27.0,442.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-01-19,20,70.0,27.0,442.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-01-20,21,70.0,28.0,443.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-02-02,22,70.0,28.0,444.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-02-11,23,70.0,29.0,448.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-05,24,70.0,29.0,449.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-12,25,70.0,29.0,449.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-29,26,70.0,29.0,489.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-14,27,70.0,29.0,489.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-21,28,70.0,29.0,489.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-27,29,70.0,30.0,490.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-17,30,70.0,30.0,490.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-21,31,70.0,30.0,498.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-24,32,70.0,31.0,536.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-08,33,70.0,31.0,552.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-16,34,70.0,31.0,558.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-19,35,70.0,31.0,567.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-28,36,70.0,31.0,567.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-08-20,37,70.0,31.0,577.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-11-11,38,70.0,31.0,581.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-11-18,39,70.0,31.0,581.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-11-29,40,70.0,31.0,584.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-12-20,41,70.0,31.0,584.0,Other,Python
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2015-07-24,3,13.0,13.0,5.0,MIT License,Ruby
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2015-07-31,6,16.0,22.0,15.0,MIT License,Ruby
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2015-09-02,7,20.0,22.0,22.0,MIT License,Ruby
@@ -864,37 +865,37 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2019-12-02,27,74.0,78.0,103.0,MIT License,Ruby
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-01-27,28,74.0,78.0,116.0,MIT License,Ruby
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-02-26,29,74.0,78.0,117.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-03-19,30,268.0,113.0,138.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-19,31,268.0,113.0,144.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-27,34,268.0,116.0,148.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-28,35,268.0,116.0,148.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-29,36,268.0,117.0,149.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-05,38,271.0,119.0,152.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-08,39,271.0,119.0,152.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-25,40,274.0,119.0,152.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-01,41,276.0,129.0,152.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-09,42,280.0,135.0,153.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-17,43,280.0,135.0,153.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-28,44,344.0,151.0,176.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-02,45,365.0,154.0,177.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-03,46,380.0,161.0,184.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-07,47,391.0,166.0,191.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-08,48,394.0,167.0,191.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-27,49,406.0,170.0,191.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-09-14,50,422.0,174.0,199.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-09-30,52,422.0,176.0,199.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-10-14,53,423.0,176.0,199.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-11-05,54,423.0,176.0,199.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-11-21,55,423.0,176.0,205.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-12-03,56,423.0,177.0,212.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-01-15,57,423.0,179.0,217.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-02-19,58,423.0,179.0,217.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-03-15,59,427.0,179.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-03-17,61,427.0,179.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-01,62,427.0,179.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-23,63,432.0,179.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-09-27,64,432.0,179.0,221.0,MIT License,Ruby
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-10-25,65,436.0,179.0,222.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-03-19,30,269.0,113.0,138.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-19,31,269.0,113.0,144.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-27,34,269.0,116.0,148.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-28,35,269.0,116.0,148.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-04-29,36,269.0,117.0,149.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-05,38,272.0,119.0,152.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-08,39,272.0,119.0,152.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-06-25,40,275.0,119.0,152.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-01,41,277.0,129.0,152.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-09,42,281.0,135.0,153.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-17,43,281.0,135.0,153.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-07-28,44,345.0,151.0,176.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-02,45,366.0,154.0,177.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-03,46,381.0,161.0,184.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-07,47,392.0,166.0,191.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-08,48,395.0,167.0,191.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-08-27,49,407.0,170.0,191.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-09-14,50,423.0,174.0,199.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-09-30,52,423.0,176.0,199.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-10-14,53,424.0,176.0,199.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-11-05,54,424.0,176.0,199.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-11-21,55,424.0,176.0,205.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2020-12-03,56,424.0,177.0,212.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-01-15,57,424.0,179.0,217.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-02-19,58,424.0,179.0,217.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-03-15,59,428.0,179.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-03-17,61,428.0,179.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-01,62,428.0,179.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-23,63,433.0,179.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-09-27,64,433.0,179.0,221.0,MIT License,Ruby
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-10-25,65,437.0,179.0,222.0,MIT License,Ruby
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-08-16,1,0.0,0.0,0.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-11-20,3,0.0,0.0,0.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-11-23,4,0.0,0.0,0.0,Apache License 2.0,Java
