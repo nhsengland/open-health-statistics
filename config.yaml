@@ -16,6 +16,8 @@ github_org_dict:
     "OpenSAFELY Core": "opensafely-core",
     "The Health Foundation Analytics Lab": "HFAnalyticsLab",
     "NHS BNSSG Analytics": "nhs-bnssg-analytics",
+    "BHF Data Science Centre": "BHFDSC",
+    "NHS Leadership Academy": "NHSLeadership",
   }
 
 gitlab_group_dict: { "NHS Business Services Authority": "2955125" }
