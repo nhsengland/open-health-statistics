@@ -18,6 +18,7 @@ github_org_dict:
     "NHS BNSSG Analytics": "nhs-bnssg-analytics",
     "BHF Data Science Centre": "BHFDSC",
     "NHS Leadership Academy": "NHSLeadership",
+    "NICE Digital": "nice-digital"
   }
 
 gitlab_group_dict: { "NHS Business Services Authority": "2955125" }
