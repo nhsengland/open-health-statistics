@@ -416,14 +416,14 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhs-bnssg-analytics'>NHS BNSSG Analytics</a>,<a href='https://github.com/nhs-bnssg-analytics'>NHS BNSSG Ana...</a>,2021-10-26,19,62.0,15.0,6.0,Other,R
 <a href='https://github.com/nhs-bnssg-analytics'>NHS BNSSG Analytics</a>,<a href='https://github.com/nhs-bnssg-analytics'>NHS BNSSG Ana...</a>,2022-04-01,20,64.0,15.0,6.0,Other,R
 <a href='https://github.com/nhs-bnssg-analytics'>NHS BNSSG Analytics</a>,<a href='https://github.com/nhs-bnssg-analytics'>NHS BNSSG Ana...</a>,2022-06-10,21,64.0,15.0,6.0,Other,R
-<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2020-12-13,1,33.0,11.0,7.0,MIT License,SCSS
-<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-01-12,2,33.0,11.0,11.0,MIT License,SCSS
-<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-01-19,4,35.0,11.0,11.0,MIT License,SCSS
-<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-05-15,5,40.0,15.0,11.0,MIT License,SCSS
-<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-07-28,6,41.0,15.0,11.0,MIT License,SCSS
-<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-07-29,7,44.0,15.0,11.0,MIT License,SCSS
-<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-08-03,9,47.0,15.0,11.0,MIT License,SCSS
-<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-08-05,10,48.0,15.0,23.0,MIT License,SCSS
+<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2020-12-13,1,33.0,11.0,8.0,MIT License,SCSS
+<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-01-12,2,33.0,11.0,12.0,MIT License,SCSS
+<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-01-19,4,35.0,11.0,12.0,MIT License,SCSS
+<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-05-15,5,40.0,15.0,12.0,MIT License,SCSS
+<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-07-28,6,41.0,15.0,12.0,MIT License,SCSS
+<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-07-29,7,44.0,15.0,12.0,MIT License,SCSS
+<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-08-03,9,47.0,15.0,12.0,MIT License,SCSS
+<a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-08-05,10,48.0,15.0,26.0,MIT License,SCSS
 <a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-01-08,1,39.0,7.0,3.0,Other,R
 <a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-03-08,2,59.0,15.0,7.0,Other,R
 <a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-07-23,3,114.0,34.0,15.0,Other,R
@@ -635,12 +635,12 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-04-08,26,50.0,84.0,113.0,MIT License,Python
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-04-30,27,53.0,84.0,149.0,MIT License,Python
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-07-27,28,53.0,87.0,149.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-08-10,30,57.0,93.0,151.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-09-20,31,59.0,94.0,152.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-09-29,32,59.0,94.0,152.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-10-08,33,62.0,96.0,152.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-12-16,34,65.0,96.0,153.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-06-14,35,67.0,96.0,153.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-08-10,30,57.0,93.0,152.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-09-20,31,59.0,94.0,153.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-09-29,32,59.0,94.0,153.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-10-08,33,62.0,96.0,153.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-12-16,34,65.0,96.0,154.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-06-14,35,67.0,96.0,154.0,MIT License,Python
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2015-08-06,1,1.0,1.0,0.0,,
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2015-08-14,2,2.0,2.0,0.0,GNU General Public License v2.0,CSS
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2015-08-24,3,21.0,13.0,1.0,MIT License,HTML
@@ -876,11 +876,11 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-03-10,76,445.0,246.0,226.0,MIT License,Python
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-03-24,77,448.0,247.0,226.0,MIT License,Python
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-04-07,78,448.0,247.0,226.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-04-12,79,452.0,249.0,229.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-06-14,80,464.0,250.0,229.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-06-22,81,464.0,251.0,229.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-04,83,465.0,254.0,230.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-02,84,466.0,255.0,231.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-04-12,79,453.0,249.0,229.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-06-14,80,465.0,250.0,229.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-06-22,81,465.0,251.0,229.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-04,83,466.0,254.0,230.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-02,84,467.0,255.0,231.0,MIT License,Python
 <a href='https://github.com/nice-digital'>NICE Digital</a>,<a href='https://github.com/nice-digital'>NICE Digital</a>,2010-10-22,1,0.0,0.0,0.0,"BSD 3-Clause ""New"" or ""Revised"" License",C#
 <a href='https://github.com/nice-digital'>NICE Digital</a>,<a href='https://github.com/nice-digital'>NICE Digital</a>,2011-06-01,2,1.0,0.0,0.0,"BSD 3-Clause ""New"" or ""Revised"" License",C#
 <a href='https://github.com/nice-digital'>NICE Digital</a>,<a href='https://github.com/nice-digital'>NICE Digital</a>,2012-03-23,3,2.0,0.0,0.0,"BSD 3-Clause ""New"" or ""Revised"" License",C#
@@ -1134,9 +1134,9 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-01,47,529.0,154.0,234.0,MIT License,Python
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-04-23,48,535.0,155.0,235.0,MIT License,Python
 <a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-09-27,49,535.0,156.0,235.0,MIT License,Python
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-10-25,50,583.0,157.0,237.0,MIT License,Python
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2022-05-18,52,585.0,157.0,237.0,MIT License,Python
-<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2022-07-12,53,585.0,157.0,237.0,MIT License,Python
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2021-10-25,50,583.0,157.0,236.0,MIT License,Python
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2022-05-18,52,585.0,157.0,236.0,MIT License,Python
+<a href='https://github.com/publichealthengland'>Public Health England</a>,<a href='https://github.com/publichealthengland'>Public Health...</a>,2022-07-12,53,585.0,157.0,236.0,MIT License,Python
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-08-16,1,0.0,0.0,0.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-11-20,3,0.0,0.0,0.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-12-13,4,0.0,0.0,0.0,Apache License 2.0,Java
