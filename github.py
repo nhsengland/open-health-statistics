@@ -1,18 +1,19 @@
 import pandas as pd
 import urllib.request  # https://stackoverflow.com/a/41217363
 import json
+import time
 
 def pull_raw_df(org_dict):
     
     # Initialise a dataframe
     df = pd.DataFrame()
-    
+
     # Pull GitHub data from the API (note we can only make 60 calls per hour so
     # if we have over 60 orgs would have to try a different strategy)
     for org_name, org_id in org_dict.items():
         data = [1]
         page = 1
-        while bool(data) is True:
+        while bool(data):
             url = (
                 "https://api.github.com/orgs/"
                 + org_id
@@ -26,7 +27,8 @@ def pull_raw_df(org_dict):
             flat_data["org"] = org_name
             df = df.append(flat_data)
             page = page + 1
-            
+            time.sleep(0.2) # Avoid unauthenticated requests limit (10 per sec)
+
     return df
 
 

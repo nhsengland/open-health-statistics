@@ -182,7 +182,7 @@ colour_scale = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
 
 # Loop through chart after adding traces to change colours
 num_orgs = len(aggregate_df["Organisation"].unique())
-for i in list(range(0, num_orgs)):
+for i in list(range(num_orgs)):
     fig["data"][i]["line"]["color"] = colour_scale[i]
 
 # Asthetics of the plot
