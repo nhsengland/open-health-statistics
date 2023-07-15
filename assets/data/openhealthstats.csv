@@ -65,8 +65,8 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/CDU-data-science-team'>Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team</a>,<a href='https://github.com/CDU-data-science-team'>Nottinghamshi...</a>,2022-09-21,32,67.0,25.0,94.0,Other,R
 <a href='https://github.com/CDU-data-science-team'>Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team</a>,<a href='https://github.com/CDU-data-science-team'>Nottinghamshi...</a>,2022-09-30,33,68.0,25.0,95.0,Other,R
 <a href='https://github.com/CDU-data-science-team'>Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team</a>,<a href='https://github.com/CDU-data-science-team'>Nottinghamshi...</a>,2022-11-14,34,68.0,25.0,95.0,Other,R
-<a href='https://github.com/CDU-data-science-team'>Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team</a>,<a href='https://github.com/CDU-data-science-team'>Nottinghamshi...</a>,2023-01-31,35,68.0,25.0,97.0,Other,R
-<a href='https://github.com/CDU-data-science-team'>Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team</a>,<a href='https://github.com/CDU-data-science-team'>Nottinghamshi...</a>,2023-05-22,36,68.0,26.0,97.0,Other,R
+<a href='https://github.com/CDU-data-science-team'>Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team</a>,<a href='https://github.com/CDU-data-science-team'>Nottinghamshi...</a>,2023-01-31,35,68.0,25.0,95.0,Other,R
+<a href='https://github.com/CDU-data-science-team'>Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team</a>,<a href='https://github.com/CDU-data-science-team'>Nottinghamshi...</a>,2023-05-22,36,68.0,26.0,95.0,Other,R
 <a href='https://github.com/HFAnalyticsLab'>The Health Foundation Analytics Lab</a>,<a href='https://github.com/HFAnalyticsLab'>The Health Fo...</a>,2019-09-05,6,59.0,7.0,2.0,MIT License,R
 <a href='https://github.com/HFAnalyticsLab'>The Health Foundation Analytics Lab</a>,<a href='https://github.com/HFAnalyticsLab'>The Health Fo...</a>,2019-09-10,7,65.0,8.0,2.0,MIT License,R
 <a href='https://github.com/HFAnalyticsLab'>The Health Foundation Analytics Lab</a>,<a href='https://github.com/HFAnalyticsLab'>The Health Fo...</a>,2019-11-05,8,66.0,8.0,2.0,MIT License,R
@@ -126,188 +126,188 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2019-12-16,13,24.0,46.0,51.0,MIT License,Ruby
 <a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-01-09,14,26.0,50.0,66.0,MIT License,Ruby
 <a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-01-10,15,27.0,51.0,66.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-01-16,16,40.0,62.0,94.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-01-22,17,88.0,92.0,122.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-10,18,88.0,94.0,122.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-19,19,88.0,95.0,122.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-26,20,88.0,96.0,122.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-27,21,88.0,98.0,130.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-28,22,94.0,107.0,142.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-03-06,24,98.0,114.0,216.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-03-10,25,98.0,115.0,216.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-03-12,27,98.0,117.0,223.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-03-31,30,105.0,126.0,263.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-01,32,118.0,135.0,474.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-03,33,118.0,138.0,479.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-24,34,118.0,139.0,493.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-27,36,118.0,139.0,495.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-29,37,118.0,140.0,495.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-07,38,119.0,142.0,510.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-12,39,119.0,144.0,532.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-15,40,128.0,151.0,532.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-21,41,128.0,152.0,548.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-28,42,128.0,153.0,586.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-29,43,132.0,156.0,586.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-02,44,134.0,158.0,608.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-03,45,134.0,159.0,648.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-05,47,138.0,161.0,650.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-10,48,148.0,180.0,650.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-15,49,148.0,182.0,670.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-19,50,148.0,183.0,696.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-30,51,153.0,186.0,718.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-07-03,52,157.0,189.0,721.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-07-17,53,157.0,191.0,721.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-07-23,54,162.0,196.0,728.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-10,55,265.0,230.0,791.0,MIT License,Ruby
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-13,56,265.0,232.0,799.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-17,58,268.0,235.0,830.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-18,59,268.0,236.0,830.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-20,60,268.0,237.0,830.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-21,61,268.0,240.0,830.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-09-30,62,277.0,242.0,833.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-08,63,277.0,245.0,835.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-16,64,277.0,247.0,866.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-20,65,277.0,248.0,871.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-22,66,278.0,249.0,872.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-26,67,278.0,250.0,872.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-11-25,69,278.0,254.0,879.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-11-28,70,279.0,255.0,881.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-12-08,71,279.0,257.0,881.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-12-10,72,279.0,258.0,884.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-12-14,73,279.0,259.0,913.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-12-16,74,279.0,260.0,913.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-01-18,75,279.0,261.0,921.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-01-19,76,287.0,262.0,999.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-01-28,77,287.0,263.0,1007.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-03-02,78,289.0,265.0,1019.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-03-08,79,298.0,267.0,1019.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-03-17,80,302.0,270.0,1020.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-04-23,81,302.0,270.0,1059.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-05-04,82,308.0,273.0,1062.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-05-07,83,309.0,273.0,1064.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-05-28,84,310.0,273.0,1064.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-06-11,85,310.0,273.0,1064.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-06-14,86,321.0,282.0,1073.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-07-09,87,321.0,283.0,1074.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-07-22,88,322.0,284.0,1074.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-08-02,89,326.0,284.0,1101.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-08-03,90,327.0,284.0,1101.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-08-17,91,327.0,284.0,1252.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-02,92,357.0,285.0,1252.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-08,93,357.0,286.0,1252.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-16,94,359.0,287.0,1270.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-22,95,360.0,287.0,1294.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-26,96,360.0,287.0,1294.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-04,97,363.0,287.0,1295.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-07,98,363.0,288.0,1295.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-14,99,366.0,288.0,1295.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-18,100,366.0,290.0,1309.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-25,102,371.0,291.0,1315.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-26,103,379.0,297.0,1315.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-29,104,379.0,299.0,1316.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-11-10,105,383.0,299.0,1317.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-11-22,106,383.0,299.0,1317.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-02,107,383.0,299.0,1317.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-08,109,384.0,300.0,1319.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-16,110,386.0,302.0,1323.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-01-10,111,451.0,314.0,1327.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-01-17,112,453.0,314.0,1355.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-01-26,114,470.0,318.0,1357.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-02-02,115,470.0,318.0,1367.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-02-22,116,471.0,318.0,1368.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-02-25,117,471.0,318.0,1370.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-03-15,118,476.0,318.0,1381.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-03-24,119,484.0,320.0,1382.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-03-25,120,485.0,321.0,1382.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-04-04,121,485.0,321.0,1389.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-04-26,122,490.0,321.0,1389.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-05-03,123,492.0,323.0,1389.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-05-18,124,497.0,323.0,1389.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-05-20,125,497.0,324.0,1400.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-05-30,126,497.0,324.0,1524.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-06-22,127,497.0,324.0,1526.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-06-29,128,503.0,332.0,1548.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-06,129,503.0,332.0,1548.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-11,131,507.0,332.0,1552.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-14,132,507.0,332.0,1552.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-21,133,512.0,332.0,1553.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-26,134,513.0,332.0,1554.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-29,135,517.0,332.0,1566.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-08-04,136,517.0,332.0,1566.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-08-11,137,520.0,332.0,1566.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-08-16,138,520.0,332.0,1566.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-08-26,139,525.0,333.0,1566.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-09-09,140,526.0,333.0,1566.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-09-16,141,526.0,333.0,1566.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-09-20,142,530.0,333.0,1567.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-09-28,143,530.0,333.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-04,144,540.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-07,145,541.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-10,146,541.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-12,147,541.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-13,148,542.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-16,149,542.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-20,150,542.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-21,151,542.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-23,152,542.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-26,155,542.0,334.0,1569.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-31,156,542.0,334.0,1570.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-02,157,544.0,334.0,1570.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-03,158,546.0,334.0,1570.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-07,159,547.0,335.0,1580.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-09,160,549.0,335.0,1586.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-10,162,552.0,335.0,1591.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-16,163,552.0,335.0,1591.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-19,164,552.0,335.0,1591.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-21,165,553.0,336.0,1600.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-12-01,166,553.0,336.0,1603.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-12-08,167,553.0,336.0,1603.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-12-12,168,554.0,336.0,1603.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-12-17,169,554.0,336.0,1603.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-01-05,170,554.0,336.0,1603.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-01-06,171,554.0,337.0,1603.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-01-10,172,555.0,337.0,1603.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-01-11,174,557.0,338.0,1620.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-02-02,175,557.0,338.0,1620.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-02-14,176,557.0,338.0,1621.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-02-21,178,557.0,338.0,1621.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-02-27,179,557.0,338.0,1626.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-09,180,559.0,338.0,1632.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-10,181,560.0,338.0,1637.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-14,182,560.0,338.0,1637.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-17,183,560.0,338.0,1643.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-21,186,560.0,339.0,1653.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-27,187,560.0,339.0,1654.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-29,188,560.0,342.0,1654.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-04-04,190,561.0,342.0,1655.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-04-14,191,561.0,342.0,1662.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-04-17,193,561.0,342.0,1663.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-04-18,194,561.0,342.0,1663.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-05,195,561.0,343.0,1664.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-10,196,564.0,343.0,1666.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-11,197,564.0,343.0,1667.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-12,199,564.0,343.0,1673.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-15,200,564.0,343.0,1673.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-17,201,564.0,343.0,1673.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-19,203,564.0,343.0,1683.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-25,204,564.0,343.0,1684.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-01,205,565.0,343.0,1684.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-02,206,566.0,343.0,1684.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-05,208,567.0,343.0,1684.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-09,209,567.0,345.0,1684.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-12,211,568.0,347.0,1689.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-13,213,568.0,347.0,1696.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-14,215,569.0,347.0,1697.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-19,216,569.0,347.0,1700.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-20,217,569.0,347.0,1701.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-21,219,570.0,347.0,1704.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-22,220,571.0,347.0,1704.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-26,221,571.0,347.0,1705.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-29,225,575.0,347.0,1705.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-07-04,226,578.0,348.0,1706.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-07-06,227,578.0,348.0,1706.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-07-11,229,578.0,348.0,1708.0,MIT License,Python
-<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-07-13,230,578.0,348.0,1708.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-01-16,16,40.0,62.0,93.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-01-22,17,88.0,92.0,121.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-10,18,88.0,94.0,121.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-19,19,88.0,95.0,121.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-26,20,88.0,96.0,121.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-27,21,88.0,98.0,129.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-02-28,22,94.0,107.0,141.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-03-06,24,98.0,114.0,215.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-03-10,25,98.0,115.0,215.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-03-12,27,98.0,117.0,222.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-03-31,30,105.0,126.0,262.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-01,32,118.0,135.0,473.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-03,33,118.0,138.0,478.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-24,34,118.0,139.0,492.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-27,36,118.0,139.0,494.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-04-29,37,118.0,140.0,494.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-07,38,119.0,142.0,509.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-12,39,119.0,144.0,531.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-15,40,128.0,151.0,531.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-21,41,128.0,152.0,547.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-28,42,128.0,153.0,585.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-05-29,43,132.0,156.0,585.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-02,44,134.0,158.0,607.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-03,45,134.0,159.0,647.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-05,47,138.0,161.0,649.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-10,48,148.0,180.0,649.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-15,49,148.0,182.0,669.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-19,50,148.0,183.0,700.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-06-30,51,153.0,186.0,722.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-07-03,52,157.0,189.0,725.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-07-17,53,157.0,191.0,725.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-07-23,54,162.0,196.0,732.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-10,55,265.0,230.0,795.0,MIT License,Ruby
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-13,56,265.0,232.0,803.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-17,58,268.0,235.0,834.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-18,59,268.0,236.0,834.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-20,60,268.0,237.0,834.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-08-21,61,268.0,240.0,834.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-09-30,62,277.0,242.0,837.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-08,63,277.0,245.0,839.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-16,64,277.0,247.0,870.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-20,65,277.0,248.0,875.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-22,66,278.0,249.0,876.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-10-26,67,278.0,250.0,876.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-11-25,69,278.0,254.0,883.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-11-28,70,279.0,255.0,885.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-12-08,71,279.0,257.0,885.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-12-10,72,279.0,258.0,888.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-12-14,73,279.0,259.0,917.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2020-12-16,74,279.0,260.0,917.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-01-18,75,279.0,261.0,925.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-01-19,76,287.0,262.0,1003.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-01-28,77,287.0,263.0,1011.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-03-02,78,289.0,265.0,1023.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-03-08,79,298.0,267.0,1023.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-03-17,80,302.0,270.0,1024.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-04-23,81,302.0,270.0,1063.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-05-04,82,308.0,273.0,1066.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-05-07,83,309.0,273.0,1068.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-05-28,84,310.0,273.0,1068.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-06-11,85,310.0,273.0,1068.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-06-14,86,321.0,282.0,1077.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-07-09,87,321.0,283.0,1078.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-07-22,88,322.0,284.0,1078.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-08-02,89,326.0,284.0,1105.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-08-03,90,327.0,284.0,1105.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-08-17,91,327.0,284.0,1256.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-02,92,357.0,285.0,1256.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-08,93,357.0,286.0,1256.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-16,94,359.0,287.0,1274.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-22,95,360.0,287.0,1298.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-09-26,96,360.0,287.0,1298.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-04,97,363.0,287.0,1299.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-07,98,363.0,288.0,1299.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-14,99,366.0,288.0,1299.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-18,100,366.0,290.0,1313.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-25,102,371.0,291.0,1319.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-26,103,379.0,297.0,1319.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-10-29,104,379.0,299.0,1320.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-11-10,105,383.0,299.0,1321.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-11-22,106,383.0,299.0,1321.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-02,107,383.0,299.0,1321.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-08,109,384.0,300.0,1323.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2021-12-16,110,386.0,302.0,1327.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-01-10,111,452.0,314.0,1331.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-01-17,112,454.0,314.0,1359.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-01-26,114,471.0,318.0,1361.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-02-02,115,471.0,318.0,1371.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-02-22,116,472.0,318.0,1372.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-02-25,117,472.0,318.0,1374.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-03-15,118,477.0,318.0,1385.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-03-24,119,485.0,320.0,1386.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-03-25,120,486.0,321.0,1386.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-04-04,121,486.0,321.0,1393.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-04-26,122,491.0,321.0,1393.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-05-03,123,493.0,323.0,1393.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-05-18,124,498.0,323.0,1393.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-05-20,125,498.0,324.0,1404.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-05-30,126,498.0,324.0,1528.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-06-22,127,498.0,324.0,1530.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-06-29,128,504.0,332.0,1552.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-06,129,504.0,332.0,1552.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-11,131,508.0,332.0,1558.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-14,132,508.0,332.0,1558.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-21,133,513.0,332.0,1559.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-26,134,514.0,332.0,1560.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-07-29,135,518.0,332.0,1572.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-08-04,136,518.0,332.0,1572.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-08-11,137,521.0,332.0,1572.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-08-16,138,521.0,332.0,1572.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-08-26,139,526.0,333.0,1572.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-09-09,140,527.0,333.0,1572.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-09-16,141,527.0,333.0,1572.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-09-20,142,531.0,333.0,1573.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-09-28,143,531.0,333.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-04,144,542.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-07,145,543.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-10,146,543.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-12,147,543.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-13,148,544.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-16,149,544.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-20,150,544.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-21,151,544.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-23,152,544.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-26,155,544.0,334.0,1575.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-10-31,156,544.0,334.0,1576.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-02,157,546.0,334.0,1576.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-03,158,548.0,334.0,1576.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-07,159,549.0,335.0,1586.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-09,160,551.0,335.0,1586.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-10,162,554.0,335.0,1591.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-16,163,554.0,335.0,1591.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-19,164,554.0,335.0,1591.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-11-21,165,555.0,336.0,1600.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-12-01,166,555.0,336.0,1603.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-12-08,167,555.0,336.0,1603.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-12-12,168,556.0,336.0,1603.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2022-12-17,169,556.0,336.0,1603.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-01-05,170,556.0,336.0,1603.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-01-06,171,556.0,337.0,1603.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-01-10,172,557.0,337.0,1603.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-01-11,174,559.0,338.0,1620.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-02-02,175,559.0,338.0,1620.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-02-14,176,559.0,338.0,1621.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-02-21,178,559.0,338.0,1621.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-02-27,179,559.0,338.0,1626.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-09,180,561.0,338.0,1632.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-10,181,562.0,338.0,1637.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-14,182,562.0,338.0,1637.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-17,183,562.0,338.0,1643.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-21,186,562.0,339.0,1653.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-27,187,562.0,339.0,1654.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-03-29,188,562.0,342.0,1654.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-04-04,190,563.0,342.0,1655.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-04-14,191,563.0,342.0,1662.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-04-17,193,563.0,342.0,1663.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-04-18,194,563.0,342.0,1663.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-05,195,563.0,343.0,1664.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-10,196,566.0,343.0,1666.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-11,197,566.0,343.0,1666.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-12,199,566.0,343.0,1672.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-15,200,566.0,343.0,1672.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-17,201,566.0,343.0,1672.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-19,203,566.0,343.0,1682.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-05-25,204,566.0,343.0,1683.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-01,205,567.0,343.0,1683.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-02,206,568.0,343.0,1683.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-05,208,569.0,343.0,1683.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-09,209,569.0,345.0,1683.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-12,211,570.0,347.0,1688.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-13,213,570.0,347.0,1696.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-14,215,571.0,347.0,1697.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-19,216,571.0,347.0,1699.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-20,217,571.0,347.0,1700.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-21,219,572.0,347.0,1703.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-22,220,573.0,347.0,1703.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-26,221,573.0,347.0,1704.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-06-29,225,577.0,347.0,1704.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-07-04,226,580.0,348.0,1706.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-07-06,227,580.0,348.0,1707.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-07-11,229,580.0,348.0,1709.0,MIT License,Python
+<a href='https://github.com/NHSDigital'>NHS Digital</a>,<a href='https://github.com/NHSDigital'>NHS Digital</a>,2023-07-13,230,580.0,348.0,1709.0,MIT License,Python
 <a href='https://github.com/NHSLeadership'>NHS Leadership Academy</a>,<a href='https://github.com/NHSLeadership'>NHS Leadershi...</a>,2016-12-14,1,0.0,0.0,0.0,GNU General Public License v3.0,JavaScript
 <a href='https://github.com/NHSLeadership'>NHS Leadership Academy</a>,<a href='https://github.com/NHSLeadership'>NHS Leadershi...</a>,2017-01-10,2,0.0,0.0,0.0,GNU General Public License v3.0,PHP
 <a href='https://github.com/NHSLeadership'>NHS Leadership Academy</a>,<a href='https://github.com/NHSLeadership'>NHS Leadershi...</a>,2017-01-29,3,0.0,0.0,4.0,GNU General Public License v3.0,Ruby
@@ -364,9 +364,9 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-02-28,23,30.0,16.0,15.0,Other,R
 <a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-03-13,24,31.0,16.0,15.0,Other,R
 <a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-05-18,25,31.0,16.0,15.0,GNU General Public License v3.0,R
-<a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-05-31,26,31.0,16.0,16.0,GNU General Public License v3.0,R
-<a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-06-05,27,31.0,16.0,26.0,Other,R
-<a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-07-10,28,31.0,16.0,26.0,Other,R
+<a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-05-31,26,31.0,16.0,15.0,GNU General Public License v3.0,R
+<a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-06-05,27,31.0,16.0,25.0,Other,R
+<a href='https://github.com/The-Strategy-Unit'>NHS Midlands and Lancashire CSU - The Strategy Unit</a>,<a href='https://github.com/The-Strategy-Unit'>NHS Midlands ...</a>,2023-07-10,28,31.0,16.0,25.0,Other,R
 <a href='https://github.com/ebmdatalab'>University of Oxford - Evidence-Based Medicine Data Lab</a>,<a href='https://github.com/ebmdatalab'>University of...</a>,2015-09-02,1,91.0,25.0,326.0,MIT License,Python
 <a href='https://github.com/ebmdatalab'>University of Oxford - Evidence-Based Medicine Data Lab</a>,<a href='https://github.com/ebmdatalab'>University of...</a>,2015-11-23,2,93.0,25.0,326.0,MIT License,Python
 <a href='https://github.com/ebmdatalab'>University of Oxford - Evidence-Based Medicine Data Lab</a>,<a href='https://github.com/ebmdatalab'>University of...</a>,2016-05-17,3,99.0,27.0,331.0,MIT License,Python
@@ -527,51 +527,51 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2022-09-27,13,95.0,25.0,42.0,MIT License,Python
 <a href='https://github.com/nhs-pycom'>NHS Python Community for Healthcare</a>,<a href='https://github.com/nhs-pycom'>NHS Python Co...</a>,2023-06-21,14,95.0,25.0,42.0,MIT License,Python
 <a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-01-08,1,45.0,9.0,4.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-03-08,2,68.0,17.0,9.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-07-23,3,127.0,36.0,18.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-08-19,4,128.0,37.0,20.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-09-13,5,139.0,43.0,20.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-10-17,6,160.0,68.0,28.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-12-09,7,161.0,69.0,28.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-02-18,8,201.0,84.0,28.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-08-10,9,203.0,86.0,32.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-08-28,10,208.0,87.0,47.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-09-28,11,246.0,112.0,48.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-10-03,12,252.0,116.0,49.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-10-14,13,316.0,145.0,49.0,Creative Commons Zero v1.0 Universal,HTML
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-02-08,14,349.0,162.0,63.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-04-01,15,350.0,162.0,63.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-04-21,16,379.0,180.0,69.0,Creative Commons Zero v1.0 Universal,HTML
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-05-03,17,379.0,180.0,70.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-06-23,18,383.0,185.0,72.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-07-07,19,393.0,185.0,81.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-07-09,20,393.0,186.0,82.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-07-22,21,397.0,186.0,84.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-08-03,22,399.0,187.0,84.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-09-14,23,403.0,189.0,87.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-10-30,24,411.0,190.0,87.0,Other,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-11-01,25,418.0,192.0,88.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-11-02,26,418.0,193.0,89.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-11-10,27,419.0,193.0,89.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-02-08,28,420.0,193.0,89.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-03-11,29,424.0,195.0,95.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-03-15,30,425.0,197.0,104.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-03-25,31,438.0,213.0,105.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-04-28,32,442.0,214.0,105.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-05-05,33,455.0,221.0,125.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-06-21,34,462.0,222.0,128.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-07-08,35,464.0,223.0,128.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-08-11,36,481.0,224.0,128.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-11-02,37,500.0,227.0,130.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-01-06,38,500.0,227.0,136.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-01-09,39,501.0,227.0,138.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-01-23,40,506.0,228.0,147.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-03-31,41,513.0,231.0,150.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-04-23,42,518.0,231.0,151.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-04-25,43,524.0,231.0,165.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-05-19,44,533.0,231.0,165.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-06-08,45,534.0,231.0,165.0,Creative Commons Zero v1.0 Universal,R
-<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-06-22,46,536.0,231.0,165.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-03-08,2,68.0,17.0,10.0,Other,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-07-23,3,127.0,36.0,19.0,Other,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-08-19,4,128.0,37.0,21.0,Other,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-09-13,5,139.0,43.0,21.0,Other,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-10-17,6,160.0,68.0,29.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2019-12-09,7,161.0,69.0,29.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-02-18,8,201.0,84.0,29.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-08-10,9,203.0,86.0,33.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-08-28,10,208.0,87.0,48.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-09-28,11,246.0,112.0,49.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-10-03,12,252.0,116.0,50.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2020-10-14,13,316.0,145.0,50.0,Creative Commons Zero v1.0 Universal,HTML
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-02-08,14,349.0,162.0,66.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-04-01,15,350.0,162.0,66.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-04-21,16,379.0,180.0,72.0,Creative Commons Zero v1.0 Universal,HTML
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-05-03,17,379.0,180.0,73.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-06-23,18,383.0,185.0,75.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-07-07,19,393.0,185.0,84.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-07-09,20,393.0,186.0,85.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-07-22,21,397.0,186.0,87.0,Other,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-08-03,22,399.0,187.0,87.0,Other,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-09-14,23,403.0,189.0,90.0,Other,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-10-30,24,411.0,190.0,90.0,Other,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-11-01,25,418.0,192.0,91.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-11-02,26,418.0,193.0,92.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2021-11-10,27,419.0,193.0,92.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-02-08,28,420.0,193.0,92.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-03-11,29,424.0,195.0,98.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-03-15,30,425.0,197.0,107.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-03-25,31,438.0,213.0,108.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-04-28,32,442.0,214.0,108.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-05-05,33,455.0,221.0,128.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-06-21,34,462.0,222.0,131.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-07-08,35,464.0,223.0,131.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-08-11,36,483.0,224.0,131.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2022-11-02,37,502.0,227.0,133.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-01-06,38,502.0,227.0,139.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-01-09,39,503.0,227.0,141.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-01-23,40,508.0,228.0,150.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-03-31,41,515.0,231.0,153.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-04-23,42,520.0,231.0,154.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-04-25,43,526.0,231.0,168.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-05-19,44,535.0,231.0,168.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-06-08,45,536.0,231.0,168.0,Creative Commons Zero v1.0 Universal,R
+<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,<a href='https://github.com/nhs-r-community'>NHS-R Community</a>,2023-06-22,46,538.0,231.0,168.0,Creative Commons Zero v1.0 Universal,R
 <a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2016-04-26,1,14.0,9.0,7.0,Apache License 2.0,Java
 <a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2016-07-22,2,46.0,37.0,142.0,Apache License 2.0,Java
 <a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2016-07-29,4,53.0,41.0,143.0,Apache License 2.0,CSS
@@ -681,51 +681,51 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-04-23,145,301.0,368.0,639.0,Apache License 2.0,CSS
 <a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-04-28,147,301.0,372.0,639.0,Apache License 2.0,CSS
 <a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-05-07,148,302.0,373.0,639.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-05-15,150,307.0,390.0,662.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-02,151,307.0,392.0,667.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-08,152,311.0,395.0,671.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-09,153,311.0,396.0,674.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-10,154,311.0,406.0,688.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-29,155,311.0,407.0,688.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-08-24,157,316.0,411.0,692.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-09-01,158,319.0,412.0,714.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-09-11,159,319.0,414.0,714.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-10-13,160,319.0,415.0,714.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-10-16,162,319.0,417.0,715.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-10-19,163,319.0,418.0,715.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-11-13,164,320.0,419.0,719.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-12-14,165,320.0,420.0,719.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-01-04,166,320.0,426.0,721.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-01-06,167,320.0,427.0,721.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-01-22,168,320.0,428.0,721.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-01-27,169,323.0,429.0,739.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-02-11,170,323.0,429.0,739.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-02-24,171,323.0,430.0,739.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-03-01,172,325.0,431.0,743.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-03-03,173,325.0,432.0,743.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-03-29,174,325.0,433.0,743.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-04-07,175,325.0,434.0,743.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-05-11,176,326.0,434.0,743.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-06-01,177,327.0,434.0,743.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-06-23,178,329.0,435.0,743.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-07-14,179,329.0,435.0,743.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-08-18,180,330.0,435.0,753.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-08-19,181,330.0,435.0,753.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-09-08,182,330.0,435.0,753.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-09-09,183,330.0,435.0,753.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-09-14,184,330.0,435.0,753.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-09-27,185,330.0,435.0,761.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-10-06,188,336.0,435.0,775.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-11-09,189,336.0,435.0,775.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-11-16,191,338.0,436.0,802.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-12-21,192,338.0,436.0,802.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2022-02-18,193,339.0,436.0,802.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2022-02-28,194,339.0,436.0,806.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2022-04-12,195,339.0,436.0,806.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2022-05-30,196,339.0,436.0,814.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2023-02-15,197,340.0,436.0,814.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2023-03-13,198,341.0,436.0,814.0,Apache License 2.0,CSS
-<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2023-03-23,199,342.0,436.0,814.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-05-15,150,307.0,390.0,663.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-02,151,307.0,392.0,668.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-08,152,311.0,395.0,672.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-09,153,311.0,396.0,675.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-10,154,311.0,406.0,689.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-06-29,155,311.0,407.0,689.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-08-24,157,316.0,411.0,693.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-09-01,158,319.0,412.0,715.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-09-11,159,319.0,414.0,715.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-10-13,160,319.0,415.0,715.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-10-16,162,319.0,417.0,716.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-10-19,163,319.0,418.0,716.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-11-13,164,320.0,419.0,720.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2020-12-14,165,320.0,420.0,720.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-01-04,166,320.0,426.0,722.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-01-06,167,320.0,427.0,722.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-01-22,168,320.0,428.0,722.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-01-27,169,323.0,429.0,740.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-02-11,170,323.0,429.0,740.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-02-24,171,323.0,430.0,740.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-03-01,172,325.0,431.0,744.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-03-03,173,325.0,432.0,744.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-03-29,174,325.0,433.0,744.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-04-07,175,325.0,434.0,744.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-05-11,176,326.0,434.0,744.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-06-01,177,327.0,434.0,744.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-06-23,178,329.0,435.0,744.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-07-14,179,329.0,435.0,744.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-08-18,180,330.0,435.0,754.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-08-19,181,330.0,435.0,754.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-09-08,182,330.0,435.0,754.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-09-09,183,330.0,435.0,754.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-09-14,184,330.0,435.0,754.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-09-27,185,330.0,435.0,762.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-10-06,188,336.0,435.0,776.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-11-09,189,336.0,435.0,776.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-11-16,191,338.0,436.0,803.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2021-12-21,192,338.0,436.0,803.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2022-02-18,193,339.0,436.0,803.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2022-02-28,194,339.0,436.0,807.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2022-04-12,195,339.0,436.0,807.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2022-05-30,196,339.0,436.0,815.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2023-02-15,197,340.0,436.0,815.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2023-03-13,198,341.0,436.0,815.0,Apache License 2.0,CSS
+<a href='https://github.com/nhsconnect'>NHS Connect</a>,<a href='https://github.com/nhsconnect'>NHS Connect</a>,2023-03-23,199,342.0,436.0,815.0,Apache License 2.0,CSS
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2014-09-09,3,7.0,19.0,9.0,GNU Affero General Public License v3.0,Python
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2014-11-03,4,7.0,21.0,20.0,GNU Affero General Public License v3.0,Python
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2015-02-18,5,7.0,23.0,20.0,GNU Affero General Public License v3.0,Python
@@ -749,28 +749,28 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-03-18,27,58.0,75.0,111.0,MIT License,Python
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-04-08,29,73.0,90.0,150.0,MIT License,Python
 <a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-07-27,30,74.0,95.0,150.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-08-10,32,79.0,101.0,156.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-09-20,33,81.0,102.0,156.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-09-29,34,81.0,102.0,156.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-10-08,35,84.0,104.0,156.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-12-16,36,90.0,106.0,157.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-05-19,37,90.0,106.0,157.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-06-14,38,100.0,106.0,157.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-08-31,39,119.0,111.0,178.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-10-10,41,124.0,111.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-01-17,42,124.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-03-31,43,124.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-04-04,44,124.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-04-26,45,124.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-04-28,46,124.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-05-04,47,124.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-05-30,48,124.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-13,49,124.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-14,50,125.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-16,51,126.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-19,52,127.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-26,54,127.0,113.0,187.0,MIT License,Python
-<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-28,55,128.0,113.0,187.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-08-10,32,79.0,101.0,153.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-09-20,33,81.0,102.0,153.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-09-29,34,81.0,102.0,153.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-10-08,35,84.0,104.0,153.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2021-12-16,36,90.0,106.0,154.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-05-19,37,90.0,106.0,154.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-06-14,38,100.0,106.0,154.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-08-31,39,119.0,111.0,175.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2022-10-10,41,124.0,111.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-01-17,42,124.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-03-31,43,124.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-04-04,44,124.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-04-26,45,124.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-04-28,46,124.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-05-04,47,124.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-05-30,48,124.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-13,49,124.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-14,50,125.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-16,51,126.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-19,52,127.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-26,54,128.0,113.0,184.0,MIT License,Python
+<a href='https://github.com/nhsengland'>NHS England</a>,<a href='https://github.com/nhsengland'>NHS England</a>,2023-06-28,55,129.0,113.0,184.0,MIT License,Python
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2015-08-06,1,1.0,1.0,0.0,,
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2015-08-14,2,2.0,2.0,0.0,GNU General Public License v2.0,CSS
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2015-08-24,3,21.0,13.0,1.0,MIT License,HTML
@@ -940,18 +940,18 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-03-10,177,947.0,466.0,1267.0,MIT License,HTML
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-03-14,178,947.0,466.0,1267.0,MIT License,HTML
 <a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-03-29,179,948.0,466.0,1267.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-08-02,180,948.0,467.0,1267.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-09-07,181,948.0,467.0,1274.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-09-16,182,948.0,468.0,1274.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-09-29,183,949.0,468.0,1275.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-10-05,185,950.0,468.0,1275.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-10-31,186,950.0,468.0,1281.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-11-10,187,950.0,468.0,1287.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-01-03,188,952.0,468.0,1290.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-02-06,189,952.0,468.0,1291.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-02-07,190,954.0,468.0,1291.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-05-25,193,954.0,468.0,1291.0,MIT License,HTML
-<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-06-06,194,954.0,468.0,1291.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-08-02,180,949.0,467.0,1267.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-09-07,181,949.0,467.0,1274.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-09-16,182,949.0,468.0,1274.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-09-29,183,950.0,468.0,1275.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-10-05,185,951.0,468.0,1275.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-10-31,186,951.0,468.0,1281.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2022-11-10,187,951.0,468.0,1287.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-01-03,188,953.0,468.0,1290.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-02-06,189,953.0,468.0,1291.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-02-07,190,955.0,468.0,1291.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-05-25,193,955.0,468.0,1291.0,MIT License,HTML
+<a href='https://github.com/nhsuk'>NHS.UK</a>,<a href='https://github.com/nhsuk'>NHS.UK</a>,2023-06-06,194,955.0,468.0,1291.0,MIT License,HTML
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2019-03-22,1,4.0,4.0,4.0,MIT License,HTML
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2019-03-28,2,22.0,13.0,4.0,MIT License,HTML
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2019-05-29,3,48.0,28.0,6.0,MIT License,HTML
@@ -1021,36 +1021,36 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-05-27,70,542.0,277.0,255.0,MIT License,Python
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-06-14,71,559.0,281.0,255.0,MIT License,Python
 <a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-06-22,72,562.0,284.0,256.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-04,74,565.0,287.0,256.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-13,75,565.0,290.0,257.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-19,77,573.0,295.0,257.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-25,78,573.0,296.0,258.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-02,79,574.0,296.0,258.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-15,80,576.0,296.0,259.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-17,81,576.0,297.0,259.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-23,82,578.0,301.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-30,83,580.0,303.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-09-01,84,580.0,304.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-09-14,85,580.0,307.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-09-26,89,580.0,311.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-09-30,90,580.0,312.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-10-13,91,580.0,313.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-10-27,92,580.0,314.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-11-10,93,581.0,315.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-11-22,94,581.0,316.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-11-23,95,581.0,317.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-11-29,96,581.0,317.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-12-02,97,581.0,318.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-12-05,98,581.0,319.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-12-21,99,584.0,320.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-12-28,100,585.0,321.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-01-16,101,586.0,321.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-01-17,102,586.0,322.0,261.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-01-31,103,587.0,322.0,262.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-02-17,105,587.0,327.0,276.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-03-10,106,588.0,327.0,309.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-05-19,107,588.0,328.0,309.0,MIT License,Python
-<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-07-13,108,588.0,328.0,309.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-04,74,565.0,287.0,257.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-13,75,565.0,290.0,258.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-19,77,573.0,295.0,258.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-07-25,78,573.0,296.0,259.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-02,79,574.0,296.0,259.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-15,80,576.0,296.0,260.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-17,81,576.0,297.0,260.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-23,82,578.0,301.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-08-30,83,580.0,303.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-09-01,84,580.0,304.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-09-14,85,580.0,307.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-09-26,89,580.0,311.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-09-30,90,580.0,312.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-10-13,91,580.0,313.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-10-27,92,580.0,314.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-11-10,93,581.0,315.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-11-22,94,581.0,316.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-11-23,95,581.0,317.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-11-29,96,581.0,317.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-12-02,97,581.0,318.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-12-05,98,581.0,319.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-12-21,99,584.0,320.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2022-12-28,100,585.0,321.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-01-16,101,586.0,321.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-01-17,102,586.0,322.0,262.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-01-31,103,587.0,322.0,263.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-02-17,105,587.0,327.0,277.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-03-10,106,588.0,327.0,310.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-05-19,107,588.0,328.0,310.0,MIT License,Python
+<a href='https://github.com/nhsx'>NHSX</a>,<a href='https://github.com/nhsx'>NHSX</a>,2023-07-13,108,588.0,328.0,310.0,MIT License,Python
 <a href='https://github.com/nice-digital'>NICE Digital</a>,<a href='https://github.com/nice-digital'>NICE Digital</a>,2010-10-22,1,0.0,0.0,0.0,"BSD 3-Clause ""New"" or ""Revised"" License",C#
 <a href='https://github.com/nice-digital'>NICE Digital</a>,<a href='https://github.com/nice-digital'>NICE Digital</a>,2011-06-01,2,1.0,0.0,0.0,"BSD 3-Clause ""New"" or ""Revised"" License",C#
 <a href='https://github.com/nice-digital'>NICE Digital</a>,<a href='https://github.com/nice-digital'>NICE Digital</a>,2012-03-23,3,2.0,0.0,0.0,"BSD 3-Clause ""New"" or ""Revised"" License",C#
@@ -1119,169 +1119,169 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-05-27,5,51.0,20.0,211.0,MIT License,Stata
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-01,6,51.0,21.0,213.0,MIT License,Stata
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-02,7,54.0,22.0,216.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-09,8,80.0,28.0,299.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-18,9,80.0,28.0,299.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-22,10,83.0,28.0,301.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-26,11,83.0,28.0,302.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-30,12,83.0,28.0,302.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-07,13,84.0,28.0,302.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-09,14,84.0,28.0,305.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-15,15,84.0,28.0,306.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-04,17,86.0,28.0,317.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-20,18,87.0,28.0,317.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-25,19,87.0,28.0,317.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-27,20,87.0,29.0,318.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-09-01,21,88.0,29.0,322.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-09-11,22,88.0,29.0,323.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-01,23,88.0,29.0,323.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-14,24,92.0,39.0,324.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-31,25,92.0,39.0,326.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-03,26,92.0,39.0,326.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-06,27,92.0,39.0,326.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-13,28,93.0,40.0,326.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-23,29,93.0,40.0,326.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-26,30,93.0,41.0,327.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-01,31,93.0,41.0,327.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-03,32,93.0,41.0,327.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-07,33,93.0,41.0,327.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-08,34,93.0,41.0,327.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-17,35,94.0,41.0,328.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-22,36,96.0,41.0,328.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-04,37,96.0,42.0,328.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-06,39,96.0,42.0,339.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-07,40,96.0,42.0,343.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-15,42,96.0,42.0,343.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-18,44,96.0,42.0,347.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-19,46,96.0,42.0,348.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-21,47,96.0,42.0,350.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-22,48,106.0,48.0,351.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-25,49,110.0,49.0,352.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-01,50,110.0,49.0,352.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-04,51,110.0,49.0,352.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-05,52,110.0,49.0,352.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-08,53,110.0,49.0,352.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-09,54,111.0,49.0,352.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-12,55,111.0,49.0,352.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-15,56,111.0,49.0,353.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-22,58,111.0,49.0,355.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-23,60,111.0,49.0,355.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-26,61,111.0,50.0,362.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-03-01,62,111.0,50.0,362.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-03-16,63,111.0,50.0,364.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-03-23,64,111.0,50.0,368.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-03-31,65,111.0,50.0,368.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-06,66,111.0,50.0,368.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-13,67,111.0,50.0,368.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-19,68,111.0,50.0,368.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-20,69,111.0,50.0,368.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-21,70,111.0,50.0,368.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-29,71,112.0,50.0,368.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-05,74,112.0,51.0,371.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-07,75,113.0,51.0,371.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-10,76,115.0,51.0,371.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-14,77,116.0,52.0,371.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-19,78,116.0,52.0,371.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-26,79,116.0,52.0,371.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-27,81,116.0,53.0,372.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-02,82,117.0,54.0,373.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-04,83,118.0,54.0,373.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-07,84,118.0,54.0,373.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-09,85,119.0,56.0,373.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-28,86,119.0,56.0,373.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-29,87,119.0,56.0,373.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-01,88,119.0,56.0,373.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-13,89,119.0,56.0,373.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-22,90,119.0,58.0,393.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-26,92,119.0,58.0,394.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-08-06,93,120.0,59.0,396.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-08-24,94,120.0,59.0,396.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-01,95,120.0,59.0,396.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-07,96,120.0,59.0,396.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-08,98,123.0,61.0,397.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-14,99,123.0,61.0,397.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-15,100,123.0,61.0,397.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-20,101,123.0,61.0,397.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-12,102,123.0,61.0,397.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-18,103,123.0,61.0,397.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-22,104,123.0,61.0,404.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-25,106,126.0,62.0,404.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-26,107,126.0,62.0,404.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-28,109,126.0,64.0,406.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-03,110,126.0,64.0,406.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-08,111,126.0,68.0,406.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-10,112,127.0,68.0,406.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-15,113,128.0,68.0,407.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-29,114,128.0,68.0,410.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-12-03,115,128.0,68.0,410.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-12-15,116,128.0,68.0,410.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-12-30,117,129.0,69.0,411.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-04,118,130.0,73.0,411.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-05,119,130.0,74.0,413.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-13,120,130.0,75.0,414.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-17,121,130.0,75.0,414.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-27,123,131.0,77.0,415.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-28,124,132.0,77.0,415.0,MIT License,Stata
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-01,125,132.0,78.0,415.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-02,127,137.0,79.0,415.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-07,128,137.0,79.0,415.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-10,129,138.0,79.0,417.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-14,130,138.0,80.0,418.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-22,132,138.0,80.0,430.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-23,134,140.0,80.0,430.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-24,135,140.0,80.0,430.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-25,136,140.0,81.0,430.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-03-01,137,140.0,81.0,430.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-03-04,138,140.0,81.0,430.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-03-11,139,140.0,83.0,430.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-03-29,140,140.0,84.0,431.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-04-01,141,140.0,85.0,431.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-04-04,142,140.0,85.0,432.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-04-13,144,140.0,86.0,432.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-04,147,141.0,86.0,438.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-13,148,142.0,87.0,439.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-24,149,142.0,87.0,439.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-30,150,142.0,88.0,439.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-31,151,144.0,88.0,439.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-06,152,145.0,88.0,439.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-07,154,148.0,88.0,439.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-15,155,148.0,88.0,439.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-17,156,148.0,88.0,440.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-23,157,148.0,88.0,442.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-24,158,148.0,88.0,442.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-01,159,148.0,88.0,443.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-12,161,151.0,89.0,446.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-13,162,151.0,90.0,446.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-21,163,151.0,90.0,447.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-22,164,151.0,90.0,447.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-08-08,165,151.0,90.0,447.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-08-31,166,151.0,90.0,448.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-09-21,167,151.0,90.0,448.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-09-29,168,151.0,92.0,448.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-04,171,151.0,92.0,454.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-05,172,151.0,92.0,454.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-17,173,151.0,92.0,462.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-20,174,151.0,92.0,462.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-24,175,151.0,92.0,465.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-26,176,151.0,92.0,465.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-03,177,152.0,92.0,465.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-07,178,152.0,92.0,465.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-14,179,152.0,92.0,465.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-25,180,153.0,92.0,465.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-29,181,155.0,92.0,466.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-30,183,155.0,92.0,467.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-12-05,184,155.0,92.0,468.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-12-07,185,155.0,92.0,468.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-01-03,186,155.0,92.0,468.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-01-11,188,155.0,92.0,471.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-01-13,189,158.0,92.0,472.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-01,190,158.0,92.0,472.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-02,191,158.0,92.0,472.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-10,192,158.0,92.0,472.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-17,193,158.0,92.0,472.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-21,194,158.0,92.0,472.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-03-14,195,158.0,92.0,473.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-03-29,197,158.0,92.0,473.0,MIT License,Python
-<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-05-03,198,158.0,92.0,474.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-09,8,80.0,28.0,301.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-18,9,80.0,28.0,301.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-22,10,83.0,28.0,303.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-26,11,83.0,28.0,304.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-06-30,12,83.0,28.0,304.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-07,13,84.0,28.0,304.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-09,14,84.0,28.0,307.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-07-15,15,84.0,28.0,308.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-04,17,86.0,28.0,319.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-20,18,87.0,28.0,319.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-25,19,87.0,28.0,319.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-08-27,20,87.0,29.0,320.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-09-01,21,88.0,29.0,324.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-09-11,22,88.0,29.0,325.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-01,23,88.0,29.0,325.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-14,24,92.0,39.0,326.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-10-31,25,92.0,39.0,328.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-03,26,92.0,39.0,328.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-06,27,92.0,39.0,328.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-13,28,93.0,40.0,328.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-23,29,93.0,40.0,328.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-11-26,30,93.0,41.0,329.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-01,31,93.0,41.0,329.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-03,32,93.0,41.0,329.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-07,33,93.0,41.0,329.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-08,34,93.0,41.0,329.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-17,35,94.0,41.0,330.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2020-12-22,36,96.0,41.0,330.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-04,37,96.0,42.0,330.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-06,39,96.0,42.0,341.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-07,40,96.0,42.0,345.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-15,42,96.0,42.0,345.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-18,44,96.0,42.0,349.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-19,46,96.0,42.0,350.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-21,47,96.0,42.0,352.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-22,48,106.0,48.0,353.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-01-25,49,110.0,49.0,354.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-01,50,110.0,49.0,354.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-04,51,110.0,49.0,354.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-05,52,110.0,49.0,354.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-08,53,110.0,49.0,354.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-09,54,111.0,49.0,354.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-12,55,111.0,49.0,354.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-15,56,111.0,49.0,355.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-22,58,111.0,49.0,357.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-23,60,111.0,49.0,357.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-02-26,61,111.0,50.0,364.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-03-01,62,111.0,50.0,364.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-03-16,63,111.0,50.0,366.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-03-23,64,111.0,50.0,370.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-03-31,65,111.0,50.0,370.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-06,66,111.0,50.0,370.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-13,67,111.0,50.0,370.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-19,68,111.0,50.0,370.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-20,69,111.0,50.0,370.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-21,70,111.0,50.0,370.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-04-29,71,112.0,50.0,370.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-05,74,112.0,51.0,373.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-07,75,113.0,51.0,373.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-10,76,115.0,51.0,373.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-14,77,116.0,52.0,373.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-19,78,116.0,52.0,373.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-26,79,116.0,52.0,373.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-05-27,81,116.0,53.0,374.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-02,82,117.0,54.0,375.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-04,83,118.0,54.0,375.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-07,84,118.0,54.0,375.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-09,85,119.0,56.0,375.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-28,86,119.0,56.0,375.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-06-29,87,119.0,56.0,375.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-01,88,119.0,56.0,375.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-13,89,119.0,56.0,375.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-22,90,119.0,58.0,395.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-07-26,92,119.0,58.0,396.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-08-06,93,120.0,59.0,398.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-08-24,94,120.0,59.0,398.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-01,95,120.0,59.0,398.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-07,96,120.0,59.0,398.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-08,98,123.0,61.0,399.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-14,99,123.0,61.0,399.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-15,100,123.0,61.0,399.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-09-20,101,123.0,61.0,399.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-12,102,123.0,61.0,399.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-18,103,123.0,61.0,399.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-22,104,123.0,61.0,406.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-25,106,126.0,62.0,406.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-26,107,126.0,62.0,406.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-10-28,109,126.0,64.0,408.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-03,110,126.0,64.0,408.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-08,111,126.0,68.0,408.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-10,112,127.0,68.0,408.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-15,113,128.0,68.0,409.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-11-29,114,128.0,68.0,412.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-12-03,115,128.0,68.0,412.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-12-15,116,128.0,68.0,412.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2021-12-30,117,129.0,69.0,413.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-04,118,130.0,73.0,413.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-05,119,130.0,74.0,415.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-13,120,130.0,75.0,416.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-17,121,130.0,75.0,416.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-27,123,131.0,77.0,417.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-01-28,124,132.0,77.0,417.0,MIT License,Stata
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-01,125,132.0,78.0,417.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-02,127,137.0,79.0,417.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-07,128,137.0,79.0,417.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-10,129,138.0,79.0,419.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-14,130,138.0,80.0,420.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-22,132,138.0,80.0,432.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-23,134,140.0,80.0,432.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-24,135,140.0,80.0,432.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-02-25,136,140.0,81.0,432.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-03-01,137,140.0,81.0,432.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-03-04,138,140.0,81.0,432.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-03-11,139,140.0,83.0,432.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-03-29,140,140.0,84.0,433.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-04-01,141,140.0,85.0,433.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-04-04,142,140.0,85.0,434.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-04-13,144,140.0,86.0,434.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-04,147,141.0,86.0,440.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-13,148,142.0,87.0,441.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-24,149,142.0,87.0,441.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-30,150,142.0,88.0,441.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-05-31,151,144.0,88.0,441.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-06,152,145.0,88.0,441.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-07,154,148.0,88.0,441.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-15,155,148.0,88.0,441.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-17,156,148.0,88.0,442.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-23,157,148.0,88.0,444.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-06-24,158,148.0,88.0,444.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-01,159,148.0,88.0,445.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-12,161,151.0,89.0,447.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-13,162,151.0,90.0,447.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-21,163,151.0,90.0,448.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-07-22,164,151.0,90.0,448.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-08-08,165,151.0,90.0,448.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-08-31,166,151.0,90.0,449.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-09-21,167,151.0,90.0,449.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-09-29,168,151.0,92.0,449.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-04,171,151.0,92.0,455.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-05,172,151.0,92.0,455.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-17,173,151.0,92.0,463.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-20,174,151.0,92.0,463.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-24,175,151.0,92.0,466.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-10-26,176,151.0,92.0,466.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-03,177,152.0,92.0,466.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-07,178,152.0,92.0,466.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-14,179,152.0,92.0,466.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-25,180,153.0,92.0,466.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-29,181,155.0,92.0,467.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-11-30,183,155.0,92.0,468.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-12-05,184,155.0,92.0,469.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2022-12-07,185,155.0,92.0,469.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-01-03,186,155.0,92.0,469.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-01-11,188,155.0,92.0,472.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-01-13,189,158.0,92.0,473.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-01,190,158.0,92.0,473.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-02,191,158.0,92.0,473.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-10,192,158.0,92.0,473.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-17,193,158.0,92.0,473.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-02-21,194,158.0,92.0,473.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-03-14,195,158.0,92.0,474.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-03-29,197,158.0,92.0,474.0,MIT License,Python
+<a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-05-03,198,158.0,92.0,475.0,MIT License,Python
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-05-17,199,158.0,92.0,475.0,MIT License,Python
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-05-18,200,158.0,92.0,475.0,MIT License,Python
 <a href='https://github.com/opensafely'>OpenSAFELY Studies</a>,<a href='https://github.com/opensafely'>OpenSAFELY St...</a>,2023-06-26,201,158.0,92.0,475.0,MIT License,Python
@@ -1290,32 +1290,32 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-03-27,1,26.0,9.0,99.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-03-31,2,62.0,22.0,231.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-05-25,3,67.0,24.0,234.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-06-07,5,78.0,35.0,465.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-07-30,6,78.0,35.0,465.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-08-17,7,78.0,35.0,468.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-08-20,8,79.0,38.0,475.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-02,9,79.0,38.0,475.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-04,10,79.0,38.0,475.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-15,11,79.0,38.0,476.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-01,12,79.0,38.0,476.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-14,13,79.0,38.0,485.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-22,14,79.0,39.0,487.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-02,15,84.0,39.0,500.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-10,16,84.0,42.0,502.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-19,17,84.0,42.0,524.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-23,18,86.0,43.0,541.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-12-15,19,86.0,44.0,541.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-01-19,20,86.0,44.0,541.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-01-20,21,86.0,45.0,548.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-02-02,22,86.0,46.0,551.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-02-11,23,86.0,48.0,559.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-12,24,86.0,48.0,559.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-29,25,86.0,48.0,578.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-14,26,86.0,48.0,578.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-21,27,86.0,48.0,578.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-27,28,86.0,49.0,579.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-17,29,86.0,49.0,579.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-21,30,88.0,49.0,585.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-06-07,5,78.0,35.0,463.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-07-30,6,78.0,35.0,463.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-08-17,7,78.0,35.0,466.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-08-20,8,79.0,38.0,473.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-02,9,79.0,38.0,473.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-04,10,79.0,38.0,473.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-09-15,11,79.0,38.0,474.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-01,12,79.0,38.0,474.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-14,13,79.0,38.0,483.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-10-22,14,79.0,39.0,485.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-02,15,84.0,39.0,498.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-10,16,84.0,42.0,500.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-19,17,84.0,42.0,522.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-11-23,18,86.0,43.0,539.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2020-12-15,19,86.0,44.0,539.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-01-19,20,86.0,44.0,539.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-01-20,21,86.0,45.0,546.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-02-02,22,86.0,46.0,549.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-02-11,23,86.0,48.0,557.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-12,24,86.0,48.0,557.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-03-29,25,86.0,48.0,576.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-14,26,86.0,48.0,576.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-21,27,86.0,48.0,576.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-05-27,28,86.0,49.0,577.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-17,29,86.0,49.0,577.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-21,30,88.0,49.0,583.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-06-24,31,92.0,51.0,709.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-08,32,92.0,51.0,731.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-07-16,33,92.0,52.0,742.0,Other,Python
@@ -1326,21 +1326,21 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-11-18,38,92.0,52.0,777.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-11-29,39,92.0,52.0,782.0,Other,Python
 <a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2021-12-20,40,92.0,52.0,782.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-01-11,41,92.0,52.0,806.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-02-24,42,92.0,52.0,806.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-04-07,43,94.0,52.0,818.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-05-19,44,94.0,52.0,818.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-07-18,45,94.0,52.0,823.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-07-21,46,95.0,52.0,833.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-08-22,47,95.0,52.0,833.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-10-18,48,95.0,52.0,833.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-12-02,49,95.0,52.0,833.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-12-23,50,95.0,52.0,836.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-01-09,51,95.0,52.0,836.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-02-02,52,95.0,52.0,862.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-04-17,53,95.0,52.0,887.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-04-24,54,95.0,52.0,887.0,Other,Python
-<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-06-23,55,95.0,52.0,887.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-01-11,41,92.0,52.0,807.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-02-24,42,92.0,52.0,807.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-04-07,43,94.0,52.0,819.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-05-19,44,94.0,52.0,819.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-07-18,45,94.0,52.0,824.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-07-21,46,95.0,52.0,834.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-08-22,47,95.0,52.0,834.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-10-18,48,95.0,52.0,834.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-12-02,49,95.0,52.0,834.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2022-12-23,50,95.0,52.0,837.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-01-09,51,95.0,52.0,837.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-02-02,52,95.0,52.0,863.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-04-17,53,95.0,52.0,881.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-04-24,54,95.0,52.0,881.0,Other,Python
+<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,<a href='https://github.com/opensafely-core'>OpenSAFELY Core</a>,2023-06-23,55,95.0,52.0,881.0,Other,Python
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-08-16,1,0.0,0.0,0.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-11-20,3,0.0,0.0,0.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2018-12-13,4,0.0,0.0,0.0,Apache License 2.0,Java
@@ -1389,5 +1389,5 @@ Organisation,Org Short,Date,Open Repositories,Stargazers,Forks,Open Issues,Top L
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2023-06-04,63,15.0,2.0,1.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2023-06-06,64,15.0,2.0,1.0,Apache License 2.0,Java
 <a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2023-06-19,65,15.0,2.0,1.0,Apache License 2.0,Java
-<a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2023-06-28,66,16.0,2.0,1.0,Apache License 2.0,Java
-<a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2023-07-04,67,16.0,2.0,1.0,Apache License 2.0,Java
+<a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2023-06-28,66,17.0,2.0,1.0,Apache License 2.0,Java
+<a href='https://gitlab.com/nhsbsa'>NHS Business Services Authority</a>,<a href='https://gitlab.com/nhsbsa'>NHS Business ...</a>,2023-07-04,67,17.0,2.0,1.0,Apache License 2.0,Java
