@@ -31,12 +31,6 @@ As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/ser
 
 <hr class="nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-6">
 
-## Topics Table
-
-{% include topics.html %}
-
-<hr class="nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-6">
-
 ## About this page
 
 This tool is built using end-to-end open source analytical tools including: [The NHS Digital Service Manual](https://service-manual.nhs.uk/), [python](https://nhs-pycom.net/), [plotly](https://plotly.com/python/), [github.io](https://pages.github.com/), and [github actions](https://github.com/features/actions).
