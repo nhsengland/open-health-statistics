@@ -4,6 +4,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 .vscode
+*.pkl
+
 # C extensions
 *.so
 
@@ -124,3 +126,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Mac specifics
+.DS_Store

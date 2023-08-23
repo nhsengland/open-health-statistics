@@ -1,0 +1,42 @@
+<style>
+    /* Modify the background color */
+     
+    .navbar-custom {
+        background-color: rgb(0, 94, 184);
+    }
+    /* Modify brand and text color */
+     
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text,
+    .navbar-custom .navbar-nav a,
+    .navbar-custom .navbar-nav a:visited {
+        color: rgb(255, 255, 255);
+    }
+    .navbar-custom .navbar-nav a:hover {
+        color: #f6f6f66b;
+    }
+    .navbar-custom .navbar-nav a:active {
+        color: #f6f6f66b;
+        background-color: rgb(0, 94, 184);
+    }    
+
+</style>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-custom p-1">
+    <div class="nhsuk-width-container-fluid">
+        <a class="navbar-brand" href="#">{{ site.title | default: site.github.repository_name }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;" color="white"">
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == '/nhsx-internship-projects/' %} active{% endif %}" aria-current="page" href="/open-health-statistics/">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == '/nhsx-internship-projects/overview.html' %} active{% endif %}" href="/open-health-statistics/github-topics.html">Topics</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

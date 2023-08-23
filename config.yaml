@@ -22,3 +22,12 @@ github_org_dict:
   }
 
 gitlab_group_dict: { "NHS Business Services Authority": "2955125" }
+
+github_tag_lst:  ["reproducible-analytical-pipeline",
+                  "nhs-digital-publication",
+                  "nhs",
+                  "nhs england",
+                  "nhs digital",
+                  "date",
+                  "full_name",
+]

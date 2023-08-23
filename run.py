@@ -16,6 +16,7 @@ with open("config.yaml", "r") as f:
 
 # Pull the raw data from the APIs
 raw_github_df = github.pull_raw_df(config["github_org_dict"])
+raw_github_df = github.pull_raw_df(config["github_tag_dict"])
 raw_gitlab_df = gitlab.pull_raw_df(config["gitlab_group_dict"])
 
 # Tidy the raw data
@@ -24,6 +25,10 @@ tidy_gitlab_df = gitlab.tidy_raw_df(raw_gitlab_df)
 
 # Combine tidy dataframes
 df = pd.concat([tidy_github_df, tidy_gitlab_df]).reset_index(drop=True)
+
+# Create a separate dataframe for the topics page
+df_topics = df
+df = df.drop(columns='topics')
 
 # Data processing
 
@@ -233,3 +238,64 @@ html_str = (
 )
 with open("_includes/update.html", "w") as file:
     file.write(html_str)
+
+
+# ----------------------------------------------
+# August 2023 - add topics page
+# ----------------------------------------------
+
+# We need to change date to a date type (day only) again (TODO - CONSOLIDATE)
+df_topics["date"] = pd.to_datetime(df_topics["date"],format='ISO8601').apply(lambda x: x.strftime("%Y-%m-%d"))
+
+# Separate topics into different columns 
+df_topics = df_topics['topics'].str.join('|').str.get_dummies()
+
+# Separate topics into different columns 
+df_topics['full_name'] = df['full_name']
+df_topics['date'] = df["date"]
+
+# Filter to columns in tag list (see config.yaml)
+df_topics_filter = df_topics[df_topics.columns.intersection(github_tag_lst)]
+
+# Filter to rows with non-zero values
+df_topics_filter = df_topics_filter.loc[~(df_topics_filter.drop(["full_name","date"],axis=1)==0).all(axis=1)]
+
+# Order by Tags, Date, Org
+df_topics_filter = df_topics_filter.sort_values(github_tag_lst) 
+
+# new data frame with split value columns
+new = df_topics_filter["full_name"].str.split(pat="/", n=-1, expand=True)
+ 
+# making separate first name column from new data frame
+df_topics_filter["Org"]= new[0]
+ 
+# making separate last name column from new data frame
+df_topics_filter["Repo"]= new[1]
+ 
+# Dropping old Name columns
+df_topics_filter.drop(columns =["full_name"], inplace = True)
+
+# Make an org_short hyperlink column and make the org column a hyperlink
+df_topics_filter["Repo"] = "<a href=https://github.com/" + df_topics_filter["Org"] + "/" + df_topics_filter["Repo"] + ">" + df_topics_filter["Repo"] + "</a>"
+
+# Rotate the column names by 90 degrees
+df_topics_filter = df_topics_filter.style.set_table_styles(
+    [dict(selector="th",props=[('max-width', '100px')]),
+        dict(selector="th.col_heading",
+                 props=[("vertical-align", "text-top"), 
+                        ('transform', 'rotateZ(-90deg)'),
+                        ])]
+)
+
+# Save data frame as html table
+df_topics_filter_html = df_topics_filter.to_html(
+    index=False, render_links=True, escape=False
+)
+df_topics_filter_html = df_topics_filter_html.replace(
+    "dataframe", "nhsuk-table__panel-with-heading-tab"
+)
+df_topics_filter_html = df_topics_filter_html.replace('border="1"', "")
+
+with open("_includes/topics.html", "w") as file:
+    file.write(df_topics_filter_html)
+    
