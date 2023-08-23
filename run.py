@@ -279,7 +279,7 @@ df_topics_filter["Repo"]= new[1]
 df_topics_filter.drop(columns =["full_name"], inplace = True)
 
 # Make an org_short hyperlink column and make the org column a hyperlink
-df_topics_filter["Repo"] = "<a href=https://github.com/" + df_topics_filter["Org"] + "/" + df_topics_filter["Repo"] + ">" + df_topics_filter["Repo"] + "</a>"
+df_topics_filter["Repo"] = "<a href='https://github.com/" + df_topics_filter["Org"] + "/" + df_topics_filter["Repo"] + "'>" + df_topics_filter["Repo"] + "</a>"
 
 # Rotate the column names by 90 degrees
 df_topics_filter = df_topics_filter.style.set_table_styles(
