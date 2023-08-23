@@ -79,7 +79,6 @@ def tidy_raw_df(df):
         [
             "org",
             "link",
-            "full_name",
             "created_at",
             "open_repos",
             "star_count",

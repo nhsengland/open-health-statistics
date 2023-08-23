@@ -16,21 +16,24 @@ with open("config.yaml", "r") as f:
 
 # Pull the raw data from the APIs
 raw_github_df = github.pull_raw_df(config["github_org_dict"])
-raw_github_df = github.pull_raw_df(config["github_tag_dict"])
 raw_gitlab_df = gitlab.pull_raw_df(config["gitlab_group_dict"])
 
 # Tidy the raw data
 tidy_github_df = github.tidy_raw_df(raw_github_df)
 tidy_gitlab_df = gitlab.tidy_raw_df(raw_gitlab_df)
 
+# Create a separate dataframe for the topics page and drop columns which 
+# don't work with gitlab
+df_topics = tidy_github_df
+df = tidy_github_df.drop(columns='topics')
+df = tidy_github_df.drop(columns='full_name')
+
 # Combine tidy dataframes
 df = pd.concat([tidy_github_df, tidy_gitlab_df]).reset_index(drop=True)
 
-# Create a separate dataframe for the topics page
-df_topics = df
-df = df.drop(columns='topics')
-
+# -------------------------
 # Data processing
+# -------------------------
 
 # Make an org_short hyperlink column and make the org column a hyperlink
 df["org_short"] = (
