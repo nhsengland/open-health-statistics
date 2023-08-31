@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v3 # checkout the repository content to github runner.
-        with:
-          ref: major-tags-tracker
       - name: setup python
         uses: actions/setup-python@v2
         with:
@@ -43,4 +41,3 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ refs/heads/major-tags-tracker }}
