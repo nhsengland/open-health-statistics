@@ -258,13 +258,13 @@ df_topics['full_name'] = df['full_name']
 df_topics['date'] = df["date"]
 
 # Filter to columns in tag list (see config.yaml)
-df_topics_filter = df_topics[df_topics.columns.intersection(github_tag_lst)]
+df_topics_filter = df_topics[df_topics.columns.intersection(config["github_tag_lst"])]
 
 # Filter to rows with non-zero values
 df_topics_filter = df_topics_filter.loc[~(df_topics_filter.drop(["full_name","date"],axis=1)==0).all(axis=1)]
 
 # Order by Tags, Date, Org
-df_topics_filter = df_topics_filter.sort_values(github_tag_lst) 
+df_topics_filter = df_topics_filter.sort_values(config["github_tag_lst"]) 
 
 # new data frame with split value columns
 new = df_topics_filter["full_name"].str.split(pat="/", n=-1, expand=True)
@@ -299,6 +299,34 @@ df_topics_filter_html = df_topics_filter_html.replace(
 )
 df_topics_filter_html = df_topics_filter_html.replace('border="1"', "")
 
+
+# ----------------------------------------------
+# September 2023 - add topics page
+# ----------------------------------------------
+df_topics = tidy_github_df
+# We need to change date to a date type (day only) again (TODO - CONSOLIDATE)
+df_topics["date"] = pd.to_datetime(df_topics["date"]).dt.strftime("%Y-%m-%d")
+
+topics_joined = []
+for i in df_topics['topics']:
+    topics_joined.append(', '.join(i))
+
+df_topics['topics'] = topics_joined
+
+# Filter to rows with non-zero values
+df_topics_filter = df_topics[df_topics['topics'].map(lambda x: len(x)) > 0]
+
+#filter and remove redundant columns
+df_topics_filter = df_topics_filter.loc[df_topics_filter['open_repos'] == 1]
+
+#add link to each of the repose
+# Make an org_short hyperlink column and make the org column a hyperlink
+df_topics_filter["Repo"] = "<a href='https://github.com/" + df_topics_filter["full_name"] + "'>" + df_topics_filter["full_name"] + "</a>"
+
+df_topics_filter = df_topics_filter[['org', 'full_name', 'date', 'Repo', 'topics']]
+df_topics_filter
+
+'''
 with open("_includes/topics.html", "w") as file:
     file.write(df_topics_filter_html)
-    
+'''
