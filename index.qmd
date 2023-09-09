@@ -1,0 +1,136 @@
+---
+title: "Open-source Healthcare Statistics"
+description: "Collecting statistics on the use of open-source code in the NHS and the wider healthcare field."
+comments: false
+---
+
+## What is open-source?
+
+Open-source is the practice of publishing the source code of a software project so that anyone can read, modify, re-use, and improve that software.
+
+As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/service-standard/12-make-new-source-code-open), public services are built with public money--so unless there's a good reason not to (for security reasons for example), all code produced by the NHS should be made publicly available. 
+
+> Open source means that the NHS can give our work back to the people who fund it, the public: allowing them to more easily join our staff, more quickly develop products to support us, and better understand and trust the work we do on their behalf. 
+> [NHS Open-source Policy](https://github.com/nhsx/open-source-policy)
+
+To this end, the [Department of Health & Social Care has recently made a commitment](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft) to make all new NHS code open source and published under appropriate licences such as [MIT](https://opensource.org/licenses/MIT) and [OGLv3](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+## The growth of open-source in healthcare
+
+The ‘cambrian explosion’ visualisation captures the rise in open-source software in recent years. From the first open-source repository published by NHS England in 2014, to over 1,200 today. Python, R, and webdev tools (HTML, css, Ruby, PHP) are the most popular languages. 
+
+```{python}
+import pandas as pd
+import plotly.io as pio
+import plotly.graph_objects as go
+pio.renderers.default = 'notebook'
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+
+# Load data
+df = pd.read_csv("../data/org_repos_agg.csv")
+
+# Convert the "Date" column to a datetime dtype
+df['Date'] = pd.to_datetime(df['Date'])
+
+def plotly_chart(df: pd.DataFrame,
+                     group_col: str,
+                     values_col: str,
+                     date_col: str,
+                     plot_title: str,
+                     x_lab: str,
+                     y_lab: str) -> None:
+    # Group the DataFrame by Organisation
+    grouped_df = df.groupby(group_col)
+    
+    data = []
+    for org, org_df in grouped_df:
+        
+        # Create a scatter plot of the data points for each organisation
+        scatter = go.Scatter(
+            x=org_df[date_col],
+            y=org_df[values_col],
+            name=org,
+            mode='lines',
+            line=dict(width=3, dash='solid'),
+            hovertemplate=f'%{{y:.0f}}'
+        )
+        data.append(scatter)
+    
+    # Set options
+    min_xaxis = min(df[date_col])
+    max_xaxis = max(df[date_col])
+    max_yaxis = max(df[values_col])
+    remove = ['zoom2d','pan2d', 'select2d', 'lasso2d', 'zoomIn2d',
+            'zoomOut2d', 'autoScale2d', 'resetScale2d', 'zoom',
+            'pan', 'select', 'zoomIn', 'zoomOut', 'autoScale',
+            'resetScale', 'toggleSpikelines', 'hoverClosestCartesian',
+            'hoverCompareCartesian', 'toImage']
+    
+    # Set layout
+    layout = go.Layout(title=plot_title,
+                       font=dict(size=12),
+                       xaxis=dict(title=x_lab,
+                                  # add more time to x-axis to show plot circles
+                                  range=[min_xaxis - relativedelta(days=5),
+                                         max_xaxis + relativedelta(days=5)]),
+                       yaxis=dict(title=y_lab,
+                                  # fix y0 at 0 and add 10% to y1
+                                  range=[0, max_yaxis + (max_yaxis * 0.1)]),
+                       showlegend=False,
+                       hovermode="x unified")
+    
+    # Set configuration
+    config = {'displaylogo': False,
+              'displayModeBar': True,
+              'modeBarButtonsToRemove': remove}
+    
+    # Create the figure and show()
+    fig = go.Figure(data=data, layout=layout)
+    fig.update_layout(template='plotly_white')
+    fig.show(config=config)
+
+plotly_chart(df, "Organisation", "Open Repositories", "Date", "The growth of open-source in healthcare", "Date", "Open Repositories")
+```
+
+## Latest open-source statistics
+
+```{python}
+#| label: tbl-open-repos
+#| tbl-cap: open-source statistics
+#| tbl-colwidths: [20,30,25,25]
+import pandas as pd
+import plotly.graph_objects as go
+import datetime
+from dateutil.relativedelta import relativedelta
+from IPython.display import display, Markdown
+from tabulate import tabulate
+
+# Load data
+df = pd.read_csv("../data/org_repos_agg.csv")
+
+# Convert the "Date" column to a datetime dtype
+df['Date'] = pd.to_datetime(df['Date'])
+
+# Filter the latest date for each organization
+latest_dates = df.groupby('Organisation')['Date'].idxmax()
+latest_df = df.loc[latest_dates]
+
+# Create a new column with hyperlinks for the "Organisation" column
+latest_df['Organisation'] = latest_df.apply(lambda x: f"[{x['Organisation']}]({x['URL']})", axis=1)
+
+# Drop the "Date" column and sort by "Open Repositories"
+latest_df = latest_df.drop(['Date', 'URL'], axis=1).sort_values('Open Repositories', ascending=False)
+
+# Calculate date data was rendered
+today = datetime.date.today()
+formatted_date = today.strftime("%d %B %Y")
+display(Markdown('Data updated as of: `%s`.' % formatted_date))
+
+Markdown(tabulate(latest_df, headers='keys', tablefmt='pipe', showindex=False))
+```
+
+
+## NHS Python Community slack
+
+If you want to learn more about this project, please join the discussion at the [NHS Python Community Slack group](https://).

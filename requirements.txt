@@ -1,3 +1,27 @@
-plotly==4.14.3
-pandas==1.1.3
-pyyaml==5.4.1
+# The libraries used by your code should be listed here
+# See https://nhsd-git.digital.nhs.uk/data-services/analytics-service/iuod/rap-community-of-practice/-/blob/master/python/project-structure-and-packaging.md
+
+# Python version = 3.10.*
+
+# Data manipulation
+numpy==1.21.5
+pandas==2.0.1
+python-dateutil==2.8.2
+PyYAML==6.0
+urllib3==1.26.15
+
+# Quarto output
+nbformat==5.1.3
+nbclient
+plotly==5.13.1
+jupyter==1.0.0
+tabulate==0.9.0
+
+# Testing
+pytest==7.3.1
+pytest-html==3.1.1
+
+# Dependencies of the above packages
+#ipykernel==6.9.0
+toml==0.10.2
+#pathlib2==2.3.6

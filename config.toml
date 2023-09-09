@@ -1,0 +1,11 @@
+
+# Describe where the outputs are saved.
+raw_sink = 'data/org_repos_raw.csv'
+agg_sink = 'data/org_repos_agg.csv'
+
+# Describe where the list of GitHub organisations are located.
+org_list = 'org_list.yaml'
+#org_list = 'org_list_test.yaml' # for testing
+
+# Describe where the logs are saved.
+log_dir = 'logs' 

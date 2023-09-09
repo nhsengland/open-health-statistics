@@ -279,11 +279,11 @@ df_topics_filter_html = df_topics_filter_html.replace(
 )
 df_topics_filter_html = df_topics_filter_html.replace('border="1"', "")
 
-with open('topics_html_template.html', 'r+') as file:
+with open('docs/topics_html_template.html', 'r+') as file:
     template = file.readlines()
 
 template.insert(26, df_topics_filter_html)
 
 template_updated = "".join(template)
-with open("_includes/test.html", "w") as file:
+with open("_includes/topics.html", "w") as file:
     file.write(template_updated)

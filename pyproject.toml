@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opensource-health-statistics"
+version = "0.2.0"
+authors = [
+    { name="Craig R. Shenton, PhD", email="craig.shenton@nhs.net" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+"Homepage" = "https://nhs-pycom.github.io/opensource-health-statistics/"

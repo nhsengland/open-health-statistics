@@ -1,0 +1,10 @@
+# The libraries used by your code should be listed here
+name: opensource-health-statistics # your project name (no spaces!)
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.10.5
+  - pip
+  - pandas=1.4.4
+  - toml=0.10.2

@@ -1,0 +1,85 @@
+project:
+  type: website
+    
+website:
+  open-graph: true
+  page-navigation: true
+  title: "opensource-health-statistics"
+  description: "Statistics on open-source healthcare repositories"
+  # date: now
+  favicon: _assets/favicon.ico
+  repo-url: https://github.com/nhs-pycom/opensource-health-statistics
+  repo-actions: [edit, issue]
+  site-url: https://nhs-pycom.github.io/opensource-health-statistics
+
+  page-footer:
+    left: "This page is built [Quarto](https://quarto.org/)."
+    # background: "#005eb8"
+    right:
+    - text: "License"
+      href: https://github.com/nhs-pycom/opensource-health-statistics/blob/main/LICENSE
+    - text: "Code of Conduct"
+      href: https://github.com/nhs-pycom/opensource-health-statistics/blob/main/CODE_OF_CONDUCT.md
+
+  navbar:
+    background: light
+    title: false
+    collapse-below: lg
+    left:
+      - text: "opensource-health-stats v0.2.0"
+        icon: "bar-chart"
+        href: index.qmd
+    right:
+      - text: "Help"
+        menu:
+          - text: "Report a Bug"
+            icon: "bug"
+            href: "https://github.com/nhs-pycom/opensource-health-statistics/issues"
+          - text: "Ask a Question"
+            icon: "chat-right-text"
+            href: "https://github.com/nhs-pycom/opensource-health-statistics/discussions"
+          - text: "About"
+            icon: "info-circle"
+            file: about.qmd
+      - icon: github
+        href: https://github.com/nhs-pycom/
+        aria-label: GitHub
+      - icon: cloud-fill
+        href: https://nhs-pycom.net/
+        aria-label: NHS Python Community
+  sidebar:
+    id: toc-side
+    style: "floating"
+    pinned: true
+    contents:
+      - text: "Homepage" 
+        file: index.qmd
+      - section: Documentation
+        contents: 
+          - auto: pages/*.qmd
+      - text: "About"
+        file: about.qmd
+  comments:
+    giscus:
+      repo: nhs-pycom/opensource-health-statistics
+format:
+  html:
+    toc: true
+    toc-depth: 1
+    theme:
+      light: [cosmo, _assets/style/theme.scss]
+    css: _assets/style/styles.css
+    include-after-body: _assets/style/js.html
+    # grid:
+    #   sidebar-width: 250px
+    #   body-width: 900px
+    #   margin-width: 300px
+    # # Code options
+    # code-tools:
+    #   source: false
+    #   toggle: false
+    #   caption: none
+    code-fold: true
+    code-summary: "Show code"
+    code-copy: true
+    code-overflow: wrap

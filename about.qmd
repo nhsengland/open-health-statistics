@@ -1,0 +1,37 @@
+---
+title: "About"
+comments: false
+---
+
+We have been collecting statistics on open-source repositories of NHS and related healthcare organisations. We use the open [GitHub API](https://docs.github.com/en/rest/reference/orgs) to pull data from open (public) repositoiries as `.json` files, then flatten the data into `pandas` dataframes for analysis. This has produced an interesting dataset that has lots of potential for further analysis and visualisations. 
+
+ ### Made with:
+
+ - [NHSD RAP community python template](https://github.com/NHSDigital/rap-package-template)
+ - [NHS-R Quarto Theme](https://github.com/nhs-r-community/quarto-nhs-theme)
+
+## Authors
+
+- [Craig Robert Shenton, PhD](https://github.com/craig-shenton), NHSE `author`, `maintainer`.
+- [Mary Amanuel](https://github.com/maryamanuel1), NHSE `author`.
+- [Arouba Zubair](https://github.com/Arouba), NHSX `author`.
+- [Mattia Ficarelli, PhD](https://github.com/mattia-ficarelli), NHSX `author`.
+- [Adam Ivison ](https://github.com/admivsn), NHSBSA `contributor`.
+
+## Licence
+
+MIT License, see [`LICENSE.md`](https://github.com/nhs-pycom/opensource-health-statistics/blob/main/LICENSE)
+
+## Citation
+
+NHS Python Community. *Open-source Healthcare Statistics* (2023). At <[https://github.com/nhs-pycom/opensource-health-statistics](https://github.com/nhs-pycom/opensource-health-statistics)>.
+
+```r
+@Manual{opensource-health-statistics2023,
+  title  = {opensource-health-statistics: Statistics on open-source healthcare repositories},
+  author = {NHS Python Community},
+  url = {https://github.com/nhs-pycom/opensource-health-statistics},
+  year = {2023},
+}
+```
+
