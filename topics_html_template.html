@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NHS Open Repositories by Topic</title>
+  <style type="text/css">
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+  <input type="text" id="searchInput" placeholder="Search for GitHub Tag (search multiple tags separated by commas)">
+    
+ 
+
+
+
+
+
+  <script>
+    // Get the input field and table
+    var input = document.getElementById("searchInput");
+    var table = document.getElementById("T_7c1e7");
+    var rows = table.getElementsByTagName("tr");
+
+    
+    input.addEventListener("input", function() {
+            var filter = input.value.toLowerCase().split(",").map(tag => tag.trim());
+
+            for (var i = 1; i < rows.length; i++) {
+                var row = rows[i];
+                var cell = row.getElementsByTagName("td")[2]; 
+
+                if (cell) {
+                    var text = cell.textContent || cell.innerText;
+                    var country = text.toLowerCase();
+
+                    
+                    var match = filter.some(tag => country.indexOf(tag) > -1);
+
+                    if (match) {
+                        row.style.display = "";
+                    } else {
+                        row.style.display = "none";
+                    }
+                }
+            }
+      });
+  </script>
+</body>
+</html>
+
+
