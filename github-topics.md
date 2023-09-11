@@ -15,7 +15,7 @@ Searching for topics tagged on nhs specific repositories
 
 
 # Bar Chart of Open Repositories by Topics
-{% include plotly_topics_table1.html}
+{% include plotly_topics_table1.html %}
 
 ## About this page
 
