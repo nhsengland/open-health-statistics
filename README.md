@@ -6,4 +6,4 @@ Collecting statistics on open source NHS github repositories.
 
 Using end-to-end open source analytics: python, plotly, github.io, and github actions.
 
-To get your organisation added to the collection, email: craig.shenton@nhs.net
+To get your organisation added to the collection, email: datascience@nhs.net
