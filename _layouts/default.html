@@ -133,6 +133,8 @@
       </div>
     </header>
 
+    
+
     <!-- <section class="nhsuk-hero">
 
   <div class="nhsuk-width-container nhsuk-hero--border">
@@ -152,7 +154,12 @@
     <div class="nhsuk-width-container">
       <main class="nhsuk-main-wrapper" id="maincontent">
         <div class="nhsuk-grid-row">
-          <div class="nhsuk-grid-column-full">{{ content }}</div>
+          <div class="nhsuk-grid-column-one-quarter">
+            {% include sidebar.html %}
+          </div>
+          <div class="nhsuk-grid-column-three-quarters">
+            {{ content }}
+          </div>
         </div>
       </main>
     </div>

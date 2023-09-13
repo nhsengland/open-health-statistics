@@ -24,7 +24,7 @@ def pull_raw_df(group_dict):
             data = json.loads(response.read())
             flat_data = pd.json_normalize(data)
             flat_data["org"] = group_name
-            df = df.append(flat_data)
+            df = pd.concat([df,flat_data])
             page = page + 1
             time.sleep(0.2) # Avoid unauthenticated requests limit (10 per sec)
 
@@ -85,14 +85,16 @@ def tidy_raw_df(df):
             "forks_count",
             "open_issues_count",
             "license",
-            "language"
+            "language",
+            "topics"
         ]
     ].rename(
         columns={
             "created_at": "date",
             "star_count": "stargazers",
             "forks_count": "forks",
-            "open_issues_count": "open_issues"
+            "open_issues_count": "open_issues",
+            "topics": "topics"
         }
     )
         

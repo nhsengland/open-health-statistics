@@ -22,10 +22,18 @@ raw_gitlab_df = gitlab.pull_raw_df(config["gitlab_group_dict"])
 tidy_github_df = github.tidy_raw_df(raw_github_df)
 tidy_gitlab_df = gitlab.tidy_raw_df(raw_gitlab_df)
 
+# Create a separate dataframe for the topics page and drop columns which 
+# don't work with gitlab
+df_topics = tidy_github_df
+df = tidy_github_df.drop(columns='topics')
+df = tidy_github_df.drop(columns='full_name')
+
 # Combine tidy dataframes
 df = pd.concat([tidy_github_df, tidy_gitlab_df]).reset_index(drop=True)
 
+# -------------------------
 # Data processing
+# -------------------------
 
 # Make an org_short hyperlink column and make the org column a hyperlink
 df["org_short"] = (
@@ -233,3 +241,49 @@ html_str = (
 )
 with open("_includes/update.html", "w") as file:
     file.write(html_str)
+
+
+# ----------------------------------------------
+# August/September 2023 - add topics page
+# ----------------------------------------------
+df_topics = tidy_github_df
+# We need to change date to a date type (day only) again (TODO - CONSOLIDATE)
+df_topics["date"] = pd.to_datetime(df_topics["date"]).dt.strftime("%Y-%m-%d")
+
+#format the topics list into a string of topics separated by commas
+topics_joined = []
+for i in df_topics['topics']:
+    topics_joined.append(', '.join(i))
+
+df_topics['topics'] = topics_joined
+
+# Filter to columns in tag list (see config.yaml)
+df_topics_filter = df_topics[df_topics['topics'].map(lambda x: len(x)) > 0]
+
+df_topics_filter = df_topics_filter.loc[df_topics_filter['open_repos'] == 1]
+
+# Make an org_short hyperlink column and make the org column a hyperlink
+df_topics_filter["Repo"] = "<a href='https://github.com/" + df_topics_filter["org"] + "/" + df_topics_filter["link"] + "'>" + df_topics_filter["full_name"] + "</a>"
+
+#drop unnecessary columns
+df_topics_filter = df_topics_filter.drop(columns = ['link', 'full_name', 'open_repos', 'stargazers', 'forks', 'open_issues', 'license', 'language'])
+
+#rename the columns for the tablse
+df_topics_filter = df_topics_filter.rename(columns = {'org': 'Organisation', 'date':'Date Created', 'topics':'Github Tags'})
+
+df_topics_filter_html = df_topics_filter.to_html(
+    index=False, render_links=True, escape=False
+)
+df_topics_filter_html = df_topics_filter_html.replace(
+'class="dataframe"', 'id="T_7c1e7", class="nhsuk-table__panel-with-heading-tab"'
+)
+df_topics_filter_html = df_topics_filter_html.replace('border="1"', "")
+
+with open('topics_html_template.html', 'r+') as file:
+    template = file.readlines()
+
+template.insert(26, df_topics_filter_html)
+
+template_updated = "".join(template)
+with open("_includes/test.html", "w") as file:
+    file.write(template_updated)

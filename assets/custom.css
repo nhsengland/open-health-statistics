@@ -1,0 +1,4 @@
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td, .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th {
+    text-align: center !important;
+    width: 20%
+}
