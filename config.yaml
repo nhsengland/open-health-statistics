@@ -8,6 +8,7 @@ github_org_dict:
     "NHS Python Community for Healthcare": "nhs-pycom",
     "NHS-R Community": "nhs-r-community",
     "NHS.UK": "nhsuk",
+    "NHSE-NDRS": "NHSE-NDRS",
     "Public Health England": "publichealthengland",
     "Nottinghamshire Healthcare NHS Foundation Trust - CDU Data Science Team": "CDU-data-science-team",
     "NHS Midlands and Lancashire CSU - The Strategy Unit": "the-strategy-unit",
@@ -21,7 +22,8 @@ github_org_dict:
     "NICE Digital": "nice-digital",
     "North Central London ICB": "ncl-icb-analytics",
     "Birmingham and Solihull ICS": "Birmingham-and-Solihull-ICS",
-    "UK Health Security Agency": "ukhsa-collaboration"    
+    "UK Health Security Agency": "ukhsa-collaboration",
+    "GIG Cymru - NHS Wales": "GIG-Cymru-NHS-Wales"
   }
 
 gitlab_group_dict: { "NHS Business Services Authority": "2955125" }
