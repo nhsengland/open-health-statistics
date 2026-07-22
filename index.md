@@ -29,6 +29,18 @@ As set out in the [NHS Digital Service Manual](https://service-manual.nhs.uk/ser
 
 {% include plotly_chart.html %}
 
+## Stargazers over time
+
+{% include plotly_chart_stargazers.html %}
+
+## Forks over time
+
+{% include plotly_chart_forks.html %}
+
+## Open Issues over time
+
+{% include plotly_chart_openissues.html %}
+
 <hr class="nhsuk-u-margin-top-6 nhsuk-u-margin-bottom-6">
 
 ## About this page

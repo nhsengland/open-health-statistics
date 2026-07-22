@@ -168,67 +168,66 @@ aggregate_df["Organisation"] = pd.Categorical(
     ordered=True,
 )
 
-# Initialise plot
-fig = go.Figure()
+def build_and_save_chart(aggregate_df, metric_column, output_filename):
+    fig = go.Figure()
 
-# Loop over each org and add line to plot
-for (_, org_short), org_df in aggregate_df.groupby(["Organisation", "Org Short"]):
+    for (_, org_short), org_df in aggregate_df.groupby(["Organisation", "Org Short"]):
+        fig.add_trace(
+            go.Scatter(
+                x=org_df["Date"],
+                y=org_df[metric_column],
+                mode="lines",
+                name=org_short,
+                line={"shape": "hvh"},
+            )
+        )
 
-    # Add the trace plot
-    fig.add_trace(
-        go.Scatter(
-            x=org_df["Date"],
-            y=org_df["Open Repositories"],
-            mode="lines",
-            name=org_short,
-            line={"shape": "hvh"},
+    colour_scale = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
+    num_orgs = len(aggregate_df["Organisation"].unique())
+    for i in list(range(num_orgs)):
+        fig["data"][i]["line"]["color"] = colour_scale[i]
+
+    fig.update_layout(
+        {
+            "plot_bgcolor": "rgba(240, 244, 245, 1)",
+            "paper_bgcolor": "rgba(240, 244, 245, 1)",
+        },
+        autosize=True,
+        margin=dict(l=50, r=50, b=50, t=50, pad=4, autoexpand=True),
+        height=500,
+        hovermode="x",
+    )
+
+    fig.update_xaxes(
+        title_text="<b>Date<b>",
+        rangeselector=dict(
+            buttons=list(
+                [
+                    dict(count=6, label="6m", step="month", stepmode="backward"),
+                    dict(count=1, label="1y", step="year", stepmode="backward"),
+                    dict(step="all"),
+                ]
+            )
         )
     )
 
-# Make our own colour scale from plotly.express
-colour_scale = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
+    fig.update_yaxes(title_text="<b>" + metric_column + "<b>")
 
-# Loop through chart after adding traces to change colours
-num_orgs = len(aggregate_df["Organisation"].unique())
-for i in list(range(num_orgs)):
-    fig["data"][i]["line"]["color"] = colour_scale[i]
+    config = {"displayModeBar": False, "displaylogo": False}
+    plotly_chart = plotly.offline.plot(
+        fig, include_plotlyjs=False, output_type="div", config=config
+    )
+    with open(output_filename, "w") as file:
+        file.write(plotly_chart)
 
-# Asthetics of the plot
-fig.update_layout(
-    {
-        "plot_bgcolor": "rgba(240, 244, 245, 1)",
-        "paper_bgcolor": "rgba(240, 244, 245, 1)",
-    },
-    autosize=True,
-    margin=dict(l=50, r=50, b=50, t=50, pad=4, autoexpand=True),
-    height=500,
-    hovermode="x",
-)
 
-# Add title and dynamic range selector to x axis
-fig.update_xaxes(
-    title_text="<b>" + "Date" + "<b>",
-    rangeselector=dict(
-        buttons=list(
-            [
-                dict(count=6, label="6m", step="month", stepmode="backward"),
-                dict(count=1, label="1y", step="year", stepmode="backward"),
-                dict(step="all"),
-            ]
-        )
-    ),
-)
+# Original chart (unchanged behaviour, just now built via the function)
+build_and_save_chart(aggregate_df, "Open Repositories", "_includes/plotly_chart.html")
 
-# Add title to y axis
-fig.update_yaxes(title_text="<b>" + "Open Repositories" + "<b>")
-
-# Write out to file (.html)
-config = {"displayModeBar": False, "displaylogo": False}
-plotly_chart = plotly.offline.plot(
-    fig, include_plotlyjs=False, output_type="div", config=config
-)
-with open("_includes/plotly_chart.html", "w") as file:
-    file.write(plotly_chart)
+# New charts requested in issue #10
+build_and_save_chart(aggregate_df, "Stargazers", "_includes/plotly_chart_stargazers.html")
+build_and_save_chart(aggregate_df, "Forks", "_includes/plotly_chart_forks.html")
+build_and_save_chart(aggregate_df, "Open Issues", "_includes/plotly_chart_openissues.html")
 
 # Grab timestamp
 data_updated = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
